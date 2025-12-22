@@ -1,0 +1,11 @@
+node_modules
+
+drafts/
+approved/
+skipped/
+awards/
+
+
+.env
+
+.DS_Store
