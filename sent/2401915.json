@@ -1,0 +1,17 @@
+{
+  "award_id": "2401915",
+  "pi_name": "Bijandra Kumar",
+  "pi_email": "bkumar@ecsu.edu",
+  "institution": "Elizabeth City State University",
+  "award_title": "Excellence in Research:  Decoding the Role of Pt-Substrate Atom Interactions in Hydrogen Evolution Reaction",
+  "subject": "Efficient Pt catalysts + reproducible workflows",
+  "body": "Hi Professor Kumar,\n\nI noticed your NSF work on making platinum-based catalysts more efficient for water splitting. What caught my attention is the computational side—understanding how atomic structure affects performance sounds like exactly the kind of research that should be reproducible infrastructure.\n\nI'm building Ouro, a platform to publish computational workflows as APIs with a Python SDK so other researchers can directly use your methods instead of just citing your paper.\n\nWorth exploring together?\n\nBest,",
+  "variants": {
+    "template": 3,
+    "ouro_description": 3,
+    "call_to_action": 4
+  },
+  "generated_at": "2025-12-22T20:03:14.100Z",
+  "sent_at": "2025-12-22T20:12:36.660Z",
+  "resend_id": "531e4915-2e2a-4881-b9f3-0208c0b988dd"
+}

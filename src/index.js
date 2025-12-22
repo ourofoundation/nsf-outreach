@@ -227,6 +227,7 @@ program
     ensureDirs();
 
     const dryRun = options.dryRun || false;
+    const replyToEmail = options.replyTo || process.env.REPLY_TO_EMAIL;
     const fromEmail = options.from || process.env.FROM_EMAIL;
     const fromName = options.fromName || process.env.FROM_NAME;
     const limit = parseInt(options.limit, 10);
@@ -274,6 +275,7 @@ program
       limit,
       delay,
       dryRun,
+      replyToEmail,
       fromEmail,
       fromName,
       onProgress: ({ current, total, awardId, recipient }) => {
@@ -284,8 +286,6 @@ program
         );
       },
     });
-
-    console.log();
 
     if (results.sent.length > 0) {
       const verb = dryRun ? "Would send" : "Sent";

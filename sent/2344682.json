@@ -1,0 +1,17 @@
+{
+  "award_id": "2344682",
+  "pi_name": "Michael A Bevan",
+  "pi_email": "mbevan4@jh.edu",
+  "institution": "Johns Hopkins University",
+  "award_title": "Colloidal Interactions, Structure, and Dynamics on Curvature Landscapes",
+  "subject": "Curious about your particle simulation work",
+  "body": "Hi Professor Bevan,\n\nI've been following your work on how particles arrange themselves on curved surfaces—really cool stuff, especially the interplay between simulation and microscopy experiments.\n\nI'm building Ouro, a platform where researchers publish computational workflows as APIs. Your simulation methods become tools other researchers can actually use and build on, not just read about.\n\nWould love to show you how it works.\n\nBest,",
+  "variants": {
+    "template": 2,
+    "ouro_description": 3,
+    "call_to_action": 3
+  },
+  "generated_at": "2025-12-22T19:26:04.192Z",
+  "sent_at": "2025-12-22T20:08:35.659Z",
+  "resend_id": "a8cc666c-5cf6-46a5-87b7-a7691a0cfc3c"
+}

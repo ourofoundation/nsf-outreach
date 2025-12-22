@@ -1,0 +1,17 @@
+{
+  "award_id": "2339392",
+  "pi_name": "Sangkee Min",
+  "pi_email": "sangkee.min@wisc.edu",
+  "institution": "University of Wisconsin-Madison",
+  "award_title": "Collaborative Research: Investigation of Deformation Mechanism Interactions during Ultra-Precision Machining of Single Crystals",
+  "subject": "Ultra-precision machining + shareable simulation code",
+  "body": "Hi Professor Min,\n\nI saw your NSF project on machining ceramics like sapphire and understanding how defects affect the process. What caught my attention is how much trial-and-error currently goes into optimizing these parameters—seems like the kind of work where sharing reproducible models and simulation code could save your colleagues a lot of time.\n\nI'm building Ouro, a platform where researchers publish working tools—scripts, simulations, datasets—that others can reuse directly. Less recreating methods from papers, more actual science.\n\nWould be curious if this resonates for your group.\n\nBest,",
+  "variants": {
+    "template": 3,
+    "ouro_description": 1,
+    "call_to_action": 2
+  },
+  "generated_at": "2025-12-22T19:25:59.818Z",
+  "sent_at": "2025-12-22T20:07:35.422Z",
+  "resend_id": "85830dda-254c-4147-8f62-9ba0cbbc1e37"
+}

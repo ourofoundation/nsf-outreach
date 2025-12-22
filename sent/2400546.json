@@ -1,0 +1,17 @@
+{
+  "award_id": "2400546",
+  "pi_name": "Paul Chiarot",
+  "pi_email": "pchiarot@binghamton.edu",
+  "institution": "SUNY at Binghamton",
+  "award_title": "Artificial Intelligence-Guided Electrospray Deposition of Polymeric Films",
+  "subject": "AI + electrospray deposition—sharing your workflows",
+  "body": "Hi Professor Chiarot,\n\nI saw your NSF grant on using AI to understand electrospray deposition of polymers. It sounds like you're juggling a lot—experiments, simulations, and machine learning models to figure out how charge affects film quality. That's the kind of complex workflow that's tough to share and reproduce.\n\nI'm building Ouro to help researchers like you make your computational work (notebooks, datasets, pipelines) easily discoverable and reproducible for collaborators and other labs.\n\nWorth exploring?\n\nBest,",
+  "variants": {
+    "template": 1,
+    "ouro_description": 5,
+    "call_to_action": 4
+  },
+  "generated_at": "2025-12-22T20:03:08.316Z",
+  "sent_at": "2025-12-22T20:11:36.423Z",
+  "resend_id": "06018559-ecf7-4107-b839-a14b59b920e2"
+}

@@ -1,0 +1,17 @@
+{
+  "award_id": "2348898",
+  "pi_name": "Bo Li",
+  "pi_email": "bo.li@villanova.edu",
+  "institution": "Villanova University",
+  "award_title": "GOALI: Water-Based Assembly of Functional Nanomaterial Coatings for Smart Textiles",
+  "subject": "Smart textiles assembly + a tool for sharing your work",
+  "body": "Hi Professor Li,\n\nI came across your NSF project on water-based coatings for smart textiles. I love that you're tackling the challenge of getting different materials to stick together without harsh chemical treatments—just salt and smart assembly. That's elegant.\n\nI'm building Ouro, a platform for sharing computational tools and datasets in a way that's actually usable, not just a zip file buried in supplementary materials.\n\nCurious if it might be useful for your team?\n\nBest,",
+  "variants": {
+    "template": 1,
+    "ouro_description": 2,
+    "call_to_action": 4
+  },
+  "generated_at": "2025-12-22T19:26:07.617Z",
+  "sent_at": "2025-12-22T20:10:36.138Z",
+  "resend_id": "493c3bf7-2202-4524-8092-45765c59cadb"
+}

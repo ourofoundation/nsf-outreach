@@ -1,0 +1,17 @@
+{
+  "award_id": "2346012",
+  "pi_name": "Nathan C Keim",
+  "pi_email": "nxk913@psu.edu",
+  "institution": "Pennsylvania State Univ University Park",
+  "award_title": "A new view of new mechanical memories in glassy matter",
+  "subject": "Tracking particle rearrangements in glassy materials",
+  "body": "Hi Professor Keim,\n\nI came across your NSF work on how disordered materials like sand and emulsions \"remember\" their deformation history. Your approach of tracking individual particle rearrangements to map where memory gets stored is really clever.\n\nI'm building Ouro, a platform where researchers share working tools—datasets, analysis scripts, software—that others can drop directly into their own workflows. Given your particle tracking work, I thought it might be useful.\n\nWorth a quick conversation?\n\nBest,",
+  "variants": {
+    "template": 1,
+    "ouro_description": 1,
+    "call_to_action": 4
+  },
+  "generated_at": "2025-12-22T19:26:05.910Z",
+  "sent_at": "2025-12-22T20:09:35.919Z",
+  "resend_id": "7cab0e7d-b36e-41de-bb89-cab94d26277f"
+}

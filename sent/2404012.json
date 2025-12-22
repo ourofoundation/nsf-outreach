@@ -1,0 +1,17 @@
+{
+  "award_id": "2404012",
+  "pi_name": "Ekhi Muniategui",
+  "pi_email": "ekhi@directkinetics.com",
+  "institution": "DIRECT KINETIC SOLUTIONS LLC",
+  "award_title": "SBIR Phase II:  DKS Quantum Stackable Radioisotopic Power Source (RPS)",
+  "subject": "Long-lasting power systems + reproducible workflows",
+  "body": "Hi Ekhi,\n\nI came across your NSF work on radioisotopic power sources—the idea of getting 20 years of continuous power from a single device is impressive, especially for remote or space applications.\n\nI'm building Ouro to help researchers like you share computational work (code, datasets, models) in ways that are actually reproducible and findable by others. Given the complexity of your energy conversion research, it could be useful for collaborating or helping others build on your work.\n\nWorth exploring?\n\nBest,",
+  "variants": {
+    "template": 3,
+    "ouro_description": 5,
+    "call_to_action": 4
+  },
+  "generated_at": "2025-12-22T20:03:20.536Z",
+  "sent_at": "2025-12-22T20:13:36.914Z",
+  "resend_id": "5cf318ac-f7c8-4280-a6aa-775c2659ec63"
+}

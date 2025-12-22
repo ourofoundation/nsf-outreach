@@ -101,12 +101,18 @@ Use this template and fill in the bracketed placeholders with specifics from the
 ${template}
 ---
 
+You may rewrite as much as you want to make the email more personal and relevant to the recipient.
+
 Requirements:
 1. Keep the body under 100 words
-2. Pull ONE specific detail and attempt to understand the value of it
-3. The subject should reference something specific about their research
-4. Keep it casual and genuine - avoid sounding like a mass email
-5. Rewrite important details in simple language to show understanding
+2. Reference their research casually, like a friend would - NOT like you're quoting their abstract
+   - BAD: "deploying GNSS receiver arrays across Antarctica to track ionospheric space weather"
+   - GOOD: "deploying GNSS arrays across Antarctica"
+   - BAD: "coordinating multi-constellation, multi-frequency data that's typically scattered"
+   - GOOD: "making sense of scattered GNSS data"
+3. Use simple, everyday language - strip out jargon and overly technical phrasing
+4. The subject should be short and casual, not a mini-abstract
+5. Avoid stacking multiple specific details - one casual reference to their work is enough
 
 Use the create_email tool to return the email.`;
 }
@@ -127,7 +133,7 @@ export async function generateEmail(award) {
   const anthropic = getClient();
 
   const response = await anthropic.messages.create({
-    model: "claude-sonnet-4-5",
+    model: "claude-haiku-4-5",
     max_tokens: 400,
     tools: [EMAIL_TOOL],
     tool_choice: { type: "tool", name: "create_email" },

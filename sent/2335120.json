@@ -1,0 +1,17 @@
+{
+  "award_id": "2335120",
+  "pi_name": "Prannoy Suraneni",
+  "pi_email": "suranenip@miami.edu",
+  "institution": "University of Miami",
+  "award_title": "Collaborative Research: Development of a Multiscale Framework to Understand Saturation and Coupled Ice/Salt Crystallization Phenomena in Low/Zero Clinker Cementitious Materials",
+  "subject": "Concrete durability + reproducible computational workflows",
+  "body": "Hi Professor Suraneni,\n\nI came across your NSF project on making concrete more durable in freeze-thaw conditions. What stood out is how you're combining experimental work with molecular dynamics simulations—that's the kind of multiscale modeling work that's ripe for sharing.\n\nI'm building Ouro, a platform to publish computational workflows as APIs so other researchers can directly use your methods instead of just reading about them in papers. Wondering if a quick 15-minute call could be useful?\n\nBest,",
+  "variants": {
+    "template": 3,
+    "ouro_description": 3,
+    "call_to_action": 5
+  },
+  "generated_at": "2025-12-22T19:25:50.643Z",
+  "sent_at": "2025-12-22T20:06:35.176Z",
+  "resend_id": "22369877-a968-47d8-98c0-21d21766addc"
+}

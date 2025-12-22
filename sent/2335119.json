@@ -1,0 +1,17 @@
+{
+  "award_id": "2335119",
+  "pi_name": "Mehdi Khanzadeh Moradllo",
+  "pi_email": "mehdi.khanzadeh@temple.edu",
+  "institution": "Temple University",
+  "award_title": "Collaborative Research: Development of a Multiscale Framework to Understand Saturation and Coupled Ice/Salt Crystallization Phenomena in Low/Zero Clinker Cementitious Materials",
+  "subject": "Making concrete science reproducible",
+  "body": "Hi Professor Moradllo,\n\nI noticed your NSF work on designing more durable concrete that holds up in freeze-thaw environments. What caught my attention is how much of your multiscale modeling and experimental work could benefit from being reproducible and shareable across labs.\n\nI'm building Ouro—a place where researchers publish datasets and computational tools as APIs that others can actually discover and build on, not just read about in a methods section.\n\nCould a quick 15-minute call help us explore whether this fits your workflow?\n\nBest,",
+  "variants": {
+    "template": 3,
+    "ouro_description": 4,
+    "call_to_action": 5
+  },
+  "generated_at": "2025-12-22T19:25:48.753Z",
+  "sent_at": "2025-12-22T20:05:34.722Z",
+  "resend_id": "71a41333-54d8-4db2-b393-269029615016"
+}
