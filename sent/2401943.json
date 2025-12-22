@@ -1,0 +1,18 @@
+{
+  "award_id": "2401943",
+  "pi_name": "Shahin Shafiee",
+  "pi_email": "shshafiee@pvamu.edu",
+  "institution": "Prairie View A & M University",
+  "award_title": "Excellence in research: Leveraging Machine Learning for Fundamental Investigation of Anomalous Transport Phenomena of Nano-Fluids and Modulated using External Stimuli",
+  "award_amount": 1452420,
+  "subject": "Your ML models for ferro-nanofluids",
+  "body": "Hi Professor Shafiee,\n\nI came across your work on using machine learning to predict how magnetic fields affect nanofluid properties. That's a cool intersection of experimental data and predictive modeling.\n\nI'm building Ouro, a platform where researchers publish their computational workflows as APIs. Instead of others re-implementing your models from a paper, they can just call them directly through Python.\n\nWould a quick call make sense to explore if this fits what you're doing?\n\nBest,",
+  "variants": {
+    "template": 2,
+    "ouro_description": 3,
+    "call_to_action": 5
+  },
+  "generated_at": "2025-12-22T21:35:30.073Z",
+  "sent_at": "2025-12-22T21:39:03.124Z",
+  "resend_id": "ed6cfa5e-06f6-46d2-9f8b-325a9ee99884"
+}

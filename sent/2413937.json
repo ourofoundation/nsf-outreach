@@ -1,0 +1,18 @@
+{
+  "award_id": "2413937",
+  "pi_name": "Thad Starner",
+  "pi_email": "thadstarner@gmail.com",
+  "institution": "Georgia Tech Research Corporation",
+  "award_title": "HCC: Small: NSF-DST: GameSignAI: Using AI to Help Deaf Children Acquire Language Skills",
+  "award_amount": 549999,
+  "subject": "Sign language datasets and open-source tools",
+  "body": "Hi Professor Starner,\n\nYour work on helping deaf children learn sign language through mobile games is really impressive—especially the focus on building datasets and tools that can work across different sign languages.\n\nI'm working on Ouro, which helps researchers share computational work like datasets, code, and notebooks in ways that are actually reproducible and discoverable. Given your emphasis on open-source and replication across languages, I think it could be useful for your team.\n\nHappy to show you how it works.\n\nBest,",
+  "variants": {
+    "template": 2,
+    "ouro_description": 5,
+    "call_to_action": 3
+  },
+  "generated_at": "2025-12-22T21:35:41.226Z",
+  "sent_at": "2025-12-22T21:42:03.704Z",
+  "resend_id": "1bc5df09-fa49-4051-acc4-4599b304aaec"
+}

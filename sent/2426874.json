@@ -1,0 +1,17 @@
+{
+  "award_id": "2426874",
+  "pi_name": "Ambrose Seo",
+  "pi_email": "a.seo@uky.edu",
+  "institution": "University of Kentucky Research Foundation",
+  "award_title": "Quantum Heterostructures of Rhodates and Iridates with Tunable Electron-Correlation and Spin-Orbit Interactions",
+  "subject": "Sharing spectroscopy data from quantum heterostructures",
+  "body": "Hi Professor Seo,\n\nI came across your NSF work on stacking rhodium and iridium oxides to unlock new quantum properties. Sounds like you're using a bunch of advanced spectroscopy techniques—RAMAN, X-ray scattering—to understand what's happening at those interfaces.\n\nI'm building Ouro, a platform for sharing computational tools and datasets in a way that actually works, not just scattered files.\n\nWould be curious if this could help your group.\n\nBest,",
+  "variants": {
+    "template": 1,
+    "ouro_description": 2,
+    "call_to_action": 2
+  },
+  "generated_at": "2025-12-22T21:28:05.121Z",
+  "sent_at": "2025-12-22T21:47:04.798Z",
+  "resend_id": "2effc371-3990-4209-9d18-76e9aa4f1575"
+}

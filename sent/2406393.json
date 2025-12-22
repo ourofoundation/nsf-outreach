@@ -1,0 +1,17 @@
+{
+  "award_id": "2406393",
+  "pi_name": "Kayla X Nguyen",
+  "pi_email": "kxn@uoregon.edu",
+  "institution": "University of Oregon Eugene",
+  "award_title": "Equipment: MRI Consortium Track 2: Acquisition of an Aberration-Corrected Scanning Transmission Electron Microscope for Multidisciplinary Research and Training",
+  "subject": "STEM imaging workflows as APIs",
+  "body": "Hi Professor Nguyen,\n\nYour new STEM is going to unlock some incredible insights into how atomic structures drive material properties—especially those exotic systems like topological superconductors where everything happens at interfaces.\n\nI'm building Ouro, a platform to publish computational workflows as APIs with a Python SDK. It lets other researchers call your analysis methods directly, turning your work into infrastructure they build on, not just papers they cite.\n\nWould love to chat about how this could work for your research.\n\nBest,",
+  "variants": {
+    "template": 2,
+    "ouro_description": 3,
+    "call_to_action": 1
+  },
+  "generated_at": "2025-12-22T21:25:04.184Z",
+  "sent_at": "2025-12-22T21:40:03.321Z",
+  "resend_id": "fce9738d-27c6-4c43-9ef6-74c11d06fb78"
+}

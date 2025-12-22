@@ -1,0 +1,17 @@
+{
+  "award_id": "2419478",
+  "pi_name": "Nabila Tanjeem",
+  "pi_email": "ntanjeem@fullerton.edu",
+  "institution": "CSU Fullerton Auxiliary Services Corporation",
+  "award_title": "RUI: Photothermal Self-assembly for Understanding Non-equilibrium Crystallization, Tunable Phases, and Reconfigurable Shapes",
+  "subject": "Light-driven particle assembly + shareable research tools",
+  "body": "Hi Professor Tanjeem,\n\nI came across your NSF work on using light to assemble particles into different structures. What caught my eye was how you're exploring both the experiments and the computational models—that's the kind of work that's hard to reproduce or build on when the models stay locked in papers.\n\nI'm building Ouro, where researchers can publish computational tools as APIs so others actually use them instead of just reading about them. Your photothermal assembly models could be discoverable and citable to the broader community.\n\nWould a quick call make sense?\n\nBest,",
+  "variants": {
+    "template": 1,
+    "ouro_description": 4,
+    "call_to_action": 5
+  },
+  "generated_at": "2025-12-22T21:25:24.351Z",
+  "sent_at": "2025-12-22T21:44:04.095Z",
+  "resend_id": "5dc7eee8-68d5-4252-b35e-6d1f3a9320d7"
+}

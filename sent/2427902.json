@@ -1,0 +1,17 @@
+{
+  "award_id": "2427902",
+  "pi_name": "Maria Victoria Fernandez Serra",
+  "pi_email": "maria.fernandez-serra@stonybrook.edu",
+  "institution": "SUNY at Stony Brook",
+  "award_title": "Collaborative Research: Optimally designed exchange-correlation functionals for solids using machine learning",
+  "subject": "Machine learning for better DFT functionals",
+  "body": "Hi Professor Fernandez Serra,\n\nI came across your NSF project on using machine learning to improve density functional theory simulations. Your approach to trading off accuracy and computational cost resonates—especially since you're making the new functionals available to the broader community.\n\nI'm building Ouro, a platform where researchers publish datasets and computational tools as APIs. Your database and machine-learned functionals could become discoverable and citable—reaching way more people than a methods section ever could.\n\nCurious if you'd want to explore it?\n\nBest,",
+  "variants": {
+    "template": 1,
+    "ouro_description": 4,
+    "call_to_action": 4
+  },
+  "generated_at": "2025-12-22T21:30:57.937Z",
+  "sent_at": "2025-12-22T21:48:04.993Z",
+  "resend_id": "a336ba12-0b4b-40d9-8f75-6a511fecb548"
+}

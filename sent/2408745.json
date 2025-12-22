@@ -1,0 +1,17 @@
+{
+  "award_id": "2408745",
+  "pi_name": "Patrick Kung",
+  "pi_email": "patkung@eng.ua.edu",
+  "institution": "University of Alabama Tuscaloosa",
+  "award_title": "Equipment: MRI: Track 1 Acquisition of an Integrated Platform for Co-localized Nanoscale Imaging and Spectroscopic Analysis for Advanced Materials Research, Training, and Education",
+  "subject": "Nanoscale imaging + reproducible workflows",
+  "body": "Hi Professor Kung,\n\nI came across your NSF project on the new AFM-Raman imaging system at Alabama. What struck me is how many researchers across the Southeast will need to collaborate and share results from this facility—that's exactly where reproducible workflows become critical.\n\nI work on Ouro, a platform that helps researchers share computational work and data in ways that actually stick and are easy for others to build on.\n\nWould be great to chat about how this could help your team and facility users.\n\nBest,",
+  "variants": {
+    "template": 3,
+    "ouro_description": 5,
+    "call_to_action": 3
+  },
+  "generated_at": "2025-12-22T21:25:06.973Z",
+  "sent_at": "2025-12-22T21:41:03.513Z",
+  "resend_id": "c510ad74-7562-4d59-921f-2b0e17ad9df0"
+}

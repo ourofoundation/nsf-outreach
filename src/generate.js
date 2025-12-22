@@ -159,6 +159,7 @@ export async function generateEmail(award) {
 
   // Build the full email record
   const awardId = award.awardNumber || award._id;
+  const awardAmount = award.awd_amount || award.tot_intn_awd_amt || null;
 
   return {
     award_id: awardId,
@@ -166,6 +167,7 @@ export async function generateEmail(award) {
     pi_email: pi.piEmail,
     institution: pi.institution,
     award_title: award.title,
+    award_amount: awardAmount,
     subject: emailData.subject,
     body: emailData.body,
     variants: {

@@ -1,0 +1,17 @@
+{
+  "award_id": "2420305",
+  "pi_name": "Ian Baker",
+  "pi_email": "Ian.Baker@Dartmouth.edu",
+  "institution": "Dartmouth College",
+  "award_title": "Interstitial Strengthening in f.c.c. High-Entropy Alloys",
+  "subject": "High-entropy alloys + reproducible research workflows",
+  "body": "Hi Professor Baker,\n\nI came across your NSF work on strengthening high-entropy alloys with interstitials—sounds like you're uncovering some fascinating mechanisms around how these materials behave under stress.\n\nI'm building Ouro to help researchers like you share computational workflows, datasets, and analysis in ways that are actually reproducible and easy for others to build on.\n\nGiven all the detailed characterization you're doing (TEM, neutron diffraction, APT), I'd love to chat briefly about whether this could streamline how you document and share your work.\n\nFree for a quick call?\n\nBest,",
+  "variants": {
+    "template": 3,
+    "ouro_description": 5,
+    "call_to_action": 5
+  },
+  "generated_at": "2025-12-22T21:27:50.485Z",
+  "sent_at": "2025-12-22T21:45:04.393Z",
+  "resend_id": "88aa88b6-2273-4c27-a69c-9855c1ab1ff8"
+}

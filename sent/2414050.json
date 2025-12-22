@@ -1,0 +1,18 @@
+{
+  "award_id": "2414050",
+  "pi_name": "Mostafa Bedewy",
+  "pi_email": "mbedewy@pitt.edu",
+  "institution": "University of Pittsburgh",
+  "award_title": "Collaborative Research: Data Science-Enabled Learning, Prediction and Simulation of Nanoparticle Population Behavior for Advanced Nanomanufacturing",
+  "award_amount": 280405,
+  "subject": "Machine learning for nanoparticle manufacturing + reproducible workflows",
+  "body": "Hi Professor Bedewy,\n\nI came across your NSF project on using machine learning to model how nanoparticles behave during manufacturing. What stood out to me is how much of your work depends on making sense of complex experimental data—combining microscopy observations with statistical modeling.\n\nI'm building Ouro to help researchers like you share computational workflows and datasets in ways that actually stick around and get reused by others. Given the complexity of your data pipelines, I thought it might be worth a quick conversation.\n\nBest,",
+  "variants": {
+    "template": 3,
+    "ouro_description": 5,
+    "call_to_action": 1
+  },
+  "generated_at": "2025-12-22T21:35:43.534Z",
+  "sent_at": "2025-12-22T21:43:03.924Z",
+  "resend_id": "a74908e8-5dc9-431c-8e3e-4992c4e3dec5"
+}

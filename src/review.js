@@ -23,9 +23,13 @@ function displayEmail(email, index, total, folder) {
   console.log(email.body);
   console.log();
   console.log(chalk.dim("─".repeat(70)));
+  const amountStr = email.award_amount
+    ? `$${email.award_amount.toLocaleString()}`
+    : "N/A";
   console.log(
     `${chalk.dim("Award:")} ${email.award_id} - ${email.award_title}`
   );
+  console.log(`${chalk.dim("Amount:")} ${amountStr}`);
 
   if (email.variants) {
     console.log(

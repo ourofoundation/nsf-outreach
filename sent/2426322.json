@@ -1,0 +1,17 @@
+{
+  "award_id": "2426322",
+  "pi_name": "Gregory M Odegard",
+  "pi_email": "gmodegar@mtu.edu",
+  "institution": "Michigan Technological University",
+  "award_title": "NSF-DFG/Collaborative Research: Integrated Computational Materials Engineering of Thermoplastic Composites",
+  "subject": "Making thermoplastic composite models actually useful",
+  "body": "Hi Professor Odegard,\n\nI came across your NSF project on predicting how thermoplastic composites perform based on how they're made. What struck me is how much of this work—your simulations, models, datasets—could be way more impactful if other researchers could actually build on it directly, not just cite it.\n\nI'm building Ouro to help with exactly that: researchers publish their computational tools and data as usable APIs so others can integrate them into their own workflows.\n\nWould a quick 15-minute call make sense to explore if this could work for your group's research?\n\nBest,",
+  "variants": {
+    "template": 3,
+    "ouro_description": 4,
+    "call_to_action": 5
+  },
+  "generated_at": "2025-12-22T21:28:03.041Z",
+  "sent_at": "2025-12-22T21:46:04.606Z",
+  "resend_id": "23898148-b8fa-44eb-aaa9-ae1fbc85a95d"
+}
