@@ -1,8 +1,8 @@
-import fs from 'fs';
-import path from 'path';
-import Anthropic from '@anthropic-ai/sdk';
-import { DIRS, writeJson, ensureDirs } from './utils.js';
-import { extractPIInfo, hasValidContact } from './awards.js';
+import fs from "fs";
+import path from "path";
+import Anthropic from "@anthropic-ai/sdk";
+import { DIRS, writeJson, ensureDirs } from "./utils.js";
+import { extractPIInfo, hasValidContact } from "./awards.js";
 
 let client = null;
 
@@ -14,68 +14,101 @@ function getClient() {
 }
 
 /**
- * Load the email template
+ * Load all variants from variants.json
  */
-function loadTemplate() {
-  const templatePath = path.join(DIRS.templates, 'cold-email.txt');
-  if (!fs.existsSync(templatePath)) {
-    return getDefaultTemplate();
+function loadAllVariants() {
+  const variantsPath = path.join(DIRS.templates, "variants.json");
+  if (!fs.existsSync(variantsPath)) {
+    throw new Error("variants.json not found");
   }
-  return fs.readFileSync(templatePath, 'utf-8');
+  return JSON.parse(fs.readFileSync(variantsPath, "utf-8"));
 }
 
 /**
- * Default template if none exists
+ * Randomly select one item from an array
  */
-function getDefaultTemplate() {
-  return `Subject: [Something specific about their research] + a tool that might help
-
-Hi Professor [LastName],
-
-I came across your NSF project on [specific topic from their abstract].
-
-[1-2 sentences showing you actually read their abstract - mention a specific method, finding, or goal]
-
-I'm building Ouro, a platform where researchers can share and discover computational workflows, datasets, and tools. Given your work on [specific aspect], I thought it might be relevant.
-
-Would you be open to a quick call to see if it could be useful for your group?
-
-Best,
-[Your name]`;
+function randomSelect(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
 }
+
+/**
+ * Select variants for all three dimensions
+ */
+function selectVariants() {
+  const all = loadAllVariants();
+  return {
+    template: randomSelect(all.templates),
+    ouro_description: randomSelect(all.ouro_descriptions),
+    call_to_action: randomSelect(all.call_to_actions),
+  };
+}
+
+/**
+ * Build the final template with placeholders replaced
+ */
+function buildTemplate(variants) {
+  let template = variants.template.content;
+  template = template.replace(
+    "{{ouro_description}}",
+    variants.ouro_description.content
+  );
+  template = template.replace(
+    "{{call_to_action}}",
+    variants.call_to_action.content
+  );
+  return template;
+}
+
+/**
+ * Tool definition for structured email output
+ */
+const EMAIL_TOOL = {
+  name: "create_email",
+  description: "Create a cold outreach email for an NSF-funded researcher",
+  input_schema: {
+    type: "object",
+    properties: {
+      subject: {
+        type: "string",
+        description:
+          "Email subject line - should reference something specific about their research",
+      },
+      body: {
+        type: "string",
+        description: 'Email body text - keep under 100 words, end with "Best,"',
+      },
+    },
+    required: ["subject", "body"],
+  },
+};
 
 /**
  * Build the generation prompt for Claude
  */
 function buildPrompt(award, template) {
   const pi = extractPIInfo(award);
-  
-  return `Generate a cold outreach email for this NSF-funded professor. The goal is to introduce them to Ouro, a platform for sharing computational workflows and datasets.
+
+  return `Generate a cold outreach email for this NSF-funded professor. The goal is to introduce them to Ouro.
 
 Award Details:
 - Title: ${award.title}
 - PI: ${pi.piName}
 - Institution: ${pi.institution}
-- Abstract: ${award.abstractText || 'No abstract available'}
+- Abstract: ${award.abstractText || "No abstract available"}
 
-Use this template as a guide for tone and structure, but make it highly specific to their research:
+Use this template and fill in the bracketed placeholders with specifics from their research:
 ---
 ${template}
 ---
 
 Requirements:
-1. Return JSON with "subject" and "body" fields only
-2. Keep the body under 100 words
-3. Pull ONE specific detail from their abstract to show genuine familiarity with their work
-4. The subject should reference something specific about their research
-5. Keep it casual and genuine - avoid sounding like a mass email
-6. Sign off with just "Best," and no name (we'll add that)
+1. Keep the body under 100 words
+2. Pull ONE specific detail and attempt to understand the value of it
+3. The subject should reference something specific about their research
+4. Keep it casual and genuine - avoid sounding like a mass email
+5. Rewrite important details in simple language to show understanding
 
-Example output format:
-{
-  "subject": "Your thermoelectrics screening work + a tool that might help",
-  "body": "Hi Professor Smith,\\n\\nI came across your NSF project on high-throughput screening of thermoelectric materials...\\n\\nBest,"
-}`;
+Use the create_email tool to return the email.`;
 }
 
 /**
@@ -83,52 +116,44 @@ Example output format:
  */
 export async function generateEmail(award) {
   if (!hasValidContact(award)) {
-    throw new Error('Award does not have valid PI email');
+    throw new Error("Award does not have valid PI email");
   }
-  
-  const template = loadTemplate();
+
+  const variants = selectVariants();
+  const template = buildTemplate(variants);
   const prompt = buildPrompt(award, template);
   const pi = extractPIInfo(award);
-  
+
   const anthropic = getClient();
-  
+
   const response = await anthropic.messages.create({
-    model: 'claude-sonnet-4-20250514',
-    max_tokens: 1024,
+    model: "claude-sonnet-4-5",
+    max_tokens: 400,
+    tools: [EMAIL_TOOL],
+    tool_choice: { type: "tool", name: "create_email" },
     messages: [
       {
-        role: 'user',
-        content: prompt
-      }
-    ]
+        role: "user",
+        content: prompt,
+      },
+    ],
   });
-  
-  // Extract the text content
-  const textContent = response.content.find(c => c.type === 'text');
-  if (!textContent) {
-    throw new Error('No text response from Claude');
+
+  // Extract the tool use response
+  const toolUse = response.content.find((c) => c.type === "tool_use");
+  if (!toolUse || toolUse.name !== "create_email") {
+    throw new Error("No tool use response from Claude");
   }
-  
-  // Parse the JSON response
-  let emailData;
-  try {
-    // Try to extract JSON from the response (Claude sometimes wraps it in markdown)
-    const jsonMatch = textContent.text.match(/\{[\s\S]*\}/);
-    if (!jsonMatch) {
-      throw new Error('No JSON found in response');
-    }
-    emailData = JSON.parse(jsonMatch[0]);
-  } catch (err) {
-    throw new Error(`Failed to parse Claude response: ${err.message}`);
-  }
-  
+
+  const emailData = toolUse.input;
+
   if (!emailData.subject || !emailData.body) {
-    throw new Error('Response missing subject or body');
+    throw new Error("Response missing subject or body");
   }
-  
+
   // Build the full email record
   const awardId = award.awardNumber || award._id;
-  
+
   return {
     award_id: awardId,
     pi_name: pi.piName,
@@ -137,9 +162,14 @@ export async function generateEmail(award) {
     award_title: award.title,
     subject: emailData.subject,
     body: emailData.body,
+    variants: {
+      template: variants.template.id,
+      ouro_description: variants.ouro_description.id,
+      call_to_action: variants.call_to_action.id,
+    },
     generated_at: new Date().toISOString(),
     sent_at: null,
-    resend_id: null
+    resend_id: null,
   };
 }
 
@@ -160,19 +190,19 @@ export async function generateEmails(awards, options = {}) {
   const { limit = 10, onProgress } = options;
   const results = {
     generated: [],
-    errors: []
+    errors: [],
   };
-  
+
   const toProcess = awards.slice(0, limit);
-  
+
   for (let i = 0; i < toProcess.length; i++) {
     const award = toProcess[i];
     const awardId = award.awardNumber || award._id;
-    
+
     if (onProgress) {
       onProgress({ current: i + 1, total: toProcess.length, awardId });
     }
-    
+
     try {
       const email = await generateEmail(award);
       const filepath = saveDraft(email);
@@ -181,7 +211,6 @@ export async function generateEmails(awards, options = {}) {
       results.errors.push({ awardId, error: err.message });
     }
   }
-  
+
   return results;
 }
-

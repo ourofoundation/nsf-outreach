@@ -2,7 +2,7 @@ Subject: Your [specific research topic] work + a platform that might help
 
 Hi Professor [LastName],
 
-I came across your NSF project on [specific topic from their abstract]. [One specific detail that shows you read the abstract - a method, material, or goal they mentioned].
+I came across your research on [specific topic from their abstract, simplified]. [One specific detail that shows you read the abstract - a method, material, or goal they mentioned].
 
 I'm building Ouro - a platform where researchers can publish and discover computational workflows, datasets, and analysis tools. We make it easy to share reproducible research and find relevant work from others in your field.
 

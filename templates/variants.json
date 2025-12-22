@@ -1,0 +1,63 @@
+{
+  "templates": [
+    {
+      "id": 1,
+      "name": "standard",
+      "content": "Subject: [Something specific about their research] + a tool that might help\n\nHi Professor [LastName],\n\nI came across your NSF project on [specific topic from their abstract]. [1-2 sentences showing you actually read their abstract - mention a specific method, finding, or goal]\n\n{{ouro_description}}\n\n{{call_to_action}}\n\nBest,"
+    },
+    {
+      "id": 2,
+      "name": "direct",
+      "content": "Subject: Quick question about [specific aspect of their research]\n\nHi Professor [LastName],\n\n[1-2 sentences about their specific research, showing genuine familiarity]\n\n{{ouro_description}}\n\n{{call_to_action}}\n\nBest,"
+    },
+    {
+      "id": 3,
+      "name": "connection",
+      "content": "Subject: [Their research topic] + reproducible workflows\n\nHi Professor [LastName],\n\nI noticed your NSF project on [specific topic]. [1 sentence about what caught your attention or why their work is interesting]\n\n{{ouro_description}}\n\n{{call_to_action}}\n\nBest,"
+    }
+  ],
+  "ouro_descriptions": [
+    {
+      "id": 1,
+      "content": "I'm building Ouro, a platform where computational researchers publish working tools (datasets, analysis scripts, APIs) that others can plug directly into their own workflows. Less time recreating methods from papers, more time on the actual science."
+    },
+    {
+      "id": 2,
+      "content": "I'm building Ouro, a platform for sharing computational tools and datasets in a way that's actually usable, not just a zip file in supplementary materials."
+    },
+    {
+      "id": 3,
+      "content": "I'm building Ouro, a place to publish your computational workflows as APIs with a Python SDK so other researchers can call your methods directly. Your work becomes infrastructure others build on, not just a paper they cite."
+    },
+    {
+      "id": 4,
+      "content": "I'm building Ouro, where researchers publish datasets and computational tools as APIs that others can actually use, not just read about in a methods section. Your group's work becomes discoverable and citable."
+    },
+    {
+      "id": 5,
+      "content": "I'm working on Ouro, which helps researchers share computational work (workflows, datasets, notebooks) in a way that's actually reproducible and discoverable by others in your field."
+    }
+  ],
+  "call_to_actions": [
+    {
+      "id": 1,
+      "content": "Would you be open to a quick chat?"
+    },
+    {
+      "id": 2,
+      "content": "Would love to hear if this could be useful for your group."
+    },
+    {
+      "id": 3,
+      "content": "Happy to give you a quick demo if you're curious."
+    },
+    {
+      "id": 4,
+      "content": "Any interest in trying it out?"
+    },
+    {
+      "id": 5,
+      "content": "Would a 15-minute call be useful to see if it fits your workflow?"
+    }
+  ]
+}

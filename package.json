@@ -11,6 +11,8 @@
     "start": "node src/index.js",
     "scan": "node src/index.js scan",
     "generate": "node src/index.js generate",
+    "review": "node src/index.js review",
+    "preview": "node src/index.js preview",
     "status": "node src/index.js status",
     "send": "node src/index.js send"
   },
@@ -31,4 +33,3 @@
     "resend": "^3.2.0"
   }
 }
-
