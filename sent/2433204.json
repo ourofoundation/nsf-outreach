@@ -1,0 +1,19 @@
+{
+  "award_id": "2433204",
+  "pi_name": "James R Neilson",
+  "pi_email": "james.neilson@colostate.edu",
+  "institution": "Colorado State University",
+  "award_title": "Collaborative Research: Harnessing entropy to discover new chalcogenide semiconductors",
+  "award_amount": 411749,
+  "subject": "Making your chalcogenide work accessible",
+  "body": "Hi James,\n\nI came across your NSF work on discovering new chalcogenide semiconductors – really cool that you're tackling the synthesis bottleneck experimentally and computationally.\n\nI'm building Ouro, a platform for sharing computational tools and datasets in a way that's actually usable, not just a zip file in supplementary materials. For grant reports and broader impact statements, it makes demonstrating real-world use pretty straightforward.\n\nThought it might be worth exploring for your group. Would love to hear if this could be useful for you.\n\nBest",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 2,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-23T02:49:34.787Z",
+  "sent_at": "2025-12-23T02:59:48.626Z",
+  "resend_id": "b3212ae2-8c10-4aee-b27c-28cf9a46b6a8"
+}

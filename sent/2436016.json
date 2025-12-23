@@ -1,0 +1,19 @@
+{
+  "award_id": "2436016",
+  "pi_name": "Aviral Shrivastava",
+  "pi_email": "aviral.shrivastava@asu.edu",
+  "institution": "Arizona State University",
+  "award_title": "ACED: CompAM: Enabling Computational Additive Manufacturing",
+  "award_amount": 499999,
+  "subject": "Curious about your approach to speeding up microstructure prediction",
+  "body": "Hi Aviral,\n\nI've been reading about your work on accelerating microstructure prediction for 3D printing—specifically how you're using graph neural networks to cut simulation time from days down to minutes. That's a fascinating problem.\n\nI'm building Ouro, a platform where researchers publish working tools (datasets, scripts, APIs) that others can plug directly into their own workflows. Less time recreating methods from papers, more time on actual science.\n\nGiven what you're working on with computational materials, I'm curious if something like this could be useful for your team or collaborators. Any interest in trying it out?\n\nBest",
+  "variants": {
+    "template_id": 3,
+    "template_name": "curious",
+    "ouro_description_id": 1,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-23T02:49:42.216Z",
+  "sent_at": "2025-12-23T03:00:29.359Z",
+  "resend_id": "ed656d14-2d31-4dda-af28-1a7719aaaf62"
+}

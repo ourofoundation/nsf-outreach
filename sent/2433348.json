@@ -1,0 +1,19 @@
+{
+  "award_id": "2433348",
+  "pi_name": "Eun-Ah Kim",
+  "pi_email": "eun-ah.kim@cornell.edu",
+  "institution": "Cornell University",
+  "award_title": "AI-Materials Institute (AI-MI)",
+  "award_amount": 6000000,
+  "subject": "Thank you for accelerating materials discovery",
+  "body": "Hi Eun-Ah,\n\nI'm genuinely grateful for the work AI-MI is doing to bring AI and materials science together. It's the kind of foundational research that actually moves the needle on real problems—from energy to quantum tech.\n\nI'm building Ouro, where researchers publish datasets and computational tools as APIs that others can actually use, not just read about in a methods section. Your group's work becomes discoverable and citable. Given how much AI-MI is designed around workflows and community tools, I think it could amplify what you're already building.\n\nWould a 15-minute call be useful to explore if it fits your workflow?\n\nThanks,\n[Your name]",
+  "variants": {
+    "template_id": 1,
+    "template_name": "grateful",
+    "ouro_description_id": 4,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-23T02:49:36.753Z",
+  "sent_at": "2025-12-23T02:59:58.769Z",
+  "resend_id": "e6f7b55f-22f7-44df-b90e-c44419a7c510"
+}

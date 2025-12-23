@@ -1,0 +1,17 @@
+{
+  "award_id": "2441420",
+  "pi_name": "Md Mahbubul Islam",
+  "pi_email": "gy5553@wayne.edu",
+  "institution": "Wayne State University",
+  "award_title": "CAREER: Computational Insights into Interfacial Chemistries in Nonaqueous Batteries",
+  "subject": "Sharing computational battery chemistry work",
+  "body": "Hi Professor Islam,\n\nI came across your work on magnesium-CO2 batteries and the computational modeling you're doing around interfacial chemistry. That's a fascinating approach to next-gen energy storage.\n\nI'm working on Ouro, a platform that helps researchers like you share computational workflows, datasets, and results in a way that's reproducible and discoverable by collaborators. Given the scale of simulations you're running (DFT, MD, ML), thought it might be useful.\n\nWorth a quick conversation?\n\nBest,",
+  "variants": {
+    "template": 2,
+    "ouro_description": 5,
+    "call_to_action": 4
+  },
+  "generated_at": "2025-12-22T21:31:18.022Z",
+  "sent_at": "2025-12-23T03:00:39.767Z",
+  "resend_id": "31220572-9a8c-40f5-81f0-7851bbd39b20"
+}

@@ -2,18 +2,75 @@
   "templates": [
     {
       "id": 1,
-      "name": "standard",
-      "content": "Subject: [Something specific about their research] + a tool that might help\n\nHi Professor [LastName],\n\nI came across your NSF project on [specific topic from their abstract]. [1-2 sentences showing you actually read their abstract - mention a specific method, finding, or goal]\n\n{{ouro_description}}\n\n{{call_to_action}}\n\nBest,"
+      "name": "grateful",
+      "angle": "Express genuine appreciation for their contribution to science. Position Ouro as a way to amplify the impact of work you're thankful exists.",
+      "tone": "warm, respectful, slightly formal",
+      "subject_line_style": "Lead with thanks or appreciation to the pursuit of knowledge.",
+      "sign_off_style": "Thanks",
+      "pi_motivation": "legacy, visibility"
     },
     {
       "id": 2,
-      "name": "direct",
-      "content": "Subject: Quick question about [specific aspect of their research]\n\nHi Professor [LastName],\n\n[1-2 sentences about their specific research, showing genuine familiarity]\n\n{{ouro_description}}\n\n{{call_to_action}}\n\nBest,"
+      "name": "peer",
+      "angle": "Write as a fellow computational researcher who shares joy to be working on what they love. You're not pitching—you're sharing joy and sharing what you've built.",
+      "tone": "casual, relatable, insider",
+      "subject_line_style": "Informal, like an email between colleagues. Can reference shared tools, methods, or pain points.",
+      "sign_off_style": "Best / Cheers",
+      "pi_motivation": "collaboration, time-saving"
     },
     {
       "id": 3,
-      "name": "connection",
-      "content": "Subject: [Their research topic] + reproducible workflows\n\nHi Professor [LastName],\n\nI noticed your NSF project on [specific topic]. [1 sentence about what caught your attention or why their work is interesting]\n\n{{ouro_description}}\n\n{{call_to_action}}\n\nBest,"
+      "name": "curious",
+      "angle": "Lead with genuine intellectual curiosity about their specific approach. Ask or wonder about something in their abstract before introducing Ouro.",
+      "tone": "inquisitive, engaged, conversational",
+      "subject_line_style": "Frame as a question or express interest in a specific aspect of their work.",
+      "sign_off_style": "Best / Cheers",
+      "pi_motivation": "reputation, being recognized as expert"
+    },
+    {
+      "id": 4,
+      "name": "impact",
+      "angle": "Frame around legacy and reach. Their work deserves to be used, not just cited. Ouro helps their tools outlive the paper.",
+      "tone": "direct, slightly urgent, respectful",
+      "subject_line_style": "Focus on reach, longevity, or their work being used. Slightly provocative is okay.",
+      "sign_off_style": "Best",
+      "pi_motivation": "legacy, citations, visibility"
+    },
+    {
+      "id": 5,
+      "name": "broader-impacts",
+      "angle": "Acknowledge the importance of their NSF-funded work reaching beyond academia. Ouro makes it easy to demonstrate real-world use and accessibility for grant reports.",
+      "tone": "practical, collegial, grant-savvy",
+      "subject_line_style": "Reference impact, accessibility, or public benefit of their research.",
+      "sign_off_style": "Best",
+      "pi_motivation": "NSF requirements, grant reporting, broader impacts checkbox"
+    },
+    {
+      "id": 6,
+      "name": "students",
+      "angle": "Focus on how Ouro benefits their grad students and postdocs. Publishing tools builds their reputation before they're on the job market. A student's tool getting used by other labs is a powerful career asset.",
+      "tone": "supportive, forward-thinking, mentor-to-mentor",
+      "subject_line_style": "Reference their group, lab, or training the next generation.",
+      "sign_off_style": "Best",
+      "pi_motivation": "student careers, lab reputation, legacy through mentees"
+    },
+    {
+      "id": 7,
+      "name": "citations",
+      "angle": "Their datasets and tools deserve to be cited, not just used invisibly. Ouro makes their computational work citable and trackable.",
+      "tone": "direct, value-focused",
+      "subject_line_style": "Reference getting credit, citations, or recognition for computational work.",
+      "sign_off_style": "Best",
+      "pi_motivation": "citations, credit, career metrics"
+    },
+    {
+      "id": 8,
+      "name": "offload",
+      "angle": "Position Ouro as the answer to 'code available upon request.' No more fielding emails, no more digging up old scripts. Put it on Ouro once, point people there forever.",
+      "tone": "practical, empathetic, time-conscious",
+      "subject_line_style": "Reference making their work accessible without the hassle.",
+      "sign_off_style": "Best",
+      "pi_motivation": "time-saving, reducing email burden"
     }
   ],
   "ouro_descriptions": [

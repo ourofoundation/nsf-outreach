@@ -1,0 +1,19 @@
+{
+  "award_id": "2433203",
+  "pi_name": "Christopher J Bartel",
+  "pi_email": "cbartel@umn.edu",
+  "institution": "University of Minnesota-Twin Cities",
+  "award_title": "Collaborative Research: Harnessing entropy to discover new chalcogenide semiconductors",
+  "award_amount": 339290,
+  "subject": "Thanks for tackling the harder chalcogenide materials",
+  "body": "Hi Christopher,\n\nI've been following your work on discovering new chalcogenide semiconductors, and I really appreciate the effort to bridge the gap between what's computationally promising and what's actually possible to synthesize. That's genuinely hard science.\n\nI'm building Ouro, a platform for sharing computational tools and datasets in a way that's actually usable—not just a zip file buried in supplementary materials. I thought it might resonate with what you're doing, especially the computational-experimental feedback loop.\n\nWould love to hear if this could be useful for your group.\n\nThanks,",
+  "variants": {
+    "template_id": 1,
+    "template_name": "grateful",
+    "ouro_description_id": 2,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-23T02:49:33.133Z",
+  "sent_at": "2025-12-23T02:59:38.458Z",
+  "resend_id": "18ad1419-00fd-4328-bfa6-672c31cc1a93"
+}

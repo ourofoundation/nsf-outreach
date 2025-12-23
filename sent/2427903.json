@@ -1,0 +1,17 @@
+{
+  "award_id": "2427903",
+  "pi_name": "Kieron J Burke",
+  "pi_email": "kieron@uci.edu",
+  "institution": "University of California-Irvine",
+  "award_title": "Collaborative Research: Optimally designed exchange-correlation functionals for solids using machine learning",
+  "subject": "Machine learning for better DFT approximations",
+  "body": "Hi Professor Burke,\n\nI've been following your work on using machine learning to improve density functional theory for materials simulation. It's a clever approach to making those accuracy-vs-speed tradeoffs less painful.\n\nI'm building Ouro, a platform that helps researchers share and discover computational work—workflows, datasets, notebooks—in ways that actually stick. Given how much you're developing new DFT methods for the broader community, I thought you might find it useful.\n\nOpen to a quick chat?\n\nBest,",
+  "variants": {
+    "template": 2,
+    "ouro_description": 5,
+    "call_to_action": 1
+  },
+  "generated_at": "2025-12-22T21:30:59.740Z",
+  "sent_at": "2025-12-23T02:59:28.254Z",
+  "resend_id": "0fd157ad-066c-40ae-8b9e-aa14b7d47a72"
+}

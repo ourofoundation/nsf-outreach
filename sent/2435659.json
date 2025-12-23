@@ -1,0 +1,19 @@
+{
+  "award_id": "2435659",
+  "pi_name": "Peng Bai",
+  "pi_email": "pengbai@umass.edu",
+  "institution": "University of Massachusetts Amherst",
+  "award_title": "ACED: 3D ConvNets for Discovery of Nanoporous Materials",
+  "award_amount": 500000,
+  "subject": "Building better tools for your students to share their work",
+  "body": "Hi Peng,\n\nI've been following your work on machine learning for nanoporous materials—exciting stuff on the material discovery side. I'm curious about the flip side though: when your students and postdocs build these tools, how are they sharing them with other labs?\n\nI'm building Ouro, a platform for sharing computational tools and datasets in a way that's actually usable, not just a zip file in supplementary materials. The idea is students get real career visibility when their work gets adopted elsewhere—that's a powerful asset before they hit the job market.\n\nWould you be open to a quick chat?\n\nBest",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 2,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-23T02:49:38.982Z",
+  "sent_at": "2025-12-23T03:00:08.986Z",
+  "resend_id": "5318c385-5b95-4205-ae39-59d721d636c5"
+}

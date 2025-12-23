@@ -1,0 +1,19 @@
+{
+  "award_id": "2415314",
+  "pi_name": "Devon M Cayer",
+  "pi_email": "dmc@omtx.ai",
+  "institution": "OM THERAPEUTICS INC.",
+  "award_title": "SBIR Phase I: Massive, empirical, scalable generation of small molecule and protein interaction data to enable the discovery of medicines at scale with machine learning",
+  "award_amount": 275000,
+  "subject": "Thanks for the protein screening innovation",
+  "body": "Hi Devon,\n\nI came across your NSF work on miniaturized protein and small molecule screening, and I wanted to reach out. What you're building—dramatically reducing the cost and time to discover new medicines—is genuinely important.\n\nI'm working on something that might complement this: Ouro, a platform where researchers publish working tools (datasets, scripts, APIs) that others can directly use in their workflows. Less time rebuilding methods from papers, more time on actual science.\n\nGiven the scale of data you're generating, I thought you might find it useful. Happy to show you how it works if you're curious.\n\nWith gratitude for the work you're doing,",
+  "variants": {
+    "template_id": 1,
+    "template_name": "grateful",
+    "ouro_description_id": 1,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-23T02:31:10.375Z",
+  "sent_at": "2025-12-23T02:59:18.117Z",
+  "resend_id": "6c494124-b0c2-4163-90a8-925740c16b3b"
+}

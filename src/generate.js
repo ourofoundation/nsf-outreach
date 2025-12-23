@@ -44,19 +44,18 @@ function selectVariants() {
 }
 
 /**
- * Build the final template with placeholders replaced
+ * Build the style guidance from selected variants
  */
-function buildTemplate(variants) {
-  let template = variants.template.content;
-  template = template.replace(
-    "{{ouro_description}}",
-    variants.ouro_description.content
-  );
-  template = template.replace(
-    "{{call_to_action}}",
-    variants.call_to_action.content
-  );
-  return template;
+function buildStyleGuide(variants) {
+  const t = variants.template;
+  return {
+    angle: t.angle,
+    tone: t.tone,
+    subject_line_style: t.subject_line_style,
+    sign_off_style: t.sign_off_style,
+    ouro_description: variants.ouro_description.content,
+    call_to_action: variants.call_to_action.content,
+  };
 }
 
 /**
@@ -71,11 +70,12 @@ const EMAIL_TOOL = {
       subject: {
         type: "string",
         description:
-          "Email subject line - should reference something specific about their research",
+          "Email subject line - should match the specified style and reference their research",
       },
       body: {
         type: "string",
-        description: 'Email body text - keep under 100 words, end with "Best,"',
+        description:
+          "Email body text - keep under 100 words, use the specified sign-off style",
       },
     },
     required: ["subject", "body"],
@@ -85,7 +85,7 @@ const EMAIL_TOOL = {
 /**
  * Build the generation prompt for Claude
  */
-function buildPrompt(award, template) {
+function buildPrompt(award, styleGuide) {
   const pi = extractPIInfo(award);
 
   return `Generate a cold outreach email for this NSF-funded professor. The goal is to introduce them to Ouro.
@@ -96,12 +96,25 @@ Award Details:
 - Institution: ${pi.institution}
 - Abstract: ${award.abstractText || "No abstract available"}
 
-Use this template and fill in the bracketed placeholders with specifics from their research:
----
-${template}
 ---
 
-You may rewrite as much as you want to make the email more personal and relevant to the recipient.
+ANGLE: ${styleGuide.angle}
+
+TONE: ${styleGuide.tone}
+
+SUBJECT LINE STYLE: ${styleGuide.subject_line_style}
+
+SIGN-OFF STYLE: ${styleGuide.sign_off_style}
+
+---
+
+Include this Ouro description naturally in the email:
+"${styleGuide.ouro_description}"
+
+End with this call to action (you can adjust slightly to fit the flow):
+"${styleGuide.call_to_action}"
+
+---
 
 Requirements:
 1. Keep the body under 100 words
@@ -113,6 +126,7 @@ Requirements:
 3. Use simple, everyday language - strip out jargon and overly technical phrasing
 4. The subject should be short and casual, not a mini-abstract
 5. Avoid stacking multiple specific details - one casual reference to their work is enough
+6. Write naturally - this should feel like a real email, not a template
 
 Use the create_email tool to return the email.`;
 }
@@ -126,14 +140,14 @@ export async function generateEmail(award) {
   }
 
   const variants = selectVariants();
-  const template = buildTemplate(variants);
-  const prompt = buildPrompt(award, template);
+  const styleGuide = buildStyleGuide(variants);
+  const prompt = buildPrompt(award, styleGuide);
   const pi = extractPIInfo(award);
 
   const anthropic = getClient();
 
   const response = await anthropic.messages.create({
-    model: "claude-haiku-4-5",
+    model: "claude-sonnet-4-5",
     max_tokens: 400,
     tools: [EMAIL_TOOL],
     tool_choice: { type: "tool", name: "create_email" },
@@ -171,9 +185,10 @@ export async function generateEmail(award) {
     subject: emailData.subject,
     body: emailData.body,
     variants: {
-      template: variants.template.id,
-      ouro_description: variants.ouro_description.id,
-      call_to_action: variants.call_to_action.id,
+      template_id: variants.template.id,
+      template_name: variants.template.name,
+      ouro_description_id: variants.ouro_description.id,
+      call_to_action_id: variants.call_to_action.id,
     },
     generated_at: new Date().toISOString(),
     sent_at: null,

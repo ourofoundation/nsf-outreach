@@ -32,10 +32,18 @@ function displayEmail(email, index, total, folder) {
   console.log(`${chalk.dim("Amount:")} ${amountStr}`);
 
   if (email.variants) {
+    const templateLabel =
+      email.variants.template_name || email.variants.template_id || "?";
+    const descId =
+      email.variants.ouro_description_id ??
+      email.variants.ouro_description ??
+      "?";
+    const ctaId =
+      email.variants.call_to_action_id ?? email.variants.call_to_action ?? "?";
     console.log(
-      `${chalk.dim("Variants:")} template=${email.variants.template}, desc=${
-        email.variants.ouro_description
-      }, cta=${email.variants.call_to_action}`
+      `${chalk.dim(
+        "Variants:"
+      )} angle=${templateLabel}, desc=${descId}, cta=${ctaId}`
     );
   }
 

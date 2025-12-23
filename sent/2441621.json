@@ -1,0 +1,19 @@
+{
+  "award_id": "2441621",
+  "pi_name": "Luiz Santos",
+  "pi_email": "luiz.santos@emory.edu",
+  "institution": "Emory University",
+  "award_title": "CAREER: Developing New Paradigms for Hybrid Light-Matter Quantum Materials",
+  "award_amount": 372000,
+  "subject": "Making cavity-QED research more accessible",
+  "body": "Hi Luiz,\n\nI saw your NSF CAREER award on light-matter systems and cavity QED – congrats. The outreach component is great, and I imagine showing real impact matters when reporting back to NSF.\n\nI'm building Ouro, a platform where computational researchers publish working tools (datasets, analysis scripts, APIs) that others can plug directly into their own workflows. Less time recreating methods from papers, more time on the actual science.\n\nIt could help demonstrate accessibility and reuse for your grant reports while making your work more practical for others to build on.\n\nWould a 15-minute call be useful to see if it fits your workflow?\n\nBest",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 1,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-23T02:54:38.801Z",
+  "sent_at": "2025-12-23T03:00:49.900Z",
+  "resend_id": "205d7e04-ed0d-4e94-8e61-f8793d1c0c0e"
+}
