@@ -3,118 +3,137 @@
     {
       "id": 1,
       "name": "grateful",
-      "angle": "Express genuine appreciation for their contribution to science. Position Ouro as a way to amplify the impact of work you're thankful exists.",
+      "angle": "Express appreciation for a specific contribution (method, dataset, or idea) in their work. Position Ouro as a way to help that contribution be more easily used and extended by others.",
       "tone": "warm, respectful, slightly formal",
-      "subject_line_style": "Lead with thanks or appreciation to the pursuit of knowledge.",
+      "subject_line_style": "Lead with thanks tied to a specific aspect of their work, not generic praise.",
       "sign_off_style": "Thanks",
-      "pi_motivation": "legacy, visibility"
+      "pi_motivation": "legacy, visibility",
+      "notes": "Gratitude must reference something concrete in their paper or project to signal real respect."
     },
     {
       "id": 2,
       "name": "peer",
-      "angle": "Write as a fellow computational researcher who shares joy to be working on what they love. You're not pitching—you're sharing joy and sharing what you've built.",
-      "tone": "casual, relatable, insider",
-      "subject_line_style": "Informal, like an email between colleagues. Can reference shared tools, methods, or pain points.",
+      "angle": "Write as a fellow computational researcher who has felt the gap between publishing a method and seeing it actually reused. You're not pitching—you're sharing something you built because you ran into the same pain.",
+      "tone": "casual, dry, insider",
+      "subject_line_style": "Informal, colleague-to-colleague. Can reference shared tools, methods, or common computational frustrations.",
       "sign_off_style": "Best / Cheers",
-      "pi_motivation": "collaboration, time-saving"
+      "pi_motivation": "collaboration, time-saving",
+      "notes": "Lean into shared pain points; mild cynicism is okay and often builds trust."
     },
     {
       "id": 3,
       "name": "curious",
-      "angle": "Lead with genuine intellectual curiosity about their specific approach. Ask or wonder about something in their abstract before introducing Ouro.",
+      "angle": "Lead with a thoughtful observation about their approach or design choice. Frame curiosity as reflection, not a request for help, before introducing Ouro as something inspired by patterns you keep seeing across papers.",
       "tone": "inquisitive, engaged, conversational",
-      "subject_line_style": "Frame as a question or express interest in a specific aspect of their work.",
+      "subject_line_style": "Frame as a question or reflective observation about a specific aspect of their work.",
       "sign_off_style": "Best / Cheers",
-      "pi_motivation": "reputation, being recognized as expert"
+      "pi_motivation": "reputation, being recognized as expert",
+      "notes": "Avoid sounding like a junior researcher asking questions; keep status symmetry."
     },
     {
       "id": 4,
       "name": "impact",
-      "angle": "Frame around legacy and reach. Their work deserves to be used, not just cited. Ouro helps their tools outlive the paper.",
-      "tone": "direct, slightly urgent, respectful",
-      "subject_line_style": "Focus on reach, longevity, or their work being used. Slightly provocative is okay.",
+      "angle": "Frame around underutilized potential. Their work already matters; the problem is that it's harder to use than it should be. Ouro helps close that gap so the work lives beyond the paper.",
+      "tone": "direct, respectful, slightly urgent",
+      "subject_line_style": "Focus on reach, longevity, or work being used in practice. Slightly provocative is okay.",
       "sign_off_style": "Best",
-      "pi_motivation": "legacy, citations, visibility"
+      "pi_motivation": "legacy, citations, visibility",
+      "notes": "Emphasize wasted potential, not ambition or growth."
     },
     {
       "id": 5,
       "name": "broader-impacts",
-      "angle": "Acknowledge the importance of their NSF-funded work reaching beyond academia. Ouro makes it easy to demonstrate real-world use and accessibility for grant reports.",
-      "tone": "practical, collegial, grant-savvy",
-      "subject_line_style": "Reference impact, accessibility, or public benefit of their research.",
+      "angle": "Acknowledge that making computational work accessible and reusable is increasingly expected, but hard to evidence. Ouro makes real-world reuse and accessibility easier to demonstrate.",
+      "tone": "practical, collegial, NSF-literate",
+      "subject_line_style": "Reference accessibility, reuse, or public benefit without explicitly naming 'checkboxes.'",
       "sign_off_style": "Best",
-      "pi_motivation": "NSF requirements, grant reporting, broader impacts checkbox"
+      "pi_motivation": "NSF requirements, grant reporting, broader impacts",
+      "notes": "Use insider language (\"hard to evidence,\" \"increasingly explicit\") rather than grant-speak."
     },
     {
       "id": 6,
       "name": "students",
-      "angle": "Focus on how Ouro benefits their grad students and postdocs. Publishing tools builds their reputation before they're on the job market. A student's tool getting used by other labs is a powerful career asset.",
+      "angle": "Focus on how publishing tools helps trainees build visible, durable contributions. When tools from their lab are reused elsewhere, their students' names and the lab's lineage travel with them.",
       "tone": "supportive, forward-thinking, mentor-to-mentor",
-      "subject_line_style": "Reference their group, lab, or training the next generation.",
+      "subject_line_style": "Reference their lab, group, or training the next generation of researchers.",
       "sign_off_style": "Best",
-      "pi_motivation": "student careers, lab reputation, legacy through mentees"
+      "pi_motivation": "student careers, lab reputation, legacy through mentees",
+      "notes": "Tie student benefit back to PI reputation and intellectual lineage."
     },
     {
       "id": 7,
       "name": "citations",
-      "angle": "Their datasets and tools deserve to be cited, not just used invisibly. Ouro makes their computational work citable and trackable.",
+      "angle": "Acknowledge that citations capture acknowledgment, but not actual influence. Ouro helps make computational work both citable and visibly used.",
       "tone": "direct, value-focused",
-      "subject_line_style": "Reference getting credit, citations, or recognition for computational work.",
+      "subject_line_style": "Reference credit, citations, or recognition for computational contributions.",
       "sign_off_style": "Best",
-      "pi_motivation": "citations, credit, career metrics"
+      "pi_motivation": "citations, credit, career metrics",
+      "notes": "Position Ouro as complementary to citations, not a replacement."
     },
     {
       "id": 8,
       "name": "offload",
-      "angle": "Position Ouro as the answer to 'code available upon request.' No more fielding emails, no more digging up old scripts. Put it on Ouro once, point people there forever.",
+      "angle": "Position Ouro as a way to consolidate work they're already doing—sharing code, answering emails, digging up old scripts—into a single durable endpoint.",
       "tone": "practical, empathetic, time-conscious",
-      "subject_line_style": "Reference making their work accessible without the hassle.",
+      "subject_line_style": "Reference reducing friction, email burden, or making work accessible once and for all.",
       "sign_off_style": "Best",
-      "pi_motivation": "time-saving, reducing email burden"
+      "pi_motivation": "time-saving, reducing email burden",
+      "notes": "Make adoption feel like consolidation, not change."
     }
   ],
   "ouro_descriptions": [
     {
       "id": 1,
-      "content": "I'm building Ouro, a platform where computational researchers publish working tools (datasets, analysis scripts, APIs) that others can plug directly into their own workflows. Less time recreating methods from papers, more time on the actual science."
+      "content": "I'm working on Ouro, a place where published computational methods become callable, reusable infrastructure—so others can build on your work without reimplementing it from scratch."
     },
     {
       "id": 2,
-      "content": "I'm building Ouro, a platform for sharing computational tools and datasets in a way that's actually usable, not just a zip file in supplementary materials."
+      "content": "Ouro helps researchers share computational tools and datasets in a way that's actually usable and durable, rather than a zip file buried in supplementary materials."
     },
     {
       "id": 3,
-      "content": "I'm building Ouro, a place to publish your computational workflows as APIs with a Python SDK so other researchers can call your methods directly. Your work becomes infrastructure others build on, not just a paper they cite."
+      "content": "Ouro provides a thin API layer over computational workflows, letting other researchers reuse methods directly instead of recreating them from papers."
     },
     {
       "id": 4,
-      "content": "I'm building Ouro, where researchers publish datasets and computational tools as APIs that others can actually use, not just read about in a methods section. Your group's work becomes discoverable and citable."
+      "content": "Ouro is a way to make computational work discoverable, reusable, and citable—so methods live on as infrastructure, not just text in a methods section."
     },
     {
       "id": 5,
-      "content": "I'm working on Ouro, which helps researchers share computational work (workflows, datasets, notebooks) in a way that's actually reproducible and discoverable by others in your field."
+      "content": "Ouro helps turn computational workflows, datasets, and notebooks into reusable building blocks that others in your field can actually plug into their work."
     }
   ],
   "call_to_actions": [
     {
       "id": 1,
-      "content": "Would you be open to a quick chat?"
+      "content": "Happy to give you a quick peek if it's useful."
     },
     {
       "id": 2,
-      "content": "Would love to hear if this could be useful for your group."
+      "content": "If you're curious, I can show you how it works."
     },
     {
       "id": 3,
-      "content": "Happy to show you how it works if you're curious."
+      "content": "Let me know if you'd like to poke around."
     },
     {
       "id": 4,
-      "content": "Any interest in trying it out?"
+      "content": "Happy to get your group a look if it’s helpful."
     },
     {
       "id": 5,
-      "content": "Would a 15-minute call be useful to see if it fits your workflow?"
+      "content": "I can set up access for your lab if you want to take a glance."
     }
+  ],
+  "opening_line_rules": [
+    "First sentence must reference a specific aspect of their work.",
+    "Second sentence should establish shared context or motivation.",
+    "Ouro should not appear before sentence three."
+  ],
+  "anti_patterns": [
+    "Do not ask for a meeting in the first email.",
+    "Do not describe Ouro before referencing their work.",
+    "Avoid startup language (launch, scale, growth).",
+    "Avoid generic praise or vague curiosity."
   ]
 }

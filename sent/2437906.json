@@ -1,0 +1,19 @@
+{
+  "award_id": "2437906",
+  "pi_name": "Wangda Zuo",
+  "pi_email": "wangda.zuo@psu.edu",
+  "institution": "Pennsylvania State Univ University Park",
+  "award_title": "I-Corps: Translation Potential of an Innovative Cooling Software for Efficient Data Centers",
+  "award_amount": 50000,
+  "subject": "Tools for your data center research group",
+  "body": "Hi Dr. Zuo,\n\nI'm building Ouro, a platform where computational researchers publish working tools (datasets, analysis scripts, APIs) that others can plug directly into their own workflows. Less time recreating methods from papers, more time on the actual science.\n\nGiven your work on data center cooling optimization software, I thought it might be useful for your grad students and postdocs. Publishing tools builds their reputation before they're on the job market. A student's tool getting used by other labs is a powerful career asset.\n\nLet me know if you'd like to take it for a spin.\n\nBest,\n\nMatt\nFounder\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 1,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-23T18:57:37.001Z",
+  "sent_at": "2025-12-23T19:48:32.717Z",
+  "resend_id": "ad3d0f34-733c-494e-b9c8-1c386cabaeae"
+}

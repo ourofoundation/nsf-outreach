@@ -1,0 +1,19 @@
+{
+  "award_id": "2414652",
+  "pi_name": "Stratis Ioannidis",
+  "pi_email": "ioannidis@northeastern.edu",
+  "institution": "Northeastern University",
+  "award_title": "SaTC: CORE: Medium: Robust Machine Learning at the Edge",
+  "award_amount": 755040,
+  "subject": "Making your ML work accessible beyond the paper",
+  "body": "Hi Stratis,\n\nI came across your NSF work on robust ML for edge devices – it's exactly the kind of research that should be easy for others to actually use and build on, especially when you're reporting on broader impacts.\n\nI'm building Ouro, a platform for sharing computational tools and datasets in a way that's actually usable, not just a zip file in supplementary materials.\n\nFigured it might be helpful for making your work more accessible and demonstrating real-world use in grant reports.\n\nAny interest in trying it out?\n\nBest",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 2,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-23T14:21:26.832Z",
+  "sent_at": "2025-12-23T14:34:57.708Z",
+  "resend_id": "ea96c958-bbd5-4b2d-8ab8-75646790a18b"
+}

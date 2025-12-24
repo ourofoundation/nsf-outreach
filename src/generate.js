@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import Anthropic from "@anthropic-ai/sdk";
-import { DIRS, writeJson, ensureDirs } from "./utils.js";
+import { DIRS, writeJson, ensureDirs, listIds } from "./utils.js";
 import { extractPIInfo, hasValidContact } from "./awards.js";
 
 let client = null;
@@ -29,6 +29,18 @@ function loadAllVariants() {
  */
 function randomSelect(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
+}
+
+/**
+ * Shuffle an array using Fisher-Yates algorithm
+ */
+function shuffleArray(arr) {
+  const shuffled = [...arr];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
 }
 
 /**
@@ -88,7 +100,7 @@ const EMAIL_TOOL = {
 function buildPrompt(award, styleGuide) {
   const pi = extractPIInfo(award);
 
-  return `Generate a cold outreach email for this NSF-funded professor. The goal is to introduce them to Ouro.
+  return `Generate a cold outreach email for this NSF-funded researcher. Keep it natural and authentic.
 
 Award Details:
 - Title: ${award.title}
@@ -96,47 +108,63 @@ Award Details:
 - Institution: ${pi.institution}
 - Abstract: ${award.abstractText || "No abstract available"}
 
----
+Style:
+- Angle: ${styleGuide.angle}
+- Tone: ${styleGuide.tone}
+- Subject line: ${styleGuide.subject_line_style}
+- Sign-off: ${styleGuide.sign_off_style}
 
-ANGLE: ${styleGuide.angle}
-
-TONE: ${styleGuide.tone}
-
-SUBJECT LINE STYLE: ${styleGuide.subject_line_style}
-
-SIGN-OFF STYLE: ${styleGuide.sign_off_style}
-
----
-
-Include this Ouro description naturally in the email:
+Include this Ouro description:
 "${styleGuide.ouro_description}"
 
-End with this call to action (you can adjust slightly to fit the flow):
+End with this call to action:
 "${styleGuide.call_to_action}"
 
----
-
-Requirements:
-1. Keep the body under 100 words
-2. Reference their research casually, like a friend would - NOT like you're quoting their abstract
-   - BAD: "deploying GNSS receiver arrays across Antarctica to track ionospheric space weather"
-   - GOOD: "deploying GNSS arrays across Antarctica"
-   - BAD: "coordinating multi-constellation, multi-frequency data that's typically scattered"
-   - GOOD: "making sense of scattered GNSS data"
-3. Use simple, everyday language - strip out jargon and overly technical phrasing
-4. The subject should be short and casual, not a mini-abstract
-5. Avoid stacking multiple specific details - one casual reference to their work is enough
-6. Write naturally - this should feel like a real email, not a template
+Guidelines:
+- Keep body under 120 words
+- Recognize their research area/position briefly - don't fake enthusiasm or claim things "caught your eye"
+- Don't mention the institution name
+- Don't use salesy phrases like "perfectly aligned", "incredible work", "seems like exactly what"
+- Be straightforward: you're offering a service that might be useful to them
+- Subject should be short and natural
 
 Use the create_email tool to return the email.`;
 }
 
 /**
+ * Check if an award has already been processed (draft, approved, sent, or skipped)
+ */
+function isAlreadyProcessed(awardId) {
+  const processed = new Set([
+    ...listIds("drafts"),
+    ...listIds("approved"),
+    ...listIds("sent"),
+    ...listIds("skipped"),
+  ]);
+  return processed.has(awardId);
+}
+
+/**
+ * Extract first name from full name
+ */
+function getFirstName(fullName) {
+  if (!fullName) return "";
+  return fullName.split(" ")[0];
+}
+
+/**
  * Generate an email draft for a single award
  */
-export async function generateEmail(award) {
+export async function generateEmail(award, options = {}) {
   if (!hasValidContact(award)) {
     throw new Error("Award does not have valid PI email");
+  }
+
+  const awardId = award.awardNumber || award._id;
+  if (isAlreadyProcessed(awardId)) {
+    throw new Error(
+      `Award ${awardId} has already been processed (draft, approved, sent, or skipped)`
+    );
   }
 
   const variants = selectVariants();
@@ -171,8 +199,32 @@ export async function generateEmail(award) {
     throw new Error("Response missing subject or body");
   }
 
+  // Append signature with name, role and website
+  const senderName = options.senderName || process.env.FROM_NAME || "";
+  const firstName = getFirstName(senderName);
+
+  // Ensure closing has a comma if it's a common sign-off word
+  let body = emailData.body.trim();
+  const commonClosings = ["Best", "Cheers", "Thanks", "Regards", "Sincerely"];
+  const lines = body.split("\n");
+  const lastLine = lines[lines.length - 1].trim();
+  const lastWord = lastLine
+    .split(/[\s,]+/)
+    .filter(Boolean)
+    .pop();
+
+  // If the last line ends with a closing word but no comma, add one
+  if (commonClosings.includes(lastWord) && !lastLine.endsWith(",")) {
+    lines[lines.length - 1] = lastLine + ",";
+    body = lines.join("\n");
+  }
+
+  const signature = firstName
+    ? `\n\n${senderName}\nhttps://ouro.foundation`
+    : `\n\nBuilding Ouro\nhttps://ouro.foundation`;
+  const bodyWithSignature = `${body}${signature}`;
+
   // Build the full email record
-  const awardId = award.awardNumber || award._id;
   const awardAmount = award.awd_amount || award.tot_intn_awd_amt || null;
 
   return {
@@ -183,7 +235,7 @@ export async function generateEmail(award) {
     award_title: award.title,
     award_amount: awardAmount,
     subject: emailData.subject,
-    body: emailData.body,
+    body: bodyWithSignature,
     variants: {
       template_id: variants.template.id,
       template_name: variants.template.name,
@@ -210,13 +262,15 @@ export function saveDraft(email) {
  * Generate emails for multiple awards
  */
 export async function generateEmails(awards, options = {}) {
-  const { limit = 10, onProgress } = options;
+  const { limit = 10, onProgress, senderName } = options;
   const results = {
     generated: [],
     errors: [],
   };
 
-  const toProcess = awards.slice(0, limit);
+  // Shuffle awards to randomize processing order
+  const shuffled = shuffleArray(awards);
+  const toProcess = shuffled.slice(0, limit);
 
   for (let i = 0; i < toProcess.length; i++) {
     const award = toProcess[i];
@@ -227,7 +281,7 @@ export async function generateEmails(awards, options = {}) {
     }
 
     try {
-      const email = await generateEmail(award);
+      const email = await generateEmail(award, { senderName });
       const filepath = saveDraft(email);
       results.generated.push({ awardId, filepath });
     } catch (err) {

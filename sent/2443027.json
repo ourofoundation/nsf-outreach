@@ -1,0 +1,19 @@
+{
+  "award_id": "2443027",
+  "pi_name": "Stefano Martiniani",
+  "pi_email": "sm7683@nyu.edu",
+  "institution": "New York University",
+  "award_title": "CAREER: Quantifying the Complexity of Materials Landscapes by Basin Sampling",
+  "award_amount": 280000,
+  "subject": "Thanks for mapping the materials landscape",
+  "body": "Hi Stefano,\n\nI've been following your work on counting and sampling material structures—it's the kind of fundamental question that makes computational science exciting.\n\nI'm building Ouro, a platform for sharing computational tools and datasets in a way that's actually usable, not just a zip file in supplementary materials.\n\nGiven how much your work bridges materials discovery and method development, I thought it might resonate. Would love to hear if this could be useful for your group.\n\nThanks",
+  "variants": {
+    "template_id": 1,
+    "template_name": "grateful",
+    "ouro_description_id": 2,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-23T02:54:49.235Z",
+  "sent_at": "2025-12-23T14:35:28.203Z",
+  "resend_id": "490b4919-a8c3-43c5-816e-2ee96838f4cf"
+}

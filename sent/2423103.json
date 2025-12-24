@@ -1,0 +1,19 @@
+{
+  "award_id": "2423103",
+  "pi_name": "Ryan S Senger",
+  "pi_email": "senger@vt.edu",
+  "institution": "Virginia Polytechnic Institute and State University",
+  "award_title": "PFI (MCA): High-Throughput Portable Biosensors for Detecting Toxins and Monitoring Health",
+  "award_amount": 425118,
+  "subject": "Your grad students' biosensor work",
+  "body": "Hi Ryan,\n\nI saw your work on portable biosensors for toxin detection and thought about the students and postdocs building the AI/ML models and testing protocols in your lab.\n\nI'm building Ouro, a platform for sharing computational tools and datasets in a way that's actually usable, not just a zip file in supplementary materials.\n\nWhen your students publish tools that other labs can actually use, it becomes a real career asset—something concrete they can point to on the job market.\n\nWould a 15-minute call be useful to see if it fits your workflow?\n\nBest,\n\nMatt\nFounder\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 2,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-23T18:17:33.921Z",
+  "sent_at": "2025-12-23T19:46:32.232Z",
+  "resend_id": "6a02ac3c-9e5e-48ad-b782-78bb4896a0aa"
+}

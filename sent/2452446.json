@@ -1,0 +1,19 @@
+{
+  "award_id": "2452446",
+  "pi_name": "Anatoly I Frenkel",
+  "pi_email": "anatoly.frenkel@stonybrook.edu",
+  "institution": "SUNY at Stony Brook",
+  "award_title": "Collaborative Research: Photocatalytic Activity Descriptors of Well-defined Surface Cobalt Sites on Carbon Nitride",
+  "award_amount": 300000,
+  "subject": "Credit for computational methods in photocatalysis",
+  "body": "Professor Frenkel,\n\nYour collaborative work on photocatalytic descriptors involves machine learning-assisted spectroscopic analysis—computational methods that often go uncited even when others build on them.\n\nOuro helps researchers share computational tools and datasets in a way that's actually usable and durable, rather than a zip file buried in supplementary materials. Citations capture acknowledgment, but not actual influence. Ouro makes computational work both citable and visibly used.\n\nLet me know if you'd like to poke around.\n\nBest,\n\nMatt\nFounder\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 2,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-23T19:34:46.206Z",
+  "sent_at": "2025-12-23T19:54:34.210Z",
+  "resend_id": "3e43be2c-f0d9-4f29-b1da-cf2bc0463f97"
+}

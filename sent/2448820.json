@@ -1,0 +1,19 @@
+{
+  "award_id": "2448820",
+  "pi_name": "James M Broering",
+  "pi_email": "jyzb@novonesis.com",
+  "institution": "NOVOZYMES, INC",
+  "award_title": "Ideas Lab: USPRD: Enabling cell-free synthesis of longer human milk oliogosaccharides",
+  "award_amount": 2137722,
+  "subject": "Re: sharing enzyme design models across HMO work",
+  "body": "Hi James,\n\nI've been thinking about projects using AlphaFold/RFDiffusion for glycosyltransferase engineering—there's this recurring tension between generating useful design insights and making those models reusable beyond the original paper.\n\nYour work on cell-free HMO synthesis seems like it'll produce datasets and workflows that could be valuable infrastructure for others working on glycosylation enzymes.\n\nThat's what led me to Ouro—it's a way to make computational work discoverable, reusable, and citable, so methods live on as infrastructure, not just text in a methods section.\n\nI can set up access for your lab if you want to take a glance.\n\nBest,\n\nMatt\nFounder\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 3,
+    "template_name": "curious",
+    "ouro_description_id": 4,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-23T19:30:51.350Z",
+  "sent_at": "2025-12-23T19:53:33.953Z",
+  "resend_id": "7adf5e2a-58c3-4bfc-bada-627634d059b8"
+}

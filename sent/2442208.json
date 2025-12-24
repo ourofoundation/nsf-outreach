@@ -1,0 +1,19 @@
+{
+  "award_id": "2442208",
+  "pi_name": "Natalie Boehnke",
+  "pi_email": "nboehnke@umn.edu",
+  "institution": "University of Minnesota-Twin Cities",
+  "award_title": "CAREER: Barcoded Hydrogels: A Multifunctional Platform for Biomaterials Discovery and Development",
+  "award_amount": 134259,
+  "subject": "Your barcoded hydrogels shouldn't stop at the paper",
+  "body": "Hi Natalie,\n\nYour barcoding platform for testing hydrogels at scale is exactly the kind of tool other labs should be using, not just reading about.\n\nI'm working on Ouro, which helps researchers share computational work (workflows, datasets, notebooks) in a way that's actually reproducible and discoverable by others in your field.\n\nIf you're generating screening data or analysis pipelines from this work, Ouro could help make sure they actually get used beyond your group.\n\nHappy to show you how it works if you're curious.\n\nBest",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 5,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-23T02:54:44.334Z",
+  "sent_at": "2025-12-23T14:35:18.025Z",
+  "resend_id": "c0050d33-a4b3-4d51-a917-a2adfccd5373"
+}

@@ -36,14 +36,6 @@ export function getApprovedEmails() {
 }
 
 /**
- * Extract first name from full name
- */
-function getFirstName(fullName) {
-  if (!fullName) return "";
-  return fullName.split(" ")[0];
-}
-
-/**
  * Send a single email via Resend
  */
 export async function sendEmail(email, options = {}) {
@@ -56,9 +48,8 @@ export async function sendEmail(email, options = {}) {
   const from = fromName ? `${fromName} <${fromEmail}>` : fromEmail;
   const replyTo = replyToEmail || fromEmail;
 
-  // Append sender's first name after "Best,"
-  const firstName = getFirstName(fromName);
-  const body = firstName ? `${email.body}\n${firstName}` : email.body;
+  // Body already includes signature with name, role, and website from generation
+  const body = email.body;
 
   if (dryRun) {
     return {

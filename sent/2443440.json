@@ -1,0 +1,20 @@
+{
+  "skipped": false,
+  "award_id": "2443440",
+  "pi_name": "Hannah Kerner",
+  "pi_email": "hkerner@asu.edu",
+  "institution": "Arizona State University",
+  "award_title": "CAREER: AI for the Digital Planet - Advancing Machine Learning for Satellite Remote Sensing Data for the Future",
+  "award_amount": 344819,
+  "subject": "Getting credit for your satellite ML datasets and tools",
+  "body": "Dr. Kerner,\n\nI'm working on Ouro, which helps researchers share computational work (workflows, datasets, notebooks) in a way that's actually reproducible and discoverable by others in your field.\n\nYour work on geospatial foundation models and satellite remote sensing datasets—especially the deployment-focused approach with NASA Harvest—seems like it would benefit from making those tools properly citable and trackable.\n\nHappy to get your group set up if you want to see how it works.\n\nBest,\n\nMatt\nFounder\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 5,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-23T19:09:23.824Z",
+  "sent_at": "2025-12-23T19:50:33.196Z",
+  "resend_id": "a3f6af18-36c9-4d5f-b4e7-d87904913a10"
+}

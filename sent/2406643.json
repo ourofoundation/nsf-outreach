@@ -1,0 +1,19 @@
+{
+  "award_id": "2406643",
+  "pi_name": "Matthew R Hudson",
+  "pi_email": "mhudson3@stevenson.edu",
+  "institution": "Stevenson University",
+  "award_title": "MRI Track 1: Acquisition of a 80 MHz NMR to Facilitate Undergraduate Research and Education at Stevenson University",
+  "award_amount": 149882,
+  "subject": "Getting credit for computational chemistry work",
+  "body": "Hi Dr. Hudson,\n\nI saw your work with NMR at Stevenson and the computational side of characterizing those metal-organic frameworks and ligand complexes. \n\nI'm working on Ouro, which helps researchers share computational work (workflows, datasets, notebooks) in a way that's actually reproducible and discoverable by others in your field. The idea is that your datasets and tools deserve to be cited, not just used invisibly.\n\nWould love to hear if this could be useful for your group.\n\nBest",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 5,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-23T14:18:03.662Z",
+  "sent_at": "2025-12-23T14:34:37.370Z",
+  "resend_id": "3205ef60-8477-4d2f-974c-757edb40f36a"
+}

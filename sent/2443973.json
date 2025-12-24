@@ -1,0 +1,19 @@
+{
+  "award_id": "2443973",
+  "pi_name": "Francis J Panetta",
+  "pi_email": "jpanetta@ucdavis.edu",
+  "institution": "University of California-Davis",
+  "award_title": "CAREER: Optimal Design of Robust Nonlinear Elastic Metamaterials",
+  "award_amount": 299039,
+  "subject": "Your metamaterial design tools should outlive the paper",
+  "body": "Francis,\n\nYou're developing open-source design software for elastic metamaterials—tools that could actually get used in soft robotics, prosthetics, deployable structures. But most computational methods die with the paper.\n\nI'm building Ouro, a place to publish your computational workflows as APIs with a Python SDK so other researchers can call your methods directly. Your work becomes infrastructure others build on, not just a paper they cite.\n\nHappy to set you up with access if you want to poke around.\n\nBest,\n\nMatt\nFounder\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 3,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-23T18:57:27.562Z",
+  "sent_at": "2025-12-23T19:52:33.689Z",
+  "resend_id": "39b45738-206d-486b-bc91-d41a1b64bdf3"
+}

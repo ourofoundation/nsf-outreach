@@ -1,0 +1,19 @@
+{
+  "award_id": "2502900",
+  "pi_name": "Wei Zhu",
+  "pi_email": "weizhu@gatech.edu",
+  "institution": "Georgia Tech Research Corporation",
+  "award_title": "CDS&E: Robust Symmetry-Preserving Machine Learning: Theory and Application",
+  "award_amount": 148657,
+  "subject": "Making computational methods reusable beyond the paper",
+  "body": "Hi Wei,\n\nNSF increasingly expects computational work to be accessible and reusable, but that's hard to evidence in practice—especially for methods involving symmetry-preserving architectures and geometric deep learning.\n\nOuro provides a thin API layer over computational workflows, letting other researchers reuse methods directly instead of recreating them from papers. It makes demonstrating real-world accessibility simpler without major workflow changes.\n\nHappy to give you a quick peek if it's useful.\n\nBest,\n\nMatt\nFounder\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 3,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-23T19:34:50.869Z",
+  "sent_at": "2025-12-23T19:55:34.443Z",
+  "resend_id": "841a9a13-f2e0-4a42-8942-a231fc67e204"
+}

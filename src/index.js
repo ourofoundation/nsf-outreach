@@ -100,6 +100,7 @@ program
   .option("-y, --year <year>", "Year to process", "2024")
   .option("-l, --limit <number>", "Maximum emails to generate", "10")
   .option("-k, --keywords <keywords>", "Filter by keywords (comma-separated)")
+  .option("--from-name <name>", "Sender name for signature")
   .action(async (options) => {
     ensureDirs();
 
@@ -133,8 +134,11 @@ program
     );
     console.log(`Generating up to ${chalk.cyan(limit)} drafts...\n`);
 
+    const senderName = options.fromName || process.env.FROM_NAME;
+
     const results = await generateEmails(awards, {
       limit,
+      senderName,
       onProgress: ({ current, total, awardId }) => {
         console.log(
           chalk.dim(`[${current}/${total}]`) +

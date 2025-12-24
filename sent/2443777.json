@@ -1,0 +1,19 @@
+{
+  "award_id": "2443777",
+  "pi_name": "Arpit Gupta",
+  "pi_email": "arpitgupta@cs.ucsb.edu",
+  "institution": "University of California-Santa Barbara",
+  "award_title": "CAREER: Developing Generalizable ML Models for Diverse Learning Problems in Network Operations",
+  "award_amount": 394991,
+  "subject": "re: generalizable ML models",
+  "body": "Hey Arpit,\n\nI saw your CAREER work on ML generalizability for network operations. The closed-loop refinement approach makes sense—I've hit similar walls trying to get models to work outside the original training environment.\n\nI built something that might be relevant. Ouro helps turn computational workflows, datasets, and notebooks into reusable building blocks that others in your field can actually plug into their work. Seemed like it could fit with making your data collection platform and model implementations more accessible.\n\nHappy to give you a quick peek if it's useful.\n\nBest,\n\nMatt\nFounder\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 2,
+    "template_name": "peer",
+    "ouro_description_id": 5,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-23T19:44:51.037Z",
+  "sent_at": "2025-12-23T19:51:33.431Z",
+  "resend_id": "5413a8b2-43be-4bfc-a087-b9ddac3bc935"
+}

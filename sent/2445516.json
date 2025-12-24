@@ -1,0 +1,19 @@
+{
+  "award_id": "2445516",
+  "pi_name": "Yogesh K Vohra",
+  "pi_email": "ykvohra@uab.edu",
+  "institution": "University of Alabama at Birmingham",
+  "award_title": "REU-Site: Regional Initiative to Promote Undergraduate Participation in Experimental and Computational Materials Research",
+  "award_amount": 387231,
+  "subject": "Making REU research outputs easier to share",
+  "body": "Hi Dr. Vohra,\n\nYour REU program is doing impressive work—getting undergrads hands-on with materials research and national lab facilities. I imagine grant reporting on accessibility and impact is always top of mind.\n\nI'm working on Ouro, which helps researchers share computational work (workflows, datasets, notebooks) in a way that's actually reproducible and discoverable by others in your field. It's designed to make demonstrating real-world use straightforward for NSF reports.\n\nWould a 15-minute call be useful to see if it fits your workflow?\n\nBest",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 5,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-23T02:54:54.371Z",
+  "sent_at": "2025-12-23T14:35:38.415Z",
+  "resend_id": "afad166b-fef7-478e-a664-0af74941ba11"
+}

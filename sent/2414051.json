@@ -1,0 +1,19 @@
+{
+  "award_id": "2414051",
+  "pi_name": "Ahmed Aziz Ezzat",
+  "pi_email": "aziz.ezzat@rutgers.edu",
+  "institution": "Rutgers University New Brunswick",
+  "award_title": "Collaborative Research: Data Science-Enabled Learning, Prediction and Simulation of Nanoparticle Population Behavior for Advanced Nanomanufacturing",
+  "award_amount": 269542,
+  "subject": "Learning from tiny particle populations",
+  "body": "Hey Ahmed,\n\nI came across your work combining point process theory with E-TEM data to understand how nanoparticles evolve—really cool stuff.\n\nI'm building Ouro, where researchers publish datasets and computational tools as APIs that others can actually use, not just read about in a methods section. Your group's work becomes discoverable and citable.\n\nI feel like your spatio-temporal models and segmentation pipelines are exactly the kind of thing that should be out there for others to build on.\n\nWould you be open to a quick chat?\n\nBest,",
+  "variants": {
+    "template_id": 2,
+    "template_name": "peer",
+    "ouro_description_id": 4,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-23T14:21:11.280Z",
+  "sent_at": "2025-12-23T14:34:47.543Z",
+  "resend_id": "81871048-5bf7-4e62-9217-cf6a7468fec2"
+}

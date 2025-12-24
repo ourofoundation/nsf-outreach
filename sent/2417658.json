@@ -1,0 +1,19 @@
+{
+  "award_id": "2417658",
+  "pi_name": "Aman Arora",
+  "pi_email": "aman.kbm@asu.edu",
+  "institution": "Arizona State University",
+  "award_title": "CSR: Small: Full-Stack Compute-In-Memory for FPGAs",
+  "award_amount": 644035,
+  "subject": "Training the next generation on FPGA + CIM work",
+  "body": "Hi Aman,\n\nYour work on making FPGAs more programmable got me thinking about your students and postdocs. When they build tools for CIM-enabled FPGAs, those contributions should boost their careers before they hit the job market.\n\nI'm building Ouro, where researchers publish datasets and computational tools as APIs that others can actually use, not just read about in a methods section. Your group's work becomes discoverable and citable.\n\nA student's tool getting picked up by other labs is a powerful asset. Happy to show you how it works if you're curious.\n\nBest",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 4,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-23T14:32:34.540Z",
+  "sent_at": "2025-12-23T14:35:07.862Z",
+  "resend_id": "5d4a869d-68e9-4288-acd7-8b2c668c1f39"
+}

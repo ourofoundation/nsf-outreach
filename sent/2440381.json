@@ -1,0 +1,19 @@
+{
+  "award_id": "2440381",
+  "pi_name": "Xiaolei Huang",
+  "pi_email": "xiaolei.huang@memphis.edu",
+  "institution": "University of Memphis",
+  "award_title": "CAREER: Temporal Learning Towards Trustworthy Decision for Healthcare",
+  "award_amount": 500000,
+  "subject": "Your students' temporal ML work",
+  "body": "Hi Xiaolei,\n\nI saw your CAREER award on temporal learning for healthcare ML. As you're training the next generation in this space, I thought Ouro might be useful for your group.\n\nI'm building Ouro, a place to publish your computational workflows as APIs with a Python SDK so other researchers can call your methods directly. Your work becomes infrastructure others build on, not just a paper they cite.\n\nFor grad students and postdocs, having their tools used by other labs is a real career asset—builds their reputation before the job market.\n\nLet me know if you'd like to take it for a spin.\n\nBest,\n\nMatt\nFounder\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 3,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-23T19:13:31.408Z",
+  "sent_at": "2025-12-23T19:49:32.961Z",
+  "resend_id": "f570fd54-dd85-4cab-8feb-26bba379f637"
+}

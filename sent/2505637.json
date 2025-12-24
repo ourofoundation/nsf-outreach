@@ -1,0 +1,19 @@
+{
+  "award_id": "2505637",
+  "pi_name": "Brandi Cossairt",
+  "pi_email": "cossairt@chem.washington.edu",
+  "institution": "University of Washington",
+  "award_title": "Magic-Sized Clusters as Universal Intermediates for Nanomaterials Discovery",
+  "award_amount": 780000,
+  "subject": "Making your nanocrystal work easier to share",
+  "body": "Hi Brandi,\n\nI came across your work on magic-sized clusters and nanocrystals at UW. With all the synthesis methods and cluster-to-nanocrystal conversion data you're generating, I imagine you get the occasional \"code available upon request\" email.\n\nI'm working on Ouro, which helps researchers share computational work (workflows, datasets, notebooks) in a way that's actually reproducible and discoverable by others in your field. Put it up once, point people there forever.\n\nWould you be open to a quick chat?\n\nBest",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 5,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-23T02:54:59.065Z",
+  "sent_at": "2025-12-23T14:35:48.583Z",
+  "resend_id": "5ab660cc-1e72-49d7-8634-16789085dc67"
+}

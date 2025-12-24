@@ -1,0 +1,19 @@
+{
+  "award_id": "2432499",
+  "pi_name": "Ying Gu",
+  "pi_email": "yug13@psu.edu",
+  "institution": "Pennsylvania State Univ University Park",
+  "award_title": "Proteomic approaches and live-cell imaging reveal unique aspects of delivery of cellulose synthase complexes to the plasma membrane",
+  "award_amount": 1206583,
+  "subject": "Question about the CSC trafficking dynamics",
+  "body": "Hi Ying,\n\nI was reading about your work on cellulose synthase trafficking and got curious about the machine learning piece—are you using it to track the exocytosis/endocytosis patterns in your live-cell imaging data?\n\nI'm working on Ouro, which helps researchers share computational work (workflows, datasets, notebooks) in a way that's actually reproducible and discoverable by others in your field.\n\nHappy to get your group set up if you want to see how it works.\n\nBest,\n\nMatt\nFounder\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 3,
+    "template_name": "curious",
+    "ouro_description_id": 5,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-23T18:43:34.806Z",
+  "sent_at": "2025-12-23T19:47:32.479Z",
+  "resend_id": "78fcc4b8-eff8-47fe-ab56-62dc75fba6b4"
+}
