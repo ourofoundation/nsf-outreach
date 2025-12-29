@@ -1,0 +1,19 @@
+{
+  "award_id": "2431978",
+  "pi_name": "Kenneth M Sylvester",
+  "pi_email": "kenms@umich.edu",
+  "institution": "Regents of the University of Michigan - Flint",
+  "award_title": "Strategic Use-Inspired Research Growth and Engagement (SURGE): a model for Regional Public Universities",
+  "award_amount": 3372553,
+  "subject": "Training the next generation at RPUs",
+  "body": "Hi Kenneth,\n\nWith your focus on building research capacity and training STEM workforce at regional public universities, I thought this might be relevant as the semester winds down.\n\nWhen your trainees build computational tools as part of use-inspired research projects, Ouro provides a thin API layer over computational workflows, letting other researchers reuse methods directly instead of recreating them from papers. Their names and your lab's lineage travel with the tool each time it's reused—creating visible, durable contributions beyond individual papers.\n\nHappy to give you a quick peek if it's useful. Hope you have a great winter break and happy holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 3,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-26T14:16:32.072Z",
+  "sent_at": "2025-12-26T14:32:39.774Z",
+  "resend_id": "a9332a33-f6e4-4f37-b626-eabe644736fa"
+}

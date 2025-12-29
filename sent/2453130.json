@@ -1,0 +1,19 @@
+{
+  "award_id": "2453130",
+  "pi_name": "Pavel Nagorny",
+  "pi_email": "nagorny@umich.edu",
+  "institution": "Regents of the University of Michigan - Ann Arbor",
+  "award_title": "Development of Immobilized Chiral Bronsted Acids and Their Exploration in Asymmetric Catalysis",
+  "award_amount": 350000,
+  "subject": "catalyst tuning workflows",
+  "body": "Hi Pavel,\n\nI've been thinking about how chemists designing recyclable catalysts handle the iterative process of testing polymer modifications and reaction conditions—seems like there's a lot of computational trial-and-error that could be reused across labs but usually just lives in someone's notebook.\n\nThat's what got us building Ouro. We help researchers package their computational workflows and datasets so they become modular pieces others can actually build on.\n\nWould you be open to a quick chat in the new year?\n\nHope you're having a good holiday season.\n\nCheers,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 3,
+    "template_name": "curious",
+    "ouro_description_id": 5,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-28T00:49:00.882Z",
+  "sent_at": "2025-12-28T01:00:19.207Z",
+  "resend_id": "7f5020c6-af98-4213-9ba3-18bb238cc0cf"
+}

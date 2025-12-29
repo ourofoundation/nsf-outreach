@@ -1,0 +1,19 @@
+{
+  "award_id": "2510380",
+  "pi_name": "Kesete Ghebreyessus",
+  "pi_email": "Kesete.Ghebreyessus@Hamptonu.edu",
+  "institution": "Hampton University",
+  "award_title": "Targeted Infusing Project: Integrating Chemistry Research with Analytical and Forensic Chemistry Education to Enhance Undergraduate Research, Pedagogy, and Workforce Development",
+  "award_amount": 399940,
+  "subject": "methods that outlive the paper",
+  "body": "Hi Kesete,\n\nBuilding out CUREs for analytical and forensic chemistry—that's a lot of method development that ideally students could actually build on, not just read about in a lab manual.\n\nI've been working on something called Ouro after running into this problem myself. Ouro is a way to make computational work discoverable, reusable, and citable—so methods live on as infrastructure, not just text in a methods section.\n\nFigured it might be relevant given the trace analysis and forensic method development you're doing. The gap between \"we published this\" and \"someone can actually use it\" is real.\n\nHappy to give you a quick peek if it's useful.\n\nHope winter break treats you well—happy holidays.\n\nCheers,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 2,
+    "template_name": "peer",
+    "ouro_description_id": 4,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-27T15:10:24.010Z",
+  "sent_at": "2025-12-27T15:43:31.055Z",
+  "resend_id": "0cf91077-cc86-4aaa-aa6b-13690b1f6d15"
+}

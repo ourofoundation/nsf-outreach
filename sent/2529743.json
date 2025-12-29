@@ -1,0 +1,19 @@
+{
+  "award_id": "2529743",
+  "pi_name": "Sandra J Shefelbine",
+  "pi_email": "s.shefelbine@neu.edu",
+  "institution": "Northeastern University",
+  "award_title": "Collaborative Research: Bones and Burrowing: Mechanoadaptation in phylogeny, ontogeny and ecology of Peromyscus",
+  "award_amount": 509000,
+  "subject": "Re: methods reuse in biomechanics",
+  "body": "Sandra,\n\nMost computational methods get published once and never run again—even when they'd be useful to others.\n\nI'm working on Ouro, which wraps computational workflows behind simple APIs so other researchers can actually reuse them without reimplementing everything.\n\nWondering if you've hit this with your imaging and modeling pipelines. A lot of biomechanics work seems to stay locked in individual labs.\n\nWorth a quick call in January?\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 3,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-28T01:23:55.036Z",
+  "sent_at": "2025-12-28T02:11:14.585Z",
+  "resend_id": "f8a287fd-0833-4fa4-b65d-bc311c27d5ce"
+}

@@ -1,0 +1,19 @@
+{
+  "award_id": "2441937",
+  "pi_name": "Christopher Clayton",
+  "pi_email": "christopher.clayton@yale.edu",
+  "institution": "National Bureau of Economic Research Inc",
+  "award_title": "CAREER: Understanding Geoecoconomic Factors for Achieving Geopolitical and Economic Objectives",
+  "award_amount": 250000,
+  "subject": "Making quantitative models reusable",
+  "body": "Estimation pipelines with multiple stages—data construction, calibration, counterfactuals—rarely get reused. Others can't easily reproduce your workflow or build on your estimated parameters.\n\nI built Ouro as a thin API over computational work so researchers can call your methods directly instead of fighting with replication packages.\n\nWorth a quick chat? Taking a break for holidays, so no rush.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 3,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-28T01:43:39.865Z",
+  "sent_at": "2025-12-28T02:10:55.879Z",
+  "resend_id": "277d0aed-0d78-490e-94e6-70c1a614d346"
+}

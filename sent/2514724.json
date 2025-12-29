@@ -1,0 +1,19 @@
+{
+  "award_id": "2514724",
+  "pi_name": "Vikram L Dalal",
+  "pi_email": "vdalal@iastate.edu",
+  "institution": "Iowa State University",
+  "award_title": "EAGER: Novel high bandgap inorganic solar cell for tandem junction cells with CdTe",
+  "award_amount": 249999,
+  "subject": "Getting credit when simulation code gets reused",
+  "body": "Simulation outputs from parameter sweeps are nearly impossible to share—too big for supplements, code won't run outside your cluster.\n\nWe built Ouro to package computational workflows so others can actually build on them, not just cite them.\n\nQuick chat? Happy to wait until after the holidays if that's easier.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 5,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-29T00:04:00.997Z",
+  "sent_at": "2025-12-29T15:23:46.111Z",
+  "resend_id": "ae4deeba-c49d-4e92-bc10-db939f14e122"
+}

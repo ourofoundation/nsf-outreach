@@ -121,6 +121,34 @@ export function hasValidContact(award) {
 }
 
 /**
+ * Load all awards from staging folder
+ */
+export function loadStagingAwards() {
+  const stagingDir = DIRS.staging;
+  if (!fs.existsSync(stagingDir)) return [];
+
+  const ids = listIds("staging");
+  const awards = [];
+
+  for (const id of ids) {
+    const filepath = path.join(stagingDir, `${id}.json`);
+    const award = readJson(filepath);
+    if (!award) continue;
+
+    // Normalize field names for easier access
+    award.title = award.awd_titl_txt || award.title || "";
+    award.abstractText =
+      award.awd_abstract_narration || award.abstractText || "";
+    award.awardNumber = award.awd_id || award.awardNumber || id;
+    award._id = id;
+
+    awards.push(award);
+  }
+
+  return awards;
+}
+
+/**
  * Get scan statistics for awards
  */
 export function getScanStats(year, keywords = []) {

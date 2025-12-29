@@ -1,0 +1,19 @@
+{
+  "award_id": "2524729",
+  "pi_name": "Ming Hu",
+  "pi_email": "mhu1@nd.edu",
+  "institution": "University of Notre Dame",
+  "award_title": "Machine Learning-enabled Screening LCA method and Tool (M-SLCA) - A Chatbot Solution for Sustainable Manufacturing",
+  "award_amount": 450000,
+  "subject": "Where do the model weights actually go?",
+  "body": "You're building an ML screening tool, which means eventually someone will ask \"can I reproduce this?\" Model weights, training configs, dependencies—they rarely make it into papers.\n\nWe built Ouro to make computational work discoverable, reusable, and citable—methods as infrastructure, not just text.\n\nOpen to chatting in the new year?\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 3,
+    "template_name": "curious",
+    "ouro_description_id": 4,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-28T15:15:12.942Z",
+  "sent_at": "2025-12-28T15:20:41.357Z",
+  "resend_id": "910a6d8e-5ecf-4769-be18-f1c62e60dbff"
+}

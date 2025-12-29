@@ -1,0 +1,19 @@
+{
+  "award_id": "2525928",
+  "pi_name": "Lindsey Applegate",
+  "pi_email": "lindseyapplegate@webster.edu",
+  "institution": "Webster University",
+  "award_title": "Beginnings: Biotechnology Industry Opportunities, Professional Readiness, and Employment Program",
+  "award_amount": 783379,
+  "subject": "Reducing the friction of sharing lab methods",
+  "body": "Hi Lindsey,\n\nWith BIO-PREP focused on building technical skillsets and industry readiness for biotech careers, I imagine you're fielding a fair amount of requests—students asking for scripts, employers wanting to see curriculum materials, other programs looking to replicate what you've built.\n\nOuro provides a thin API layer over computational workflows, letting other researchers reuse methods directly instead of recreating them from papers. It's a way to consolidate the work you're already doing—sharing code, answering emails, digging up old materials—into a single durable endpoint.\n\nWith winter break coming up, I'll keep this brief. Happy to give you a quick peek if it's useful.\n\nHappy holidays,\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 3,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-26T16:03:56.755Z",
+  "sent_at": "2025-12-26T16:17:43.234Z",
+  "resend_id": "bf68f736-309a-409d-a160-6a0948f315ca"
+}

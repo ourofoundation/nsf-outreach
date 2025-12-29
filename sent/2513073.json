@@ -1,0 +1,19 @@
+{
+  "award_id": "2513073",
+  "pi_name": "Hyesuk K Lee",
+  "pi_email": "hklee@clemson.edu",
+  "institution": "Clemson University",
+  "award_title": "Decoupling algorithms for fluid-structure interaction problems: Advances in theory, methodology, and applications",
+  "award_amount": 303199,
+  "subject": "FSI solvers people can reuse, not just cite",
+  "body": "Finite element code for coupled systems rarely transfers—works on your cluster, breaks everywhere else. Your Schur complement methods get cited but not used.\n\nBuilt Ouro as an API layer over computational workflows. Other researchers can call your methods directly instead of rebuilding from scratch.\n\nWorth a quick call after holidays?\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 3,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-28T01:41:35.901Z",
+  "sent_at": "2025-12-28T02:11:06.433Z",
+  "resend_id": "0b5e9a6f-7c8a-48a0-a88e-f1f4d33eb467"
+}

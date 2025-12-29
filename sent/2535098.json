@@ -1,0 +1,19 @@
+{
+  "award_id": "2535098",
+  "pi_name": "Jia Niu",
+  "pi_email": "jia.niu@bc.edu",
+  "institution": "Boston College",
+  "award_title": "NSF-ANR CHE: Stereocontrolled Radical Polymerization of Linear and Cyclic Vinyl Monomers Through Cobalt-Based Metalloradical Catalysis",
+  "award_amount": 600000,
+  "subject": "Your stereocontrolled polymer synthesis work — getting used beyond the paper",
+  "body": "Hi Dr. Niu,\n\nYour NSF-ANR project on cobalt-based metalloradical catalysis for biodegradable plastics addresses a real challenge in polymer chemistry. The problem is that computational workflows and datasets from research like yours often don't get reused—they stay locked in papers.\n\nOuro helps turn computational workflows, datasets, and notebooks into reusable building blocks that others in your field can actually plug into their work.\n\nIf you're curious, I can show you how it works.\n\nHope you're having a good winter break and happy holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 5,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-26T14:24:53.121Z",
+  "sent_at": "2025-12-26T14:38:41.631Z",
+  "resend_id": "fb192cc7-f252-4516-aa41-ba78e9daac54"
+}

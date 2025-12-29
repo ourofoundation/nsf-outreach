@@ -1,0 +1,19 @@
+{
+  "award_id": "2442285",
+  "pi_name": "Catherine F Whittington",
+  "pi_email": "cfwhittington@wpi.edu",
+  "institution": "Worcester Polytechnic Institute",
+  "award_title": "CAREER: Investigating Biophysical and Biochemical Drivers of Fibrosis Progression and Regression Across Diverse Engineered In Vitro Platforms",
+  "award_amount": 629998,
+  "subject": "For when \"see methods\" doesn't cut it",
+  "body": "Hi Catherine,\n\nMethods sections can't capture the actual image analysis pipelines—and you probably get emails asking how you quantified ECM remodeling or cell fate transformations across your three platforms.\n\nI built Ouro to turn computational methods into citable, reusable endpoints. It's meant to consolidate the work you're already doing (sharing scripts, answering questions, digging up old code) into one durable place.\n\nWould you be open to a quick chat in the new year?\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 4,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-29T14:34:04.979Z",
+  "sent_at": "2025-12-29T15:23:36.646Z",
+  "resend_id": "d9243429-5414-48e2-9299-8731275f2662"
+}

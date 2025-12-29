@@ -1,0 +1,19 @@
+{
+  "award_id": "2513254",
+  "pi_name": "Jiawang Nie",
+  "pi_email": "njw@math.ucsd.edu",
+  "institution": "University of California-San Diego",
+  "award_title": "Tight Relaxation Methods for Optimization",
+  "award_amount": 250000,
+  "subject": "How do people actually run your relaxation methods?",
+  "body": "Hi Jiawang,\n\nI've been thinking about how many optimization methods get published but never really make it out of the paper—someone reads it, likes the approach, but can't quite reconstruct the implementation details.\n\nWe're building Ouro to help with that. It's basically a thin API layer that lets researchers package their computational methods so others can actually use them without reinventing everything.\n\nWould you be open to a quick chat in January about whether this might be useful for your work?\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 3,
+    "template_name": "curious",
+    "ouro_description_id": 3,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-28T01:04:13.104Z",
+  "sent_at": "2025-12-28T01:12:58.097Z",
+  "resend_id": "d8731684-8e40-436b-a81e-9929f969bbb1"
+}

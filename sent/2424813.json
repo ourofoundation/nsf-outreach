@@ -1,0 +1,19 @@
+{
+  "award_id": "2424813",
+  "pi_name": "Justin W Graham",
+  "pi_email": "jwgraham01@uncfsu.edu",
+  "institution": "Fayetteville State University",
+  "award_title": "Supporting Undergraduate Success in Biology, Forensic Science, Mathematics, Computer Science, and Cybersecurity through Scholarships and Mentoring",
+  "award_amount": 1999980,
+  "subject": "Your scholars' work deserves wider reach",
+  "body": "Dr. Graham,\n\nYou're training the next generation of STEM researchers through your NSF scholarship program—biology, forensic science, computer science, cybersecurity, and more. The problem is that when these students publish methods or workflows, they often stay locked in papers instead of being reused in practice.\n\nOuro provides a thin API layer over computational workflows, letting other researchers reuse methods directly instead of recreating them from papers.\n\nIt could help your scholars' work reach beyond graduation and actually get used.\n\nI can set up access for your lab if you want to take a glance.\n\nHappy holidays—hope you get some downtime over winter break.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 3,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-26T14:24:35.730Z",
+  "sent_at": "2025-12-26T14:31:39.575Z",
+  "resend_id": "48c326dc-9f97-4aed-b3cd-8d19a1bfaaed"
+}

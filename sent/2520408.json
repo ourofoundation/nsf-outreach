@@ -1,0 +1,19 @@
+{
+  "award_id": "2520408",
+  "pi_name": "Gregory M Vogel",
+  "pi_email": "gmv23@cornell.edu",
+  "institution": "Cornell University",
+  "award_title": "AI-ENGAGE: Image-based phenotyping and multi-omic prediction schemes for horticultural crop improvement",
+  "award_amount": 400000,
+  "subject": "Imaging pipelines for crop phenotyping—what happens after the paper?",
+  "body": "Hi Gregory,\n\nI've been thinking about image segmentation models for measuring fruit traits—seems like the kind of method other breeding programs would want to use, but reimplementing from a paper is a pain.\n\nI'm building Ouro to turn published computational methods into callable tools that people can actually reuse without starting from scratch. Keeps seeing the same pattern: good methods that never leave the lab that made them.\n\nWould you be up for a quick chat about this in January?\n\nHope you have a great holiday.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 3,
+    "template_name": "curious",
+    "ouro_description_id": 1,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-28T01:03:41.070Z",
+  "sent_at": "2025-12-28T01:12:59.229Z",
+  "resend_id": "684d3b83-bde9-4bb7-b2fe-0e790d3a0a04"
+}

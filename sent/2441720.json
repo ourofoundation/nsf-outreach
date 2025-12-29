@@ -1,0 +1,19 @@
+{
+  "award_id": "2441720",
+  "pi_name": "Lauren G Shoemaker",
+  "pi_email": "lshoema1@uwyo.edu",
+  "institution": "University of Wyoming",
+  "award_title": "CAREER: Impacts of Environmental Filtering versus Species Interactions on Persistence and Coexistence in a Warming World",
+  "award_amount": 718324,
+  "subject": "Re: analysis pipelines that only the original grad student can run",
+  "body": "Training rotating students to run the same demographic model + data preprocessing workflow consistently is brutal. Scripts that made sense last field season become mysteries by next summer.\n\nBuilt Ouro so computational methods are citable and reusable—pipelines people can actually find and use, not just read about in methods sections.\n\nHappy to show you. Buried until January? Just ping me then.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 4,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-29T00:05:21.675Z",
+  "sent_at": "2025-12-29T15:23:35.484Z",
+  "resend_id": "e307143d-dcc9-4921-abc3-6e24aac39daf"
+}

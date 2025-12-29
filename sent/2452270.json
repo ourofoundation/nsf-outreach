@@ -1,0 +1,19 @@
+{
+  "award_id": "2452270",
+  "pi_name": "Michael R Wasielewski",
+  "pi_email": "m-wasielewski@northwestern.edu",
+  "institution": "Northwestern University",
+  "award_title": "Photogeneration and Control of Molecular Electron Spin Qubits for Quantum Information Science",
+  "award_amount": 630000,
+  "subject": "Stop digging up old analysis scripts for other groups",
+  "body": "Hi Michael,\n\nBet you've gotten at least a few \"can you share your ODMR analysis code?\" emails. Or had to explain the same processing pipeline twice.\n\nI built Ouro to turn that into a single API endpoint. It's a thin layer over computational methods that lets other researchers call your workflow directly instead of recreating it. Consolidates what you're already doing—sharing scripts, answering methodology questions—into something durable.\n\nWorth a quick call? No rush with the holidays, but happy to show you how it works.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 3,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-28T01:42:17.387Z",
+  "sent_at": "2025-12-28T02:11:01.706Z",
+  "resend_id": "a85b22aa-90c4-4a62-9492-6ada743605f5"
+}

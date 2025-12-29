@@ -1,0 +1,19 @@
+{
+  "award_id": "2512075",
+  "pi_name": "Frans Pretorius",
+  "pi_email": "fpretori@princeton.edu",
+  "institution": "Princeton University",
+  "award_title": "Dynamical, Strong-Field Gravity",
+  "award_amount": 320000,
+  "subject": "Your students' numerical methods living beyond the lab",
+  "body": "Hi Frans,\n\nYour group's work on numerical simulations of black hole collisions and strong-field gravity involves substantial computational method development—the kind of work that often stays locked in a methods section even when it could benefit other researchers.\n\nI'm reaching out about Ouro, a way to make computational work discoverable, reusable, and citable—so methods live on as infrastructure, not just text in a methods section.\n\nFor labs training the next generation of researchers, there's a nice side effect: when tools from your lab are reused elsewhere, your students' names and the lab's lineage travel with them. It's one way their contributions remain visible long after they've moved on.\n\nHappy to give you a quick peek if it's useful.\n\nWith winter break coming up, I hope you get some time to recharge. Happy holidays!\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 4,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-27T15:53:47.913Z",
+  "sent_at": "2025-12-27T15:58:47.081Z",
+  "resend_id": "97580e4e-fa72-4acd-ad23-79ceced5860d"
+}

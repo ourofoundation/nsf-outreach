@@ -1,0 +1,19 @@
+{
+  "award_id": "2529645",
+  "pi_name": "Negar Mehr",
+  "pi_email": "negar@berkeley.edu",
+  "institution": "University of California-Berkeley",
+  "award_title": "CPS-Small: Provable Enforcement of Hard Constraints in Reinforcement Learning-Based Controllers for Safety-Critical CPS",
+  "award_amount": 600000,
+  "subject": "Making RL safety work easier to reuse",
+  "body": "Hi Negar,\n\nI came across your NSF project on provable safety constraints for RL-based controllers. Given the focus on formal guarantees that transfer across training and deployment, I thought Ouro might be relevant.\n\nOuro provides a thin API layer over computational workflows, letting other researchers reuse methods directly instead of recreating them from papers.\n\nNSF increasingly expects broader impacts around accessibility and reuse, but it's hard to demonstrate that work is actually being used beyond citations. Ouro gives you a concrete way to show real-world engagement with your methods.\n\nHappy to give you a quick peek if it's useful.\n\nHope you get some rest over winter break—happy holidays!\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 3,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-27T15:36:55.471Z",
+  "sent_at": "2025-12-27T15:58:49.365Z",
+  "resend_id": "cbfcc402-81b1-4e7b-b8b6-c8e1b9e1bc18"
+}

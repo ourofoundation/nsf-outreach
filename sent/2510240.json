@@ -1,0 +1,19 @@
+{
+  "award_id": "2510240",
+  "pi_name": "Byron A Steinman",
+  "pi_email": "bsteinma@d.umn.edu",
+  "institution": "University of Minnesota Duluth",
+  "award_title": "MRI: Track 1 Acquisition of an Isotope Ratio Mass Spectrometer for Ecology, Paleolimnology, and Biogeochemical Research at the Large Lakes Observatory",
+  "award_amount": 656775,
+  "subject": "Training the next generation at LLO",
+  "body": "Hi Byron,\n\nWith the new IRMS coming to LLO, you'll have students running isotope analyses and developing methods that could be valuable beyond your lab. When those computational workflows get published as reusable tools, your trainees build visible, durable contributions—their names and your lab's lineage travel with the work as it gets reused elsewhere.\n\nOuro is a way to make computational work discoverable, reusable, and citable—so methods live on as infrastructure, not just text in a methods section.\n\nHappy to get your group a look if it's helpful, especially as things quiet down over winter break. Wishing you a happy holiday.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 4,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-26T14:16:25.617Z",
+  "sent_at": "2025-12-26T14:35:40.643Z",
+  "resend_id": "1b2d6703-629a-4ec3-afbc-227ebe94b145"
+}

@@ -1,0 +1,19 @@
+{
+  "award_id": "2504265",
+  "pi_name": "Oluwasanmi Koyejo",
+  "pi_email": "sanmi@cs.stanford.edu",
+  "institution": "Stanford University",
+  "award_title": "Collaborative Research: III: Medium: Advancing Large Language Model Unlearning: Foundations and Applications",
+  "award_amount": 266000,
+  "subject": "unlearning benchmarks and the artifact graveyard",
+  "body": "Hi Oluwasanmi,\n\nYour work on LLM unlearning—especially the interpretability-driven weight identification and benchmark development—sits in that frustrating zone where the methods matter but the artifacts tend to rot on GitHub within a year.\n\nI built Ouro after hitting this wall myself. Ouro helps researchers share computational tools and datasets in a way that's actually usable and durable, rather than a zip file buried in supplementary materials.\n\nGiven you're releasing algorithms and benchmarks across optimization, model, and data layers, figured it might be relevant.\n\nI can set up access for your lab if you want to take a glance.\n\nHope you get some actual rest over winter break—happy holidays.\n\nCheers,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 2,
+    "template_name": "peer",
+    "ouro_description_id": 2,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-27T15:10:12.482Z",
+  "sent_at": "2025-12-27T15:43:29.917Z",
+  "resend_id": "5bfb8216-d667-4bc9-a511-7ae8c9caa2e7"
+}

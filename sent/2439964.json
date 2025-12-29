@@ -1,0 +1,19 @@
+{
+  "award_id": "2439964",
+  "pi_name": "Sidney L Shaw",
+  "pi_email": "sishaw@indiana.edu",
+  "institution": "Indiana University",
+  "award_title": "Microtubule Nucleation in Plant Cortical Array Patterning",
+  "award_amount": 977252,
+  "subject": "Image analysis other labs can run",
+  "body": "Imaging pipelines are a nightmare to share. Someone tries your analysis, dependencies break, preprocessing steps aren't clear, they give up.\n\nI built Ouro as a thin API over computational workflows—other researchers call your methods directly instead of rebuilding from your paper.\n\nHappy to show you how it works. No rush with the holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 3,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-29T14:32:57.385Z",
+  "sent_at": "2025-12-29T15:23:34.333Z",
+  "resend_id": "09049589-b9d7-4180-abac-2e320cb0f27e"
+}

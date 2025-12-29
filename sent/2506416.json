@@ -1,0 +1,19 @@
+{
+  "award_id": "2506416",
+  "pi_name": "Jason B Fellman",
+  "pi_email": "jbfellman@alaska.edu",
+  "institution": "University of Alaska Southeast Juneau Campus",
+  "award_title": "Collaborative Research: What Underpins the High Bioavailability of Glacier Organic Matter?",
+  "award_amount": 244394,
+  "subject": "When your pipeline uses 4 different tools",
+  "body": "Jason,\n\nPipelines that chain mass spec processing, radiocarbon analysis, and source modeling rarely get reused. Too many dependencies, preprocessing quirks, format conversions between steps.\n\nI built Ouro to make published computational methods actually callable—not just described in a methods section that nobody reimplements.\n\nQuick chat in the new year about reusable pipelines?\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 1,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-29T14:33:44.424Z",
+  "sent_at": "2025-12-29T15:23:43.580Z",
+  "resend_id": "d6e5956c-8494-4cbf-912d-f75a4bfdd9aa"
+}

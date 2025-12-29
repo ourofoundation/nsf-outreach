@@ -1,0 +1,19 @@
+{
+  "award_id": "2511611",
+  "pi_name": "Roman Scoccimarro",
+  "pi_email": "rs123@nyu.edu",
+  "institution": "New York University",
+  "award_title": "Redshift-Space Galaxy Clustering from Vlasov Perturbation Theory",
+  "award_amount": 590974,
+  "subject": "Re: code that ships with papers but never gets rerun",
+  "body": "You're updating COMET for others to use, but we both know most researchers will cite the paper and rebuild from scratch anyway. Setup is always the wall.\n\nI'm a computational materials scientist—built Ouro as an API layer over workflows so people can just call your method instead of recreating it. Handles the environment/dependency mess.\n\nMight be relevant for the VPT emulator work. Happy to show you a quick demo after the holidays if you're interested.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 2,
+    "template_name": "peer",
+    "ouro_description_id": 3,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-29T00:05:44.240Z",
+  "sent_at": "2025-12-29T15:23:44.715Z",
+  "resend_id": "81310f93-31fc-40b8-be3e-0751cff5b352"
+}

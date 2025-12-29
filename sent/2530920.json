@@ -1,0 +1,19 @@
+{
+  "award_id": "2530920",
+  "pi_name": "Elizabeth A Barnes",
+  "pi_email": "eabarnes@bu.edu",
+  "institution": "Trustees of Boston University",
+  "award_title": "Collaborative Research: CAIG: Understanding radiative feedbacks, ocean heat uptake, and energy conservation to improve ML-climate emulations",
+  "award_amount": 410837,
+  "subject": "Making climate emulator methods reusable (not just citable)",
+  "body": "Hi Elizabeth,\n\nYour work on climate emulators and their ability to generalize beyond training data—especially the patch methodology for evaluating physics consistency—addresses a real gap in ML-climate research.\n\nOne challenge with computational methods like these: citations capture acknowledgment, but not actual influence. Someone might cite your emulator work without ever running it themselves.\n\nOuro provides a thin API layer over computational workflows, letting other researchers reuse methods directly instead of recreating them from papers. It makes computational contributions both citable and visibly used.\n\nIf you're curious, I can show you how it works.\n\nHope you get some rest over winter break—happy holidays!\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 3,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-27T15:53:53.314Z",
+  "sent_at": "2025-12-27T15:58:14.385Z",
+  "resend_id": "fa95d0c3-f5d3-4a0c-bbe9-b8f8d06d31cc"
+}

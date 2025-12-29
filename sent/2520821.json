@@ -1,0 +1,19 @@
+{
+  "award_id": "2520821",
+  "pi_name": "Mariam Aly",
+  "pi_email": "mariamaly@berkeley.edu",
+  "institution": "University of California-Berkeley",
+  "award_title": "Competition and Cooperation in Memory-Guided Attention",
+  "award_amount": 604425,
+  "subject": "fMRI analysis pipelines that run elsewhere",
+  "body": "Analysis pipelines combining fMRI, eye tracking, and behavioral data rarely work outside the lab that built them. Dependency issues, preprocessing quirks, environment-specific paths.\n\nBuilt Ouro to make computational methods actually reusable and citable—not just described in a methods section.\n\nHappy to show you how it works. Heading into the holidays but around if you want to chat.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 4,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-28T02:04:59.669Z",
+  "sent_at": "2025-12-28T02:11:12.257Z",
+  "resend_id": "593c81bf-1c32-4c9a-9962-e2a8d4e31488"
+}

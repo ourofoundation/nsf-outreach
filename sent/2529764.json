@@ -1,0 +1,19 @@
+{
+  "award_id": "2529764",
+  "pi_name": "Jiang Hu",
+  "pi_email": "jianghu@ece.tamu.edu",
+  "institution": "Texas A&M Engineering Experiment Station",
+  "award_title": "Collaborative Research: SHF: Small: HexAI: Holistic Exploration for Design Automation of Efficient AI Accelerators",
+  "award_amount": 300000,
+  "subject": "Your students' work in AI hardware design",
+  "body": "Hi Jiang,\n\nLabs doing AI accelerator work produce tools that could help dozens of other groups—but they usually die in a methods section.\n\nOuro lets you publish computational methods as actual infrastructure. When someone reuses a tool your student built, their name and your lab's connection travel with it. It's a way to make training contributions visible and durable.\n\nWorth a quick chat in January?\n\nHope you have a good holiday break.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 4,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-28T01:14:32.869Z",
+  "sent_at": "2025-12-28T02:11:15.736Z",
+  "resend_id": "1bae3a00-bb11-4a46-b467-cfeade8c4123"
+}

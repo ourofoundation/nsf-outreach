@@ -1,0 +1,19 @@
+{
+  "award_id": "2442268",
+  "pi_name": "Matthew A Steiner",
+  "pi_email": "Matt.Steiner@uc.edu",
+  "institution": "University of Cincinnati Main Campus",
+  "award_title": "CAREER: Microstructural Influences on the Diffusion Paths Controlling Nucleation and Growth of the Grain Boundary Precipitates Responsible for Sensitization in Al-Mg Alloys",
+  "award_amount": 100387,
+  "subject": "Re: analysis code that only runs on your machine",
+  "body": "Image analysis pipelines for characterization data are impossible to share well. Too custom, too many dependencies, outputs too big for SI.\n\nI built Ouro as a thin API over computational workflows—lets other researchers rerun your methods directly instead of reimplementing from the paper. Makes NSF's accessibility expectations actually manageable.\n\nQuick demo after holidays if you're curious?\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 3,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-28T16:10:21.826Z",
+  "sent_at": "2025-12-28T16:28:14.711Z",
+  "resend_id": "29594f19-cc3d-4ceb-98c0-6fa8f406a234"
+}

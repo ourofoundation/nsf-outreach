@@ -1,21 +1,22 @@
-import fs from 'fs';
-import path from 'path';
+import fs from "fs";
+import path from "path";
 
 // Base directories
 export const DIRS = {
-  awards: 'awards',
-  drafts: 'drafts',
-  approved: 'approved',
-  sent: 'sent',
-  skipped: 'skipped',
-  templates: 'templates'
+  awards: "awards",
+  drafts: "drafts",
+  approved: "approved",
+  sent: "sent",
+  skipped: "skipped",
+  staging: "staging",
+  templates: "templates",
 };
 
 /**
  * Ensure all required directories exist
  */
 export function ensureDirs() {
-  Object.values(DIRS).forEach(dir => {
+  Object.values(DIRS).forEach((dir) => {
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true });
     }
@@ -28,10 +29,11 @@ export function ensureDirs() {
 export function listIds(folder) {
   const dir = DIRS[folder] || folder;
   if (!fs.existsSync(dir)) return [];
-  
-  return fs.readdirSync(dir)
-    .filter(f => f.endsWith('.json'))
-    .map(f => path.basename(f, '.json'));
+
+  return fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => path.basename(f, ".json"));
 }
 
 /**
@@ -39,7 +41,7 @@ export function listIds(folder) {
  */
 export function readJson(filepath) {
   try {
-    const content = fs.readFileSync(filepath, 'utf-8');
+    const content = fs.readFileSync(filepath, "utf-8");
     return JSON.parse(content);
   } catch (err) {
     return null;
@@ -59,7 +61,7 @@ export function writeJson(filepath, data) {
 export function moveFile(filename, fromFolder, toFolder) {
   const fromPath = path.join(DIRS[fromFolder] || fromFolder, filename);
   const toPath = path.join(DIRS[toFolder] || toFolder, filename);
-  
+
   ensureDirs();
   fs.renameSync(fromPath, toPath);
 }
@@ -77,16 +79,16 @@ export function getEmailPath(awardId, folder) {
 export function matchesKeywords(text, keywords) {
   if (!keywords || keywords.length === 0) return true;
   if (!text) return false;
-  
+
   const lowerText = text.toLowerCase();
-  return keywords.some(kw => lowerText.includes(kw.toLowerCase()));
+  return keywords.some((kw) => lowerText.includes(kw.toLowerCase()));
 }
 
 /**
  * Sleep for a given number of milliseconds
  */
 export function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 /**
@@ -95,4 +97,3 @@ export function sleep(ms) {
 export function formatDate(date) {
   return new Date(date).toLocaleString();
 }
-

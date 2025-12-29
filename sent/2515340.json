@@ -1,0 +1,19 @@
+{
+  "award_id": "2515340",
+  "pi_name": "Colin J Carlson",
+  "pi_email": "colin.carlson@yale.edu",
+  "institution": "Yale University",
+  "award_title": "BII: Predicting the global host-virus network from molecular foundations",
+  "award_amount": 4772318,
+  "subject": "VERENA BII and building durable contributions for trainees",
+  "body": "Hi Colin,\n\nWith winter break approaching, I wanted to reach out. Training 100+ early career scientists through the Lighthouse Learning Community is a significant commitment—and one thing I've been thinking about is how the tools and workflows trainees build can outlast their time in any given lab.\n\nOuro helps turn computational workflows, datasets, and notebooks into reusable building blocks that others in your field can actually plug into their work. When someone in disease ecology or viral emergence research reuses a tool your students created, their names and your lab's lineage travel with it.\n\nI can set up access for your lab if you want to take a glance.\n\nHappy holidays—hope you get some real downtime.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 5,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-27T15:47:17.944Z",
+  "sent_at": "2025-12-27T15:58:48.218Z",
+  "resend_id": "4dac3cbb-cac1-46bc-bf1e-2234480c6b26"
+}

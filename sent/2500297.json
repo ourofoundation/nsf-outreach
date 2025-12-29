@@ -1,0 +1,19 @@
+{
+  "award_id": "2500297",
+  "pi_name": "Talia Y Moore",
+  "pi_email": "taliaym@umich.edu",
+  "institution": "Regents of the University of Michigan - Ann Arbor",
+  "award_title": "Collaborative Research: IntBIO: Mammalian Tail Innovations & Variety Revealed By the Intersection of Genetics, Biomechanics, and Macroevolution",
+  "award_amount": 751823,
+  "subject": "Reusing code across collaborative labs",
+  "body": "Three-lab collaborations mean someone's scripts always break when shared. Phylogenetic models, biomechanical sims, genetic analyses—different environments, dependency hell, methods that don't survive past publication.\n\nBuilt Ouro so computational methods become reusable infrastructure, not just text in a methods section.\n\nHappy to chat after the holidays if relevant.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 4,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-29T14:31:37.700Z",
+  "sent_at": "2025-12-29T15:23:40.115Z",
+  "resend_id": "c4d576bf-ae4a-438e-a8c0-8b808212061a"
+}

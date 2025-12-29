@@ -1,0 +1,19 @@
+{
+  "award_id": "2445877",
+  "pi_name": "Heather L Nachtmann",
+  "pi_email": "hln@uark.edu",
+  "institution": "University of Arkansas",
+  "award_title": "E-RISE Rll: Arkansas Smart Transportation Research Incubator through Data Engineering and Science",
+  "award_amount": 3393737,
+  "subject": "ML pipelines across 5 institutions",
+  "body": "Getting ML and data pipelines to work across 5 different institutions sounds like dependency hell on expert mode.\n\nI built Ouro after hitting the same wall—my computational stuff didn't outlive the paper. It's a way to package research code and data so it actually runs elsewhere, not just on your setup.\n\nWorth a quick chat? It's holiday season, so no rush.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 2,
+    "template_name": "peer",
+    "ouro_description_id": 2,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-28T16:11:48.527Z",
+  "sent_at": "2025-12-28T16:28:15.888Z",
+  "resend_id": "76510829-c3a0-4b92-bb97-99bfe65259c0"
+}

@@ -44,14 +44,36 @@ function shuffleArray(arr) {
 }
 
 /**
+ * Filter out disabled variants (where enabled === false)
+ * Items without an "enabled" field are treated as enabled
+ */
+function filterEnabled(items) {
+  return items.filter((item) => item.enabled !== false);
+}
+
+/**
  * Select variants for all three dimensions
  */
 function selectVariants() {
   const all = loadAllVariants();
+  const enabledTemplates = filterEnabled(all.templates);
+  const enabledOuroDescriptions = filterEnabled(all.ouro_descriptions);
+  const enabledCallToActions = filterEnabled(all.call_to_actions);
+
+  if (enabledTemplates.length === 0) {
+    throw new Error("No enabled templates available");
+  }
+  if (enabledOuroDescriptions.length === 0) {
+    throw new Error("No enabled ouro_descriptions available");
+  }
+  if (enabledCallToActions.length === 0) {
+    throw new Error("No enabled call_to_actions available");
+  }
+
   return {
-    template: randomSelect(all.templates),
-    ouro_description: randomSelect(all.ouro_descriptions),
-    call_to_action: randomSelect(all.call_to_actions),
+    template: randomSelect(enabledTemplates),
+    ouro_description: randomSelect(enabledOuroDescriptions),
+    call_to_action: randomSelect(enabledCallToActions),
   };
 }
 
@@ -100,35 +122,53 @@ const EMAIL_TOOL = {
 function buildPrompt(award, styleGuide) {
   const pi = extractPIInfo(award);
 
-  return `Generate a cold outreach email for this NSF-funded researcher. Keep it natural and authentic.
+  // Extract just the first sentence or two from abstract for context
+  const abstractSnippet = award.abstractText
+    ? award.abstractText
+    : // .split(".").slice(0, 2).join(".") + "."
+      "";
 
-Award Details:
-- Title: ${award.title}
-- PI: ${pi.piName}
-- Institution: ${pi.institution}
-- Abstract: ${award.abstractText || "No abstract available"}
+  return `Write a short cold email to an NSF-funded researcher.
 
-Style:
-- Angle: ${styleGuide.angle}
-- Tone: ${styleGuide.tone}
-- Subject line: ${styleGuide.subject_line_style}
-- Sign-off: ${styleGuide.sign_off_style}
+Who they are:
+- Name: ${pi.piName}
+- Award title: ${award.title}
+- Context: ${abstractSnippet}
 
-Include this Ouro description:
-"${styleGuide.ouro_description}"
+FIRST, figure out their pain points (don't include this analysis in the email):
+- What type of computational work is this? (ML/AI, simulations, pipelines, data analysis, etc.)
+- What's probably hard to share or reproduce? Examples:
+  - ML/AI: model weights, training reproducibility, environment setup
+  - Simulations: large outputs, cluster-specific code, parameter sweeps
+  - Pipelines: dependency hell, "works on my machine", version drift
+  - Data-heavy: files too big for supplements, preprocessing scripts
+  - Multi-site collab: keeping code in sync, different compute environments
+- Pick the most likely pain point for THIS researcher
 
-End with this call to action:
-"${styleGuide.call_to_action}"
+What Ouro does (put in your own words, don't copy verbatim):
+${styleGuide.ouro_description}
 
-Guidelines:
-- Keep body under 120 words
-- Recognize their research area/position briefly - don't fake enthusiasm or claim things "caught your eye"
-- Don't mention the institution name
-- Don't use salesy phrases like "perfectly aligned", "incredible work", "seems like exactly what"
-- Be straightforward: you're offering a service that might be useful to them
-- Subject should be short and natural
+Angle: ${styleGuide.angle}
+Tone: ${styleGuide.tone}
 
-Use the create_email tool to return the email.`;
+CRITICAL - Language rules:
+- Write like you're texting a colleague
+- Reference their PAIN POINT, not their research topic
+- BAD: "your reactive transport models linking viral dynamics to biogeochemical cycling"
+- GOOD: "simulation code that only runs on your cluster" or "outputs too big for supplementary materials"
+- NO phrases like "addresses a real challenge", "important work", "I'm reaching out because"
+- NEVER say "I've been following your work" or "fascinating stuff"
+- Short sentences. Contractions.
+
+Structure:
+1. Hook: Their likely pain point or a shared frustration (specific to their type of work)
+2. Ouro: What it is and why you built it (one sentence)
+3. Soft ask + holiday note
+
+Keep it under 100 words. Subject line: ${styleGuide.subject_line_style}
+Sign off with: ${styleGuide.sign_off_style}
+
+Use the create_email tool.`;
 }
 
 /**
@@ -176,9 +216,12 @@ export async function generateEmail(award, options = {}) {
 
   const response = await anthropic.messages.create({
     model: "claude-sonnet-4-5",
-    max_tokens: 400,
+    max_tokens: 8000,
+    thinking: {
+      type: "enabled",
+      budget_tokens: 4000,
+    },
     tools: [EMAIL_TOOL],
-    tool_choice: { type: "tool", name: "create_email" },
     messages: [
       {
         role: "user",
@@ -187,9 +230,11 @@ export async function generateEmail(award, options = {}) {
     ],
   });
 
-  // Extract the tool use response
-  const toolUse = response.content.find((c) => c.type === "tool_use");
-  if (!toolUse || toolUse.name !== "create_email") {
+  // Extract the tool use response (skip thinking blocks)
+  const toolUse = response.content.find(
+    (c) => c.type === "tool_use" && c.name === "create_email"
+  );
+  if (!toolUse) {
     throw new Error("No tool use response from Claude");
   }
 

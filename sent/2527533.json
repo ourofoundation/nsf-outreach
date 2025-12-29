@@ -1,0 +1,19 @@
+{
+  "award_id": "2527533",
+  "pi_name": "Gregory Dwyer",
+  "pi_email": "gdwyer@uchicago.edu",
+  "institution": "University of Chicago",
+  "award_title": "Collaborative Research: eMB: Weak Form Scientific Machine Learning of Mechanisms in Disease Ecology",
+  "award_amount": 160000,
+  "subject": "Make your methods reusable once, not per email",
+  "body": "Publishing ML methods that ecologists want to use probably means you're fielding \"how do I run this on my data?\" emails.\n\nI built Ouro to consolidate that into a single API. Other researchers call your method directly instead of recreating it. Document once, they reuse forever.\n\nHappy to show you how it works. Heads up—I'm off Dec 23-Jan 2 if you'd rather connect in January.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 3,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-28T15:14:44.088Z",
+  "sent_at": "2025-12-28T15:20:42.514Z",
+  "resend_id": "e27735e2-8da6-42b5-88cc-00d40658f4c2"
+}

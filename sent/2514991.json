@@ -1,0 +1,19 @@
+{
+  "award_id": "2514991",
+  "pi_name": "Albert R Young",
+  "pi_email": "aryoung@ncsu.edu",
+  "institution": "North Carolina State University",
+  "award_title": "Neutron Beta Decay Measurements for High Sensitivity Tests of the Standard Model of Particle Physics",
+  "award_amount": 600000,
+  "subject": "Reducing the friction on sharing code and analysis tools",
+  "body": "Hi Dr. Young,\n\nI know you're heading into winter break soon—hope you get some actual downtime.\n\nI'm reaching out because between Nab's waveform analysis, machine learning work, and UCNτ+ simulations, you're likely already fielding requests for code, digging up old scripts, and answering the same technical questions multiple times.\n\nOuro helps researchers share computational tools and datasets in a way that's actually usable and durable, rather than a zip file buried in supplementary materials. It consolidates that work into a single endpoint so it's accessible without the back-and-forth.\n\nHappy to get your group a look if it's helpful.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 2,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-26T14:24:59.934Z",
+  "sent_at": "2025-12-26T14:37:41.319Z",
+  "resend_id": "99cbb6c9-9dde-4a2f-8c5e-d2f31b6d0d51"
+}

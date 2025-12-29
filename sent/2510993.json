@@ -1,0 +1,19 @@
+{
+  "award_id": "2510993",
+  "pi_name": "David Jones",
+  "pi_email": "dojones@hawaii.edu",
+  "institution": "University of Hawaii",
+  "award_title": "Collaborative Research: The Connection between Astrophysical Transients and their Host Galaxies Across Cosmic Time",
+  "award_amount": 521080,
+  "subject": "When your trainees build community tools",
+  "body": "Blast is for the whole transient astronomy community, but published tools still need constant hand-holding—setup issues, dependency problems, \"why won't this run\" emails.\n\nI built Ouro to turn published methods into callable infrastructure. When your students build tools, others can reuse them without reimplementing. Their names and contributions travel with the code.\n\nWould love to hear if this resonates. Happy to chat after holidays if easier.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 1,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-28T15:13:49.821Z",
+  "sent_at": "2025-12-28T15:20:40.184Z",
+  "resend_id": "2d785c01-100f-4067-bcbf-bc6d07cc8346"
+}

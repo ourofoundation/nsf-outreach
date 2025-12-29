@@ -1,0 +1,19 @@
+{
+  "award_id": "2436765",
+  "pi_name": "Li Han",
+  "pi_email": "Lhan@clarku.edu",
+  "institution": "Clark University",
+  "award_title": "Creating Robust Opportunities for Student Success through Real-world, Organized, and Applied Data Science",
+  "award_amount": 992671,
+  "subject": "Making your teaching code reusable without the email burden",
+  "body": "Hi Li,\n\nYou're building pathways for students to learn data science across disciplines—which means you're probably sharing a lot of code, notebooks, and methods.\n\nI'm working on Ouro, a place where computational methods become callable endpoints. Instead of re-sharing scripts or answering \"how do I run this?\" emails, your work becomes infrastructure others can just use.\n\nIt consolidates what you're already doing—making your teaching materials accessible—into something durable.\n\nWorth a quick chat? I know it's the holiday season, so no rush.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 1,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-28T01:04:26.557Z",
+  "sent_at": "2025-12-28T01:12:55.803Z",
+  "resend_id": "c364ab0d-3d10-4a85-a661-7ef4d5ea07e4"
+}

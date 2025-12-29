@@ -1,0 +1,19 @@
+{
+  "award_id": "2528653",
+  "pi_name": "Mohsen Moghaddam",
+  "pi_email": "mohsen.moghaddam@gatech.edu",
+  "institution": "Georgia Tech Research Corporation",
+  "award_title": "FW-HTF-R: Fostering Learning and Adaptability of Future Manufacturing Workers with Intelligent Extended Reality (IXR)",
+  "award_amount": 727282,
+  "subject": "When your ML stack can't be fully shared",
+  "body": "ML pipelines with XR hardware dependencies and proprietary manufacturing data are nightmares for reproducibility—even if you document everything perfectly, no one has your exact setup or data access.\n\nI built Ouro to make computational methods discoverable and reusable even when the full stack can't be shared. It helps demonstrate real-world accessibility of your work beyond \"code available upon request.\"\n\nQuick chat after the holidays?\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 4,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-29T00:03:05.736Z",
+  "sent_at": "2025-12-29T15:23:48.469Z",
+  "resend_id": "e59fc299-4a98-4ac6-9c10-79b28e44c4ea"
+}

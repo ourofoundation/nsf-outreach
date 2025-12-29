@@ -1,0 +1,19 @@
+{
+  "award_id": "2438116",
+  "pi_name": "Gregory S Mountain",
+  "pi_email": "gmtn@eps.rutgers.edu",
+  "institution": "Rutgers University New Brunswick",
+  "award_title": "Modeling of the New Jersey Continental Shelf in the Miocene: Insights into Sedimentation Processes, Sea-level change, and Climate",
+  "award_amount": 462435,
+  "subject": "Credit when your model code gets reused",
+  "body": "Stratigraphic models with Bayesian optimization workflows are tough to share—environment setup alone stops most people from running your code.\n\nI built Ouro to turn simulation workflows into reusable blocks that are citable and show visible reuse when others build on them.\n\nOpen to chatting in January? Happy holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 5,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-29T14:33:23.693Z",
+  "sent_at": "2025-12-29T15:23:33.173Z",
+  "resend_id": "c0fab918-8491-4b79-bb7c-26b53cc9d564"
+}

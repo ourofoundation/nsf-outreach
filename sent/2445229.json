@@ -1,0 +1,19 @@
+{
+  "award_id": "2445229",
+  "pi_name": "Pradeep Shinde",
+  "pi_email": "pradeep.shinde@spaceloon.com",
+  "institution": "Space Balloon Technologies Corp.",
+  "award_title": "SBIR Phase II: Mesospheric Sub-orbital Ballooning System",
+  "award_amount": 1250000,
+  "subject": "Recognition for computational contributions",
+  "body": "Hi Pradeep,\n\nCitations show who you've credited, but they don't show when your methods actually get used.\n\nI built Ouro—it's an API layer that lets researchers reuse computational workflows directly. When someone uses your approach, it's logged and visible.\n\nFor satellite testing simulations or flight data analysis, this could help your work get used (not just cited) and make that impact measurable.\n\nWould you be open to a quick chat in the new year?\n\nHappy holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 3,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-28T01:24:22.355Z",
+  "sent_at": "2025-12-28T02:10:58.221Z",
+  "resend_id": "31f42140-6c5a-4d28-ae59-b608817ddd42"
+}

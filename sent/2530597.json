@@ -1,0 +1,19 @@
+{
+  "award_id": "2530597",
+  "pi_name": "Yixin ' Wen",
+  "pi_email": "Yixin.wen@ufl.edu",
+  "institution": "University of Florida",
+  "award_title": "Collaborative Research: CAIG: Reliable Generative Downscaling for Geoscience Data",
+  "award_amount": 353178,
+  "subject": "Making your downscaling framework stick around",
+  "body": "Hi Yixin,\n\nYou're doing great work on generative models for weather data—and you'll probably end up fielding a lot of follow-up emails asking for code, or fielding requests to run it on new datasets.\n\nOuro lets you turn that into a single callable endpoint. Once it's up, researchers just hit an API instead of emailing you. Your methods stay accessible, you stay sane.\n\nWorth a quick conversation?\n\nBest,\nMatt\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 1,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-28T00:28:52.079Z",
+  "sent_at": "2025-12-28T00:33:57.622Z",
+  "resend_id": "ebc1a64d-42b0-49f9-b04c-59d8a43908f5"
+}

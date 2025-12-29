@@ -1,0 +1,19 @@
+{
+  "award_id": "2524321",
+  "pi_name": "David C Mays",
+  "pi_email": "david.mays@ucdenver.edu",
+  "institution": "University of Colorado at Denver",
+  "award_title": "Transforming Pockets of Innovation into Institutional Structures for Learning",
+  "award_amount": 500000,
+  "subject": "Reducing friction for sharing what already works",
+  "body": "Hi David,\n\nYour work on scaling Learning Assistants and the Pedagogy Academy across departments involves a lot of moving pieces—training materials, data tracking, resources that need to be accessible to faculty across different units.\n\nOuro helps researchers share computational tools and datasets in a way that's actually usable and durable, rather than a zip file buried in supplementary materials. It could give you a single place to house the scripts, surveys, and documentation your team is already producing, without the usual back-and-forth of emailing files or digging through old folders.\n\nI can set up access for your lab if you want to take a glance.\n\nHope you get some rest over winter break—happy holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 2,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-26T14:43:32.933Z",
+  "sent_at": "2025-12-26T15:21:19.584Z",
+  "resend_id": "8587c5a4-14fe-4675-ac7a-93889f1c6915"
+}

@@ -1,0 +1,19 @@
+{
+  "award_id": "2542180",
+  "pi_name": "Jonathan D Hood",
+  "pi_email": "hoodjd@purdue.edu",
+  "institution": "Purdue University",
+  "award_title": "MPS/CHE-EPSRC: Coherent Optical Control of Triplet Spin States in Organic Molecule Quantum Emitters",
+  "award_amount": 500000,
+  "subject": "Making experimental analysis work for others without the back-and-forth",
+  "body": "Spectroscopy analysis code that only runs in your environment—then answering emails about dependencies, parameter files, and \"wait, which version?\"\n\nBuilt Ouro to wrap computational workflows in an API so others can reuse methods directly instead of recreating them. Consolidates the code-sharing work you're already doing.\n\nHappy to show you if it's relevant. Around in January after the holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 3,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-28T15:15:44.935Z",
+  "sent_at": "2025-12-28T15:20:44.833Z",
+  "resend_id": "a30785e0-366e-4b51-a510-ca6f2e52ec0f"
+}

@@ -1,0 +1,19 @@
+{
+  "award_id": "2436108",
+  "pi_name": "Tyson L Hedrick",
+  "pi_email": "thedrick@bio.unc.edu",
+  "institution": "University of North Carolina at Chapel Hill",
+  "award_title": "Collaborative Research: Decoding the Aero-Structural Dynamics of Feathered Wings in Flapping Flight via Computational Models",
+  "award_amount": 251622,
+  "subject": "Making computational bird flight models reusable",
+  "body": "Hi Tyson,\n\nI saw your NSF award on computational modeling of bird flight. The models you're building sound genuinely useful beyond your immediate work.\n\nProblem is, even great computational methods usually die in papers—hard for others to actually use, harder to show real-world impact when NSF asks.\n\nI'm working on Ouro, basically infrastructure that makes published computational methods callable by others. It's meant to make reuse and accessibility easier to demonstrate, not just claim.\n\nWould you be open to a quick chat in the new year?\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 1,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-28T00:48:29.643Z",
+  "sent_at": "2025-12-28T01:00:14.578Z",
+  "resend_id": "e312d60c-51ad-47de-8276-70319acfb91c"
+}

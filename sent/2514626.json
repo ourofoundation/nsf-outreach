@@ -1,0 +1,19 @@
+{
+  "award_id": "2514626",
+  "pi_name": "Evangelos Miliordos",
+  "pi_email": "emiliord@auburn.edu",
+  "institution": "Auburn University",
+  "award_title": "Computational design of Solvated-electron-based Materials for Applications in Redox Chemistry and Quantum Information",
+  "award_amount": 672903,
+  "subject": "Designing around diffuse electrons",
+  "body": "Hi Evangelos,\n\nI've been thinking about how designing materials with diffuse electrons between layers requires some pretty specific computational approaches—and how hard it must be for other groups to actually use those methods once you publish.\n\nThat's what we're building with Ouro: an API layer that lets researchers call your computational workflows directly instead of trying to recreate them from scratch.\n\nWould you be open to a quick chat in January?\n\nHappy holidays,\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 3,
+    "template_name": "curious",
+    "ouro_description_id": 3,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-28T01:14:27.199Z",
+  "sent_at": "2025-12-28T02:11:07.634Z",
+  "resend_id": "6890e5b3-0cd3-47c2-860a-b75a9aa0e300"
+}

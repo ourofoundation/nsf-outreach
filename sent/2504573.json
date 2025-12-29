@@ -1,0 +1,19 @@
+{
+  "award_id": "2504573",
+  "pi_name": "Habarakada L Madanayake",
+  "pi_email": "amadanay@fiu.edu",
+  "institution": "Florida International University",
+  "award_title": "Collaborative Research: NeTS: Medium: Resilient Multi-User Mobile sub-THz Networks using Near-Field Wavefronts",
+  "award_amount": 300000,
+  "subject": "Getting credit when people actually use your simulation code",
+  "body": "Simulation outputs from near-field propagation models get massive fast, and sharing them across collaborating institutions usually means Dropbox links that die or \"just run it yourself\" (if the cluster configs match).\n\nOuro's a platform we built so researchers can share computational tools and datasets in a way that's actually usable long-term—not zip files in supplementary materials. Others can cite your work AND you see when they actually use it.\n\nWorth a quick call after the holidays?\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 2,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-28T16:12:08.417Z",
+  "sent_at": "2025-12-28T16:28:18.211Z",
+  "resend_id": "f412b151-a1e5-43c6-91e0-00b219f83156"
+}

@@ -1,0 +1,19 @@
+{
+  "award_id": "2453100",
+  "pi_name": "Pang-Ning Tan",
+  "pi_email": "ptan@cse.msu.edu",
+  "institution": "Michigan State University",
+  "award_title": "III: Small: Enhancing Adversarial Robustness of Geospatio-Temporal Models",
+  "award_amount": 600000,
+  "subject": "Getting credit when others use your adversarial techniques",
+  "body": "Adversarial ML work needs to be reproducible to have impact, but sharing trained models and attack code that others can actually run is a mess.\n\nI built Ouro to help researchers share computational stuff (models, code, environments) in a way that's durable and usable, not just a GitHub link that breaks in six months. Citations matter, but so does making your techniques actually usable.\n\nWorth a quick chat? I know it's heading into the holidays, so January works too.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 2,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-29T00:02:42.285Z",
+  "sent_at": "2025-12-29T15:23:38.967Z",
+  "resend_id": "5a47f8d4-bfe4-496a-92bd-2059568e199f"
+}

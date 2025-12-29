@@ -1,0 +1,19 @@
+{
+  "award_id": "2512855",
+  "pi_name": "Jie Cai",
+  "pi_email": "cai40@purdue.edu",
+  "institution": "Purdue University",
+  "award_title": "CAREER: CAS- Climate: An altruistic game theoretic framework to characterize environmental responsiveness of residential electricity consumption",
+  "award_amount": 357147,
+  "subject": "Citations vs. people actually using your models",
+  "body": "Predictive control models and game theoretic algorithms get cited all the time, but almost never reused—too much setup, environment issues, or they're just buried in a supplement.\n\nI built Ouro so published computational methods become callable infrastructure. Others can build on your work without reimplementing from scratch. It's about making your contributions both citable and visibly used.\n\nWould love to chat in January if you're interested.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 1,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-28T02:02:54.424Z",
+  "sent_at": "2025-12-28T02:11:05.262Z",
+  "resend_id": "e7f96efe-26fa-4b0b-8d40-347711eecbc3"
+}

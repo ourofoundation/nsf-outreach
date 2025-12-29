@@ -1,0 +1,19 @@
+{
+  "award_id": "2505130",
+  "pi_name": "Pierluigi Nuzzo",
+  "pi_email": "nuzzo@eecs.berkeley.edu",
+  "institution": "University of California-Berkeley",
+  "award_title": "Collaborative Research: SHF: Medium: A hardware accelerator for satisfiability (SAT): Over 100x speedup for combinatorial optimization problems",
+  "award_amount": 300000,
+  "subject": "SAT accelerators deserve more than paper citations",
+  "body": "Hi Pierluigi,\n\nYour work on hardware accelerators for SAT—the algorithm-to-transistors co-optimization approach—addresses a real bottleneck for verification, AI, and optimization problems. But custom accelerator research often stays locked in papers when it could be infrastructure others actively build on.\n\nI'm working on Ouro, a place where published computational methods become callable, reusable infrastructure—so others can build on your work without reimplementing it from scratch.\n\nIf your CAD tools or accelerator designs could reach more practitioners, this might be worth a look.\n\nHappy to get your group a look if it's helpful. With winter break coming up, wishing you a happy holiday.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 1,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-26T14:52:49.331Z",
+  "sent_at": "2025-12-26T15:14:10.420Z",
+  "resend_id": "444747d7-ae36-41eb-a9d7-4443d4d5f7fd"
+}

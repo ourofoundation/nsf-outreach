@@ -1,0 +1,19 @@
+{
+  "award_id": "2439029",
+  "pi_name": "Angela M Oliverio",
+  "pi_email": "amoliver@syr.edu",
+  "institution": "Syracuse University",
+  "award_title": "Collaborative Research: PurSUiT: The diversity and evolution of extremophilic microbial eukaryotes",
+  "award_amount": 732388,
+  "subject": "Your protist data could outlive the paper",
+  "body": "Dr. Oliverio,\n\nYou're building something valuable with the extremophilic microbial eukaryote work—biodiversity databases, strain collections, new species descriptions. But let's be honest: most of that will be underutilized once the project wraps because it's hard for others to actually plug into.\n\nOuro helps turn computational workflows, datasets, and notebooks into reusable building blocks that others in your field can actually plug into their work.\n\nGiven the collaborative nature of your research and the training components you're running, it might be worth a look.\n\nIf you're curious, I can show you how it works.\n\nWishing you a restful winter break and happy holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 5,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-27T15:09:49.273Z",
+  "sent_at": "2025-12-27T15:43:25.225Z",
+  "resend_id": "c5493527-1dad-4ea7-937f-ca5b514e754e"
+}

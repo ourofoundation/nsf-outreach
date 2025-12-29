@@ -1,0 +1,19 @@
+{
+  "award_id": "2513795",
+  "pi_name": "Xingjie Li",
+  "pi_email": "xli47@uncc.edu",
+  "institution": "University of North Carolina at Charlotte",
+  "award_title": "NSF MPS/DMS-EPSRC: A novel theory-based framework for coarse-graining and simulating stochastic differential equations for crystalline materials",
+  "award_amount": 270000,
+  "subject": "Reusing simulation methods from papers",
+  "body": "Hi Xingjie,\n\nYou're working on simulations for crystalline materials—which sounds like the kind of work where you've probably had to reimplement someone else's method from scratch because the code wasn't available.\n\nThat's the problem we're solving with Ouro. We give you a thin API layer to package your methods so other researchers can actually use them directly instead of redoing the work.\n\nWorth a quick conversation? Happy to chat about whether this fits what you're building.\n\nHope you have a good one.\n\nBest,\nMatt\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 3,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-28T00:25:02.527Z",
+  "sent_at": "2025-12-28T00:33:55.278Z",
+  "resend_id": "527acb28-d861-458e-a5b7-8503d1150fcf"
+}

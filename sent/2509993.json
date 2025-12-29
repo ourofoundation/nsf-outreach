@@ -1,0 +1,19 @@
+{
+  "award_id": "2509993",
+  "pi_name": "VAN HAI BUI",
+  "pi_email": "vhbui@umich.edu",
+  "institution": "Regents of the University of Michigan - Dearborn",
+  "award_title": "MRI: Track 1 Acquisition of Hierarchical Testing Framework for Power and Energy Systems Supporting Multidisciplinary Research and Education at the University of Michigan-Dearborn",
+  "award_amount": 380338,
+  "subject": "Reducing friction around shared methods",
+  "body": "Hi Dr. Bui,\n\nWith your hierarchical testing framework supporting work across smart grids, energy storage, and electric vehicles—plus collaborators from academia and industry—I imagine a fair amount of time goes into fielding requests: sharing scripts, explaining how to run validation code, pointing people to the right datasets.\n\nI'm working on Ouro, a place where published computational methods become callable, reusable infrastructure—so others can build on your work without reimplementing it from scratch.\n\nIt won't replace your testing framework, but it could give your control algorithms and optimization methods a durable endpoint that others can actually use.\n\nIf you're curious, I can show you how it works.\n\nHope winter break gives you some downtime—happy holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 1,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-26T14:52:22.333Z",
+  "sent_at": "2025-12-26T15:15:10.737Z",
+  "resend_id": "36e290ea-dcf0-4bb2-bed3-a5623184cd79"
+}

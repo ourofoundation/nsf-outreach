@@ -1,0 +1,19 @@
+{
+  "award_id": "2433631",
+  "pi_name": "Krishna R Narayanan",
+  "pi_email": "krn@tamu.edu",
+  "institution": "Texas A&M Engineering Experiment Station",
+  "award_title": "ECCS-EPSRC: Neural Joint Source-Channel Coding: The Interplay Between Theory and Practice",
+  "award_amount": 450000,
+  "subject": "Making ML-based communication systems actually reusable",
+  "body": "Hi Krishna,\n\nI'm reaching out because NSF increasingly expects funded work—especially ML models and neural network designs—to be shared in ways people can actually use, not just cite.\n\nOuro helps researchers like you package computational tools and datasets so they're accessible and durable beyond a GitHub link or supplemental zip file. It makes real-world reuse easier to demonstrate when that matters for reporting.\n\nHappy to show you a quick example if it's useful.\n\nHope you're having a good holiday season.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 2,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-28T00:55:03.000Z",
+  "sent_at": "2025-12-28T01:00:13.340Z",
+  "resend_id": "30ca839b-9ef6-496a-9ada-225b3a0f2b2e"
+}

@@ -1,0 +1,19 @@
+{
+  "award_id": "2538885",
+  "pi_name": "Cecile Chazot",
+  "pi_email": "cchazot@northwestern.edu",
+  "institution": "Northwestern University at Chicago",
+  "award_title": "EAGER: Living Yarns from Phototactic Self-Assembly in Cyanobacteria Colonies",
+  "award_amount": 300000,
+  "subject": "Reference credit vs. actual reuse",
+  "body": "Hey Cecile,\n\nWorking on living materials means dealing with a lot of computational analysis—imaging, modeling, tracking how organisms respond to light.\n\nProblem is, when that code lives in a paper's methods section, it gets cited but rarely reused. Citations show acknowledgment, not actual influence.\n\nOuro makes computational methods discoverable and reusable as infrastructure. Your work gets used, not just referenced.\n\nHappy to show you how it works if you're curious.\n\nHope you have a good holiday season.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 4,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-28T01:03:53.134Z",
+  "sent_at": "2025-12-28T01:13:00.395Z",
+  "resend_id": "cc50e101-003a-4b4e-bcce-484735047f2d"
+}

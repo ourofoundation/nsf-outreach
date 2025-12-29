@@ -1,0 +1,19 @@
+{
+  "award_id": "2435395",
+  "pi_name": "Fadi Bou-Abdallah",
+  "pi_email": "bouabdf@potsdam.edu",
+  "institution": "SUNY College at Potsdam",
+  "award_title": "RUI: Investigating ATP's Influence on Ferritin Structure, Function, and Cellular Iron Homeostasis",
+  "award_amount": 600000,
+  "subject": "re: deep learning + ferritin structural analysis",
+  "body": "Hi Fadi,\n\nI'm working on computational reproducibility in biophysics. Saw you're using deep learning methods for ferritin structure analysis—I've hit the same wall where publishing a computational method doesn't mean anyone can actually run it again.\n\nBuilt something called Ouro that might help. It provides a thin API layer over computational workflows, letting other researchers reuse methods directly instead of recreating them from papers.\n\nFigured it might be useful for the structural biology + ML parts of your iron homeostasis work.\n\nLet me know if you'd like to poke around.\n\nBest,\n\nMatt\nFounder\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 2,
+    "template_name": "peer",
+    "ouro_description_id": 3,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-23T19:44:45.448Z",
+  "sent_at": "2025-12-26T14:33:40.114Z",
+  "resend_id": "f426af2e-038c-4bd6-a1ba-568f98faaa54"
+}

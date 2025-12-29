@@ -1,0 +1,19 @@
+{
+  "award_id": "2501332",
+  "pi_name": "Haofei Zhang",
+  "pi_email": "haofei.zhang@ucr.edu",
+  "institution": "University of California-Riverside",
+  "award_title": "Multiphase Oxidation of Organic Aerosols under Various Environmental Conditions",
+  "award_amount": 490064,
+  "subject": "Training the next generation in the Zhang lab",
+  "body": "Hi Professor Zhang,\n\nAs winter break approaches, I wanted to reach out. Your work on organic aerosol multiphase oxidation—particularly the custom flow reactor and kinetic modeling your students are developing—caught my attention because of the training component.\n\nWhen grad students build computational tools and methods, those contributions often get buried in supplementary materials. Ouro is a way to make computational work discoverable, reusable, and citable—so methods live on as infrastructure, not just text in a methods section.\n\nWhen tools from your lab get reused elsewhere, your students' names and your lab's lineage travel with them. It's a way their contributions stay visible long after they've moved on.\n\nHappy to give you a quick peek if it's useful. Wishing you a restful holiday.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 4,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-27T15:36:38.234Z",
+  "sent_at": "2025-12-27T15:43:28.763Z",
+  "resend_id": "142a1d07-6e21-4584-9e50-91dfee37bc07"
+}

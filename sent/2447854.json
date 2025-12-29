@@ -1,0 +1,19 @@
+{
+  "award_id": "2447854",
+  "pi_name": "Gabriel A Cook",
+  "pi_email": "gabriel.cook@okstate.edu",
+  "institution": "Oklahoma State University",
+  "award_title": "REU Site: A Multi-disciplinary Research Experience in the Chemical Sciences at Oklahoma State University",
+  "award_amount": 465000,
+  "subject": "reusable workflows in computational chem",
+  "body": "Hi Gabriel,\n\nRunning an REU site with computational chemistry as one of the focus areas—you've probably dealt with the classic problem of students reinventing the wheel on methods that already exist somewhere in a lab notebook or forgotten GitHub repo.\n\nI've been working on something called Ouro that addresses this. It helps turn computational workflows, datasets, and notebooks into reusable building blocks that others in your field can actually plug into their work.\n\nFigured it might be relevant given the interdisciplinary nature of your program and the emphasis on getting undergrads up to speed quickly.\n\nHappy to give you a quick peek if it's useful.\n\nHope winter break treats you well—happy holidays.\n\nCheers,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 2,
+    "template_name": "peer",
+    "ouro_description_id": 5,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-27T15:47:23.684Z",
+  "sent_at": "2025-12-27T15:58:13.389Z",
+  "resend_id": "92b84a29-1d5b-4c62-a2f3-faabb11ab233"
+}

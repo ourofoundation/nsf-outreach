@@ -1,0 +1,19 @@
+{
+  "award_id": "2502561",
+  "pi_name": "Hayden Schaeffer",
+  "pi_email": "hayden@math.ucla.edu",
+  "institution": "University of California-Los Angeles",
+  "award_title": "Collaborative Research: MFAI: Uncovering the Mathematical, Statistical, and Contextual Mechanisms behind Memorization in Artificial Intelligence",
+  "award_amount": 333334,
+  "subject": "Your memorization metrics deserve more mileage",
+  "body": "Hi Dr. Schaeffer,\n\nYour NSF project on memorization in AI—particularly the work on principled metrics and the optimization/dynamical systems angle—addresses something the field genuinely needs right now.\n\nThe gap I keep seeing: researchers develop rigorous methods for quantifying things like memorization or privacy tradeoffs, but those methods rarely become tools others can actually build on. They stay locked in papers.\n\nOuro helps turn computational workflows, datasets, and notebooks into reusable building blocks that others in your field can actually plug into their work.\n\nGiven the collaborative nature of your project, it might be worth a look. Happy to get your group a look if it's helpful.\n\nHope winter break gives you some breathing room—happy holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 5,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-26T16:03:34.765Z",
+  "sent_at": "2025-12-26T16:15:42.635Z",
+  "resend_id": "f0ace3d8-aed6-4b2f-b607-931659027017"
+}

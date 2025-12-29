@@ -1,0 +1,19 @@
+{
+  "award_id": "2517615",
+  "pi_name": "Daniel B Wright",
+  "pi_email": "danielb.wright@wisc.edu",
+  "institution": "University of Wisconsin-Madison",
+  "award_title": "IUCRC Phase I University of Wisconsin-Madison: Center for Interdisciplinary Research on Convective Storms (CIRCS)",
+  "award_amount": 383073,
+  "subject": "Bridging convective storm models to reusable tools?",
+  "body": "Hi Daniel,\n\nReading about CIRCS, I found myself thinking about how much computational infrastructure sits behind work like this—ensemble forecasting, AI-based risk assessment, high-resolution weather prediction. These methods often get described in papers but rarely become something others can directly call and build on.\n\nI'm working on Ouro, a place where published computational methods become callable, reusable infrastructure—so others can build on your work without reimplementing it from scratch.\n\nGiven the industry-facing nature of CIRCS, I'm curious whether making your modeling tools more accessible to partners is something you've thought about.\n\nIf you're curious, I can show you how it works.\n\nHope winter break treats you well—happy holidays!\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 3,
+    "template_name": "curious",
+    "ouro_description_id": 1,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-26T14:43:38.806Z",
+  "sent_at": "2025-12-26T15:20:13.203Z",
+  "resend_id": "ee8a360a-235e-4c32-90c0-aea3949d4251"
+}

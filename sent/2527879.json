@@ -1,0 +1,19 @@
+{
+  "award_id": "2527879",
+  "pi_name": "Robert Iafe",
+  "pi_email": "riafe@csusm.edu",
+  "institution": "California State University San Marcos Corporation",
+  "award_title": "S-STEM Vertical Mentoring Learning Community",
+  "award_amount": 1977368,
+  "subject": "Building durable contributions for your S-STEM scholars",
+  "body": "Every cohort graduates and the next one relearns the same analysis workflows.\n\nI built Ouro to help training programs like yours let students publish reusable computational tools - so their work has a visible shelf life beyond the degree. When another lab uses their method, your scholar's name and your mentoring lineage travel with it.\n\nWould this kind of durable contribution resonate for your S-STEM cohorts?\n\nHappy to chat after the holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 3,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-28T15:14:12.807Z",
+  "sent_at": "2025-12-28T15:20:43.664Z",
+  "resend_id": "b599d7b0-a557-4df5-adc3-5d38b0517468"
+}

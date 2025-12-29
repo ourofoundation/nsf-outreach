@@ -1,0 +1,19 @@
+{
+  "award_id": "2512400",
+  "pi_name": "Anne Pommier",
+  "pi_email": "apommier@carnegiescience.edu",
+  "institution": "Carnegie Institution of Washington",
+  "award_title": "Collaborative Research: Joint Electrical and Vibrational Spectroscopic Investigation of Volatile-carrying Minerals,  and Implications for Fluid Transport in Subduction Zones",
+  "award_amount": 417152,
+  "subject": "Getting others to actually use your calibration methods?",
+  "body": "You're building calibration standards for the community, but there's always that gap between \"we've developed this method\" and someone at another lab actually running it.\n\nI built Ouro to make computational methods discoverable and reusable—so your analysis pipelines can be infrastructure others cite, not just text in a paper.\n\nWorth a quick chat? No rush with the holidays, but happy to show you what we're doing.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 3,
+    "template_name": "curious",
+    "ouro_description_id": 4,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-28T16:12:26.632Z",
+  "sent_at": "2025-12-28T16:28:19.384Z",
+  "resend_id": "894e68b1-ade1-47a5-a9b8-77650c4a2337"
+}

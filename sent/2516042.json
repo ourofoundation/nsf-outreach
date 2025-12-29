@@ -1,0 +1,19 @@
+{
+  "award_id": "2516042",
+  "pi_name": "Wennie Wang",
+  "pi_email": "wwwennie@che.utexas.edu",
+  "institution": "University of Texas at Austin",
+  "award_title": "Understanding structure-activity relationships in disordered (oxy)hydroxide electrocatalysts",
+  "award_amount": 533612,
+  "subject": "Your DFT workflows deserve a longer shelf life",
+  "body": "Hi Wennie,\n\nI came across your NSF-funded work on structure-activity relationships in disordered (oxy)hydroxide electrocatalysts. The combination of DFT calculations with experimental validation to understand how disorder impacts OER activity is exactly the kind of computational research that others will want to build on.\n\nI'm working on Ouro, a place where published computational methods become callable, reusable infrastructure—so others can build on your work without reimplementing it from scratch.\n\nThe gap between publishing a method and it actually getting used in practice is frustrating. Your electronic structure calculations and spectroscopic simulations could have impact well beyond the paper if they were easier to access.\n\nHappy to give you a quick peek if it's useful.\n\nHope you get some rest over winter break—happy holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 1,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-26T16:03:51.685Z",
+  "sent_at": "2025-12-26T16:16:42.948Z",
+  "resend_id": "5acba591-9d03-4269-9b32-30bc50694cf3"
+}

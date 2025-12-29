@@ -1,0 +1,19 @@
+{
+  "award_id": "2518317",
+  "pi_name": "Eric C Gallimore",
+  "pi_email": "egallimore@whoi.edu",
+  "institution": "Woods Hole Oceanographic Institution",
+  "award_title": "POSE: Phase I: Enabling an Open-Source Ecosystem for Marine Robotics",
+  "award_amount": 299990,
+  "subject": "When your students' tools get reused elsewhere",
+  "body": "Integrating multiple frameworks is painful—especially ensuring community contributions actually work outside the original dev environment.\n\nWe built Ouro to package computational tools so they're genuinely reusable across labs. When someone picks up software from your ecosystem, your students' names travel with it.\n\nHappy to share more if you're interested. Also get it if you're heads-down through the holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 5,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-29T00:04:25.460Z",
+  "sent_at": "2025-12-29T15:23:47.268Z",
+  "resend_id": "ef853ae4-6250-49b0-beda-6f37ddf68045"
+}

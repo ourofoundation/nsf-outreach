@@ -1,0 +1,19 @@
+{
+  "award_id": "2501735",
+  "pi_name": "Kathryn Hinkelman",
+  "pi_email": "kathryn.hinkelman@uvm.edu",
+  "institution": "University of Vermont & State Agricultural College",
+  "award_title": "ERI: Towards Dynamic Life Cycle Assessment of Renewable Energy Hub Systems",
+  "award_amount": 200000,
+  "subject": "Co-simulation setups that only run on your machine",
+  "body": "Getting Brightway and Modelica to talk to each other is hard enough. Getting that setup to work for anyone else? Nightmare.\n\nI'm a computational materials scientist who built Ouro because I kept hitting the same wall—my coupling frameworks and workflows didn't outlive the paper. It's a tool for sharing computational work in a way that's actually reproducible, not just a zip file with a prayer.\n\nHappy to show you a quick demo after the holidays if you're interested.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 2,
+    "template_name": "peer",
+    "ouro_description_id": 2,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-28T15:13:12.914Z",
+  "sent_at": "2025-12-28T15:20:37.538Z",
+  "resend_id": "1f68c661-db27-44e0-8dba-e9be6a94942f"
+}

@@ -1,0 +1,19 @@
+{
+  "award_id": "2422238",
+  "pi_name": "Sean M Higgins",
+  "pi_email": "sean@ldeo.columbia.edu",
+  "institution": "Columbia University",
+  "award_title": "Columbia University/ R/V Marcus G. Langseth Oceanographic Technical Services - Year 1 of 5",
+  "award_amount": 2590739,
+  "subject": "shared instrumentation, shared headaches",
+  "body": "Hi Sean,\n\nGiven your work coordinating technical services and shared-use instrumentation across the research fleet, you're probably familiar with the challenge of making tools actually accessible and maintainable across different users and projects.\n\nI built something called Ouro after hitting that wall myself—Ouro helps researchers share computational tools and datasets in a way that's actually usable and durable, rather than a zip file buried in supplementary materials.\n\nNot sure if it's relevant to the technical services side of things, but figured it might be worth a look given how much coordination goes into keeping shared instrumentation calibrated and documented.\n\nI can set up access for your lab if you want to take a glance.\n\nHope you get some downtime over winter break—happy holidays.\n\nCheers,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 2,
+    "template_name": "peer",
+    "ouro_description_id": 2,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-27T15:53:23.875Z",
+  "sent_at": "2025-12-27T15:58:13.261Z",
+  "resend_id": "820154ef-b5fd-4d08-8f82-6a217ab353a7"
+}

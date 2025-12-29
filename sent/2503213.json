@@ -1,0 +1,19 @@
+{
+  "award_id": "2503213",
+  "pi_name": "Marek Locmelis",
+  "pi_email": "locmelis@jsg.utexas.edu",
+  "institution": "University of Texas at Austin",
+  "award_title": "CAREER: Investigating the source, transport and deposition of economically important metals in the lower continental crust",
+  "award_amount": 257390,
+  "subject": "Do your data pipelines still run after your students graduate?",
+  "body": "Geochemical workflows are a pain to keep reproducible—dependencies shift, the grad student who wrote the calibration script moves on, and suddenly nothing runs.\n\nBuilding Ouro to fix this: a platform where computational methods become reusable infrastructure so others can run your workflows without reimplementing.\n\nQuick chat in January?\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 3,
+    "template_name": "curious",
+    "ouro_description_id": 1,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-28T02:06:32.122Z",
+  "sent_at": "2025-12-28T02:11:04.079Z",
+  "resend_id": "1dcd5b9d-2130-472b-8304-d0e6a2ed2f98"
+}

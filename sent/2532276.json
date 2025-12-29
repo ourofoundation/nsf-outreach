@@ -1,0 +1,19 @@
+{
+  "award_id": "2532276",
+  "pi_name": "Holly R Ellis",
+  "pi_email": "ellish20@ecu.edu",
+  "institution": "East Carolina University",
+  "award_title": "Structural and Functional Properties of Enzymes Involved in Persulfide Degradation",
+  "award_amount": 525000,
+  "subject": "Training the next generation",
+  "body": "Holly,\n\nWhen grad students build computational tools, they often disappear after publication—buried in a methods section, hard to find or reuse.\n\nOuro makes those tools discoverable and citable. When someone reuses code from your lab, your students' names travel with it. Their contributions become visible, durable infrastructure.\n\nMight be worth a look, especially with students learning analytical techniques.\n\nWould you be open to a quick chat in the new year?\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 4,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-28T01:23:48.830Z",
+  "sent_at": "2025-12-28T02:11:18.105Z",
+  "resend_id": "552274b6-47c2-48c1-acf2-ee3e5b715d94"
+}

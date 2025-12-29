@@ -1,0 +1,19 @@
+{
+  "award_id": "2512091",
+  "pi_name": "Jane P Chang",
+  "pi_email": "jpchang@g.ucla.edu",
+  "institution": "University of California-Los Angeles",
+  "award_title": "ECLIPSE-PFAS: Sustainable Use of Etch Gases in Semiconductor Manufacturing",
+  "award_amount": 350026,
+  "subject": "Credit for computational contributions",
+  "body": "Hi Dr. Chang,\n\nYour work on sustainable etch gas alternatives in semiconductor manufacturing involves complex plasma modeling and experimental validation—work that generates valuable computational outputs.\n\nCitations capture acknowledgment, but not actual influence. Ouro helps turn computational workflows, datasets, and notebooks into reusable building blocks that others in your field can actually plug into their work. It makes your computational contributions both citable and visibly used.\n\nHappy to give you a quick peek if it's useful, though no rush with winter break coming up. Happy holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 5,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-26T14:16:37.839Z",
+  "sent_at": "2025-12-26T14:36:41.018Z",
+  "resend_id": "e0f2b841-70cd-4bd8-9878-8e6b9c60f726"
+}

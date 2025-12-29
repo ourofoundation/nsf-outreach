@@ -1,0 +1,19 @@
+{
+  "award_id": "2441776",
+  "pi_name": "Milan Delor",
+  "pi_email": "milan.delor@columbia.edu",
+  "institution": "Columbia University",
+  "award_title": "CAREER: Realizing ultrahigh mobility semiconductors through light-matter interactions",
+  "award_amount": 283100,
+  "subject": "Making computational work actually reusable",
+  "body": "Hi Milan,\n\nNSF's getting serious about public access, but it's tough to show that anyone's actually using what you share—especially computational stuff that isn't just a zip file somewhere.\n\nI work with Ouro. We help researchers package and share code and data in a way that's genuinely usable and trackable. Makes it easier to demonstrate real-world reuse when that matters.\n\nFigured it might be relevant for your imaging analysis or modeling work, or folks you collaborate with.\n\nHappy to chat briefly if useful. Hope you have a good holiday season.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 2,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-28T01:24:16.019Z",
+  "sent_at": "2025-12-28T02:10:54.730Z",
+  "resend_id": "f5703133-b053-4a4d-b94f-2ffd9e5513a4"
+}

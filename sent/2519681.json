@@ -1,0 +1,19 @@
+{
+  "award_id": "2519681",
+  "pi_name": "Kelsey Jencso",
+  "pi_email": "kelsey.jencso@umontana.edu",
+  "institution": "University of Montana",
+  "award_title": "NSF R2I2: The Northern Great Plains Regional Incubator for Drought Resiliency",
+  "award_amount": 499927,
+  "subject": "Deploying ML models to agencies vs. publishing them?",
+  "body": "Getting ML models and sensor data pipelines running at tribal nations and agencies—not just described in papers—seems like the hardest part of regional incubator work.\n\nI built Ouro to help researchers share computational tools that actually run elsewhere, not just live in supplementary materials.\n\nUp for a chat after the holidays?\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 3,
+    "template_name": "curious",
+    "ouro_description_id": 2,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-28T01:54:27.379Z",
+  "sent_at": "2025-12-28T02:11:09.955Z",
+  "resend_id": "2328971e-3727-420f-aedd-6abaf58d5afb"
+}

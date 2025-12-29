@@ -1,0 +1,19 @@
+{
+  "award_id": "2447607",
+  "pi_name": "Ajay Anand",
+  "pi_email": "ajay.anand@rochester.edu",
+  "institution": "University of Rochester",
+  "award_title": "REU Site: Computational Methods for Understanding Music, Media and Minds",
+  "award_amount": 447517,
+  "subject": "Making REU projects reusable beyond the summer",
+  "body": "Getting a new cohort of students up and running with ML environments each summer—then watching their code become unusable by the next cohort—is a frustration I've heard from every REU PI I've talked to.\n\nI built Ouro to make computational work actually reusable and citable, not just archived. One durable endpoint instead of scattered repos and \"works on my machine\" issues.\n\nHappy to share more after the holidays if you're interested.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 4,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-28T01:44:01.637Z",
+  "sent_at": "2025-12-28T02:10:59.377Z",
+  "resend_id": "6e147c9f-2794-4515-8e05-5fc941b31436"
+}

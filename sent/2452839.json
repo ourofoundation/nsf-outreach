@@ -1,0 +1,19 @@
+{
+  "award_id": "2452839",
+  "pi_name": "Timothy H Warren",
+  "pi_email": "warre155@msu.edu",
+  "institution": "Michigan State University",
+  "award_title": "CAS: Copper Catalyzed sp3 C-H Functionalization",
+  "award_amount": 570000,
+  "subject": "Publishing tools from your group",
+  "body": "Hi Tim,\n\nI'm reaching out as we head into winter break—hope you have a good holiday.\n\nI work on tools for research labs developing new catalytic methods. One thing I've noticed: when your trainees publish computational workflows or protocols, those contributions can travel with their names as others reuse them across different labs.\n\nOuro provides a thin API layer over computational workflows, letting other researchers reuse methods directly instead of recreating them from papers.\n\nIt might be useful for your group as you develop new C-H functionalization protocols and train students through those collaborations you mentioned.\n\nHappy to get your group a look if it's helpful.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 3,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-26T14:39:36.108Z",
+  "sent_at": "2025-12-26T15:13:10.142Z",
+  "resend_id": "18a32bf1-737b-4ddc-ae85-08b3a8c223a2"
+}

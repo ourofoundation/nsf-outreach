@@ -1,0 +1,19 @@
+{
+  "award_id": "2526624",
+  "pi_name": "Hans Joachim Schellnhuber",
+  "pi_email": "schellnhuber@iiasa.ac.at",
+  "institution": "Internationales Institut fur angewandte Systemanalyse",
+  "award_title": "Support for the International Institute for Applied Systems Analysis (IIASA)",
+  "award_amount": 4190400,
+  "subject": "Re: models that don't get reused",
+  "body": "Hans,\n\nMost computational work gets published then disappears. Even solid methods don't get picked up because they're stuck in PDFs or messy repos.\n\nWe built Ouro to fix that—makes it easy to share tools and datasets in a way people can actually run and build on.\n\nGiven IIASA's focus on systems analysis and global collaborations, might be useful for extending the reach of your team's computational work.\n\nHappy to show you quickly if it's relevant.\n\nHope you have a good holiday.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 2,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-28T01:24:08.410Z",
+  "sent_at": "2025-12-28T02:11:13.396Z",
+  "resend_id": "b4fb62da-29ff-4b9a-9aa6-71326d1e8712"
+}

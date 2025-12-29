@@ -1,0 +1,19 @@
+{
+  "award_id": "2500435",
+  "pi_name": "Ander J Sundell",
+  "pi_email": "andersundell@CWI.edu",
+  "institution": "College of Western Idaho",
+  "award_title": "Developing Innovative Geotechnical Instruction and Training",
+  "award_amount": 862435,
+  "subject": "Reducing friction around shared methods",
+  "body": "Hi Ander,\n\nI saw your NSF project on developing mining technician education with modern surveying and geosciences tools. As you build curriculum and train faculty, you're likely fielding questions about methods, sharing code snippets, or digging up old scripts.\n\nI'm working on Ouro, a place where published computational methods become callable, reusable infrastructure—so others can build on your work without reimplementing it from scratch.\n\nIt might help consolidate those requests into something more durable. If you're curious, I can show you how it works.\n\nHappy holidays—hope you get some downtime over winter break.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 1,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-26T14:25:16.400Z",
+  "sent_at": "2025-12-26T14:34:40.384Z",
+  "resend_id": "2414b804-efa1-40a1-9858-c91a81901bbf"
+}

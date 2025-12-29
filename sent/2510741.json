@@ -1,0 +1,19 @@
+{
+  "award_id": "2510741",
+  "pi_name": "Enrique Lopez-Rodriguez",
+  "pi_email": "lopezroe@mailbox.sc.edu",
+  "institution": "University of South Carolina at Columbia",
+  "award_title": "A new view of magnetic fields in the early Universe",
+  "award_amount": 357765,
+  "subject": "Credit for the computational side of your work",
+  "body": "Hi Enrique,\n\nI came across your NSF program on magnetic fields in early galaxies—combining ALMA polarimetric data with MHD cosmological simulations to trace B-field evolution across redshift.\n\nWork like that involves significant computational contributions that often get cited but rarely get reused in practice. Citations capture acknowledgment, but not actual influence. Ouro helps make computational work both citable and visibly used.\n\nOuro helps researchers share computational tools and datasets in a way that's actually usable and durable, rather than a zip file buried in supplementary materials.\n\nWith winter break coming up, I wanted to reach out before things quiet down. I can set up access for your lab if you want to take a glance.\n\nHappy holidays!\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 2,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-27T15:37:13.283Z",
+  "sent_at": "2025-12-27T15:43:32.189Z",
+  "resend_id": "1cd963a4-f748-4650-9041-fc9a0fce7cfb"
+}

@@ -1,0 +1,19 @@
+{
+  "award_id": "2442904",
+  "pi_name": "Demyan E Prokopchuk",
+  "pi_email": "demyan.prokopchuk@rutgers.edu",
+  "institution": "Rutgers University Newark",
+  "award_title": "CAREER: CAS: Modulating Ligand-based C-H and N-H Bond Strengths for Sustainable Synthesis and Catalysis",
+  "award_amount": 799799,
+  "subject": "One less \"can you share your computational setup?\" email",
+  "body": "Dr. Prokopchuk,\n\nMethods sections never include enough detail. Then you're fielding emails asking for input files, parameters, or scripts.\n\nOuro turns computational workflows into reusable endpoints others can actually run. Consolidates all the sharing you're already doing into one place.\n\nHappy to show you a quick demo after the holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 5,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-29T14:30:36.233Z",
+  "sent_at": "2025-12-29T15:23:37.785Z",
+  "resend_id": "1abcdde5-2acf-4a8f-9466-047a5d0cf3ff"
+}

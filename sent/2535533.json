@@ -1,0 +1,19 @@
+{
+  "award_id": "2535533",
+  "pi_name": "Jongwan Eun",
+  "pi_email": "jeun1@umd.edu",
+  "institution": "University of Maryland, College Park",
+  "award_title": "CAREER: Multi-physical and Multi-scale Testing and  Modeling of Water Infiltration through Frozen Soils",
+  "award_amount": 317910,
+  "subject": "code that outlives the paper",
+  "body": "Hey Jongwan,\n\nI'm a computational materials scientist who keeps running into the same problem: models and simulations that work great for a paper basically evaporate after publication.\n\nBuilt something called Ouro to fix this—it's infrastructure that turns published computational methods into things other researchers can actually call and reuse without reverse-engineering your code.\n\nFigured this might resonate if you've done any modeling work on frozen soil dynamics. Happy to share more if you're curious.\n\nHope you're having a good holiday season.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 2,
+    "template_name": "peer",
+    "ouro_description_id": 1,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-28T00:54:39.915Z",
+  "sent_at": "2025-12-28T01:00:23.814Z",
+  "resend_id": "fe470fde-8997-461e-baae-12effbe3268c"
+}

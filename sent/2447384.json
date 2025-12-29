@@ -1,0 +1,19 @@
+{
+  "award_id": "2447384",
+  "pi_name": "Dawn H Nagel",
+  "pi_email": "dawnn@ucr.edu",
+  "institution": "University of California-Riverside",
+  "award_title": "REU Site: Next generation plant biology and plant-microbe interactions",
+  "award_amount": 477292,
+  "subject": "Reducing friction around sharing methods",
+  "body": "Hi Dr. Nagel,\n\nRunning an REU site means a lot of repeated explanations—walking students through protocols, pointing them to scripts, answering the same questions about experimental approaches each summer. Multiply that across 30 students over three years, and it adds up.\n\nOuro provides a thin API layer over computational workflows, letting other researchers reuse methods directly instead of recreating them from papers. For a program training students in genomics, bioinformatics, and plant-pathogen analysis, it could consolidate what you're already sharing into something more durable and accessible.\n\nI can set up access for your lab if you want to take a glance.\n\nHope you get some rest over winter break—happy holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 3,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-27T15:37:02.390Z",
+  "sent_at": "2025-12-27T15:43:26.395Z",
+  "resend_id": "f28c4f96-dd38-4548-9a07-eae8e64436c6"
+}

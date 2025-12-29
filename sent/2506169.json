@@ -1,0 +1,19 @@
+{
+  "award_id": "2506169",
+  "pi_name": "Alexander Ayzner",
+  "pi_email": "aayzner@ucsc.edu",
+  "institution": "University of California-Santa Cruz",
+  "award_title": "Rational Design of Intrinsically Semiconducting Coacervates via Aqueous Liquid/Liquid Phase Separation of Conjugated Polyelectrolytes",
+  "award_amount": 452422,
+  "subject": "Making optical analysis code actually reusable",
+  "body": "Spectroscopy analysis pipelines usually end up in a supplement folder nobody can run—even when other labs would benefit from your exact workflow.\n\nWe built Ouro to make computational methods discoverable, citable, and actually reusable by others. Turns methods sections into infrastructure.\n\nHappy to show you if you're interested. Hope you get a break soon.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 4,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-29T14:31:06.061Z",
+  "sent_at": "2025-12-29T15:23:42.376Z",
+  "resend_id": "507cf60e-10bb-491c-a1ae-4a30772558b2"
+}

@@ -1,0 +1,19 @@
+{
+  "award_id": "2447674",
+  "pi_name": "Ruth H Carmichael",
+  "pi_email": "rcarmichael@disl.org",
+  "institution": "Marine Environmental Sciences Consortium",
+  "award_title": "REU Site: Research experiences in marine and estuarine disturbance ecology of the Gulf Coast",
+  "award_amount": 246291,
+  "subject": "Credit when your methods actually get used",
+  "body": "REU code usually dies when students graduate, or each cohort rebuilds the same pipelines from scratch.\n\nI built Ouro to fix this—published methods become callable infrastructure so others can build on your work without reimplementing.\n\nCitations capture acknowledgment, not influence. Ouro shows actual use.\n\nQuick call after the holidays?\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 1,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-28T01:54:06.400Z",
+  "sent_at": "2025-12-28T02:11:00.540Z",
+  "resend_id": "69a9f6c4-eabc-4f2e-b4b0-a8ea6fc6d26f"
+}

@@ -1,0 +1,19 @@
+{
+  "award_id": "2453818",
+  "pi_name": "Bimal Viswanath",
+  "pi_email": "vbimal@cs.vt.edu",
+  "institution": "Virginia Polytechnic Institute and State University",
+  "award_title": "Collaborative Research: SaTC: CORE: Medium: Practical Generative AI to Enhance Security Classifiers by Overcoming Data Challenges",
+  "award_amount": 320000,
+  "subject": "Reducing friction on sharing security ML methods",
+  "body": "Hi Dr. Viswanath,\n\nI saw your NSF project on using GenAI to generate synthetic data for security classifiers—tackling data scarcity and concept drift in ML-based threat detection is genuinely hard work.\n\nI'm reaching out because researchers in your position often end up fielding emails asking for code, datasets, or implementation details. Ouro provides a thin API layer over computational workflows, letting other researchers reuse methods directly instead of recreating them from papers. It consolidates the things you're already doing—sharing scripts, answering questions, digging up old notebooks—into a single durable endpoint.\n\nI can set up access for your lab if you want to take a glance.\n\nHope you get some downtime over winter break—happy holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 3,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-26T16:03:28.955Z",
+  "sent_at": "2025-12-26T16:14:42.371Z",
+  "resend_id": "eb170d87-9ef0-4a22-9570-f53f6e96ca97"
+}

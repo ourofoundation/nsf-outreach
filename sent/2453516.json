@@ -1,0 +1,19 @@
+{
+  "award_id": "2453516",
+  "pi_name": "Byron W Purse",
+  "pi_email": "bpurse@mail.sdsu.edu",
+  "institution": "San Diego State University Foundation",
+  "award_title": "Structure-property Relationships and the Optimization of Fluorescent Nucleoside Analogues",
+  "award_amount": 605020,
+  "subject": "Your trainees' contributions lasting beyond the lab",
+  "body": "Hi Professor Purse,\n\nI work on Ouro, a platform that helps researchers share computational tools and datasets in a way that's actually usable and durable, rather than a zip file buried in supplementary materials.\n\nI noticed your lab's work on fluorescent nucleobase analogues and the training focus for graduate students and undergraduates. One thing we've seen is that when computational tools or datasets from a lab get reused elsewhere, the students who built them get visible, lasting credit—their names travel with their work.\n\nIf your group develops any analysis tools or shares datasets around FBA properties, this might be useful for making those contributions more discoverable and citable.\n\nI can set up access for your lab if you want to take a glance. And with winter break approaching, wishing you and your group a happy holiday.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 2,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-27T15:10:00.747Z",
+  "sent_at": "2025-12-27T15:43:27.542Z",
+  "resend_id": "adde76ab-f868-46d5-8658-b1a4b8721121"
+}

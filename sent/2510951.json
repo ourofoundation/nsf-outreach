@@ -1,0 +1,19 @@
+{
+  "award_id": "2510951",
+  "pi_name": "Damiano Caprioli",
+  "pi_email": "caprioli@uchicago.edu",
+  "institution": "University of Chicago",
+  "award_title": "Collaborative Research: Multidimensional Kinetic Simulations of Particle Acceleration in Astrophysical Collisionless Shocks",
+  "award_amount": 502863,
+  "subject": "Credit for computational work beyond citations",
+  "body": "Hi Damiano,\n\nHope winter break is treating you well—happy holidays.\n\nYour work on kinetic simulations of collisionless shocks involves significant computational infrastructure. Citations capture acknowledgment, but they don't really show when others are actually building on your simulation frameworks or datasets.\n\nOuro helps turn computational workflows, datasets, and notebooks into reusable building blocks that others in your field can actually plug into their work. It makes your computational contributions both citable and visibly used—so you can see when someone downstream incorporates your particle-in-cell work rather than just referencing it.\n\nLet me know if you'd like to poke around.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 5,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-26T14:43:22.036Z",
+  "sent_at": "2025-12-26T15:16:11.021Z",
+  "resend_id": "c009f39a-f021-4fe8-a477-cd27080e229d"
+}

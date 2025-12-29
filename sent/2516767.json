@@ -1,0 +1,19 @@
+{
+  "award_id": "2516767",
+  "pi_name": "Peter Washington",
+  "pi_email": "peter.washington@ucsf.edu",
+  "institution": "University of California-San Francisco",
+  "award_title": "SCH: Personalized Machine Learning for Repeat Adverse Health Events using Novel Multimodal Self-Supervised Pretraining Methods",
+  "award_amount": 1183690,
+  "subject": "Supporting your trainees' visibility",
+  "body": "Hi Peter,\n\nAs winter break approaches, I wanted to reach out. Your work on personalized self-supervised learning for wearables—particularly the methods for learning individual biosignal patterns—represents the kind of methodological contribution that could benefit other researchers working on similar problems.\n\nWhen your students develop these preprocessing pipelines or annotation techniques, there's an opportunity for those tools to have a life beyond the original papers. Ouro provides a thin API layer over computational workflows, letting other researchers reuse methods directly instead of recreating them from papers. When those tools get reused, your trainees' names and your lab's lineage travel with them.\n\nIf you're curious, I can show you how it works.\n\nWishing you a restful holiday season.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 3,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-27T15:36:44.034Z",
+  "sent_at": "2025-12-27T15:43:33.352Z",
+  "resend_id": "62b10c41-47d6-4d1e-bfb8-e10b7e681db3"
+}

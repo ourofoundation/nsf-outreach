@@ -1,0 +1,19 @@
+{
+  "award_id": "2516142",
+  "pi_name": "David L Hysell",
+  "pi_email": "dlh37@cornell.edu",
+  "institution": "Cornell University",
+  "award_title": "Collaborative Research: Subauroral atmospheric and ionospheric dynamics at the edge of space",
+  "award_amount": 351460,
+  "subject": "Getting credit when others actually use your simulation code",
+  "body": "Multi-site simulation code that's hard to reproduce, outputs too big for supplements - even when people cite your work, they're usually rebuilding from scratch.\n\nWe built Ouro as a thin API layer over computational workflows. Other researchers can call your methods directly instead of recreating them. You get visibility into actual reuse, not just citation counts.\n\nHappy to show you how it works.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 3,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-28T02:04:39.068Z",
+  "sent_at": "2025-12-28T02:11:08.792Z",
+  "resend_id": "6856dba2-698a-4dea-a247-d5158c8d10c0"
+}

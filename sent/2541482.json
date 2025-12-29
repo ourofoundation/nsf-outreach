@@ -1,0 +1,19 @@
+{
+  "award_id": "2541482",
+  "pi_name": "Derek Buzasi",
+  "pi_email": "dean.evasius@gmail.com",
+  "institution": "University of Chicago",
+  "award_title": "Collaborative Research: Polarimetric Asteroseismology of Massive Hot Stars",
+  "award_amount": 145866,
+  "subject": "Making stellar modeling code available",
+  "body": "Derek—\n\nYour polarimetric work on massive stars involves some serious computational modeling, and I'm guessing that code lives mostly in papers and local drives.\n\nOuro wraps research workflows in a lightweight API so other astronomers can actually use what you've built instead of re-coding it from scratch. It's becoming an expectation that methods are reusable—we just make it easier to show you're delivering on that.\n\nWorth a quick call? And happy holidays.\n\nBest,\nMatt\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 3,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-28T00:28:39.708Z",
+  "sent_at": "2025-12-28T00:33:59.936Z",
+  "resend_id": "b46b5ccd-80b4-4618-87ff-c55671bfefda"
+}

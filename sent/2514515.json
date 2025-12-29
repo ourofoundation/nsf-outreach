@@ -1,0 +1,19 @@
+{
+  "award_id": "2514515",
+  "pi_name": "Hailin Wang",
+  "pi_email": "hailin@oregon.uoregon.edu",
+  "institution": "University of Oregon Eugene",
+  "award_title": "Quantum Spin-Mechanics with Color Centers in Diamond",
+  "award_amount": 375000,
+  "subject": "Reducing friction around sharing spin-mechanics code",
+  "body": "Hi Dr. Wang,\n\nI'm reaching out to researchers working in quantum information and spin-mechanical systems. Given the complexity of diamond spin-mechanics experiments—GHz Lamb wave resonators, phononic crystal designs, spin-qubit coupling analysis—I imagine there's a fair amount of computational work that accumulates and gets asked about.\n\nOuro helps researchers share computational tools and datasets in a way that's actually usable and durable, rather than a zip file buried in supplementary materials. It consolidates the work you're already doing—sharing code, answering emails about methods, digging up old scripts—into a single endpoint that lasts.\n\nHappy to get your group a look if it's helpful.\n\nHope winter break gives you some downtime. Happy holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 2,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-26T14:52:44.017Z",
+  "sent_at": "2025-12-26T15:18:11.795Z",
+  "resend_id": "cad7ff81-69b5-4fb2-a503-d5897711189d"
+}

@@ -1,0 +1,19 @@
+{
+  "award_id": "2502836",
+  "pi_name": "Anna Bergstrom",
+  "pi_email": "annabergstrom@boisestate.edu",
+  "institution": "Boise State University",
+  "award_title": "RAPID: Downstream water quality impacts of post-wildfire debris flows",
+  "award_amount": 49961,
+  "subject": "Training the next generation of fire hydrology researchers",
+  "body": "Hi Anna,\n\nPost-wildfire water quality is becoming more urgent every year, and I'm guessing your team is building analysis tools and datasets that could be useful beyond just your watershed.\n\nThe problem is that computational work usually dies in supplementary files. Ouro helps researchers publish tools and data in a way that's actually reusable. When other labs use your team's work, your students' names travel with it—durable credit that follows them through their careers.\n\nWorth a quick chat? I'll keep it short.\n\nHope you had a good holiday.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 2,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-28T00:48:41.884Z",
+  "sent_at": "2025-12-28T01:00:20.372Z",
+  "resend_id": "8e401514-7514-4c71-b443-8a86a1d996e3"
+}

@@ -1,0 +1,19 @@
+{
+  "award_id": "2519782",
+  "pi_name": "Karen I Winey",
+  "pi_email": "winey@seas.upenn.edu",
+  "institution": "University of Pennsylvania",
+  "award_title": "Nanoscale Morphologies and Selective Solvents to Promote Cation Transport in Polymers",
+  "award_amount": 510000,
+  "subject": "How do you keep analysis scripts in sync across groups?",
+  "body": "Collaborating with computational scientists on experimental data—I imagine keeping analysis scripts in sync gets messy. Different environments, version drift, code that only runs on one person's setup.\n\nWe built Ouro to make computational methods citable and reusable—so workflows live as infrastructure, not just supplements.\n\nQuick call in January? Focused on multi-site collaborations right now.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 3,
+    "template_name": "curious",
+    "ouro_description_id": 4,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-28T16:13:42.187Z",
+  "sent_at": "2025-12-28T16:28:20.517Z",
+  "resend_id": "141b730c-d5c2-4e26-8fda-ee24aa462fbc"
+}

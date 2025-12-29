@@ -1,0 +1,19 @@
+{
+  "award_id": "2434867",
+  "pi_name": "Surangi W Punyasena",
+  "pi_email": "spunya1@illinois.edu",
+  "institution": "University of Illinois at Urbana-Champaign",
+  "award_title": "PALYIM: A DEEP-LEARNING PLATFORM FOR POLLEN IMAGE ANALYSIS",
+  "award_amount": 800001,
+  "subject": "ML workflows that others can actually run",
+  "body": "Publishing ML models is one thing—getting others to actually use them is another. Environment setup, dependency mismatches, the usual headaches.\n\nI built Ouro for the same reason—it's an API layer over workflows so people can reuse methods directly instead of recreating from papers.\n\nCurious if this fits what you're building. Happy to chat after holidays if interested.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 2,
+    "template_name": "peer",
+    "ouro_description_id": 3,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-28T01:58:19.917Z",
+  "sent_at": "2025-12-28T02:10:52.379Z",
+  "resend_id": "f9afaede-38f8-4b23-b121-a0cf365d821d"
+}

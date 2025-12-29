@@ -1,0 +1,19 @@
+{
+  "award_id": "2504241",
+  "pi_name": "Heather Culbertson",
+  "pi_email": "hculbert@usc.edu",
+  "institution": "University of Southern California",
+  "award_title": "HCC: Medium: Language-guided Haptic Texture Modeling and Signal Generation",
+  "award_amount": 850000,
+  "subject": "Your lab's haptic authoring tools outliving the paper",
+  "body": "Shipping ML models + haptic APIs so other labs can actually use them is brutal—especially when you want your tools to reach designers, not just researchers who can debug dependency hell.\n\nWe built Ouro to make computational tools discoverable, reusable, and citable, so your students' authoring frameworks become infrastructure other labs build on (with their names attached).\n\nWorth a quick chat? I know it's a busy time of year.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 4,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-28T16:12:46.211Z",
+  "sent_at": "2025-12-28T16:28:17.045Z",
+  "resend_id": "c60ee883-0c96-4a1d-b525-49396f7bf559"
+}

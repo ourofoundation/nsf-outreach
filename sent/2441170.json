@@ -1,0 +1,19 @@
+{
+  "award_id": "2441170",
+  "pi_name": "Matthew H Rosenzweig",
+  "pi_email": "mrosenz2@andrew.cmu.edu",
+  "institution": "Carnegie Mellon University",
+  "award_title": "CAREER: Classical Many-Body Systems Beyond Leading Order",
+  "award_amount": 92075,
+  "subject": "computational methods that don't die with the paper",
+  "body": "Hi Matthew,\n\nI'm a computational materials scientist who built something called Ouro after hitting the same wall you've probably run into—computational methods that stay locked in papers instead of being reusable.\n\nOuro is basically a thin API layer that lets other researchers call your computational workflows directly. No recreating methods from scratch, no emailing for code that may or may not run.\n\nFigured it might be relevant for particle simulation work. Happy to show you a quick demo if you're curious.\n\nHope you have a good holiday season.\n\nCheers,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 2,
+    "template_name": "peer",
+    "ouro_description_id": 3,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-28T00:48:35.681Z",
+  "sent_at": "2025-12-28T01:00:15.741Z",
+  "resend_id": "9adc22b4-4d6b-4505-bc4f-3bcf2094cf14"
+}

@@ -1,0 +1,19 @@
+{
+  "award_id": "2518781",
+  "pi_name": "Sashank Narain",
+  "pi_email": "sashank_narain@uml.edu",
+  "institution": "University of Massachusetts Lowell",
+  "award_title": "Enhancing Undergraduate STEM Education with Large Language Models: Personalization, Collaboration, and Active Learning",
+  "award_amount": 399724,
+  "subject": "Credit for computational work beyond citations",
+  "body": "Hi Sashank,\n\nI came across your IUSE project on using LLMs for personalized learning in CS courses—particularly the retrieval-augmented generation work to align outputs with student materials.\n\nOne challenge with computational methods: citations capture acknowledgment, but not actual influence. When other researchers build on your RAG techniques or LLM customizations, there's no easy way to see that usage.\n\nOuro provides a thin API layer over computational workflows, letting other researchers reuse methods directly instead of recreating them from papers. It makes computational contributions both citable and visibly used.\n\nHope winter break gives you some downtime—happy holidays.\n\nLet me know if you'd like to poke around.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 3,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-27T15:09:54.436Z",
+  "sent_at": "2025-12-27T15:43:34.501Z",
+  "resend_id": "a4b24c2f-f201-4d4e-9e52-8cde36aa3aba"
+}

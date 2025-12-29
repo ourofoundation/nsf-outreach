@@ -1,0 +1,19 @@
+{
+  "award_id": "2513861",
+  "pi_name": "Yu Liu",
+  "pi_email": "yuliu@clarkson.edu",
+  "institution": "Clarkson University",
+  "award_title": "Elements: TASChips: Thermal Analysis of Semiconductor Chips with High Efficiency, Accuracy and Resolution Enabled by Physics-Aware Reduced-Order Learning Techniques",
+  "award_amount": 597316,
+  "subject": "Making thermal analysis tools actually discoverable",
+  "body": "Hi Yu,\n\nBuilding tools like TASChips is hard—getting people to actually use them afterward is harder still. Right now, great computational work lives in papers and supplementary files, and you never really know who's benefiting from it.\n\nWe're building Ouro to fix that. It's a place where you can share code and datasets in a way that's genuinely usable, citable, and visible. You see who's using your work and how.\n\nWould be worth a quick conversation if you're interested. Happy holidays.\n\nBest,\nMatt\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 2,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-28T00:25:05.045Z",
+  "sent_at": "2025-12-28T00:33:56.448Z",
+  "resend_id": "9340fe89-a750-48e0-9e22-a242428945e0"
+}

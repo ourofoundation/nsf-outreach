@@ -1,0 +1,19 @@
+{
+  "award_id": "2536532",
+  "pi_name": "Neda Yaghoobian",
+  "pi_email": "nyaghoobian@eng.famu.fsu.edu",
+  "institution": "Florida State University",
+  "award_title": "Collaborative Research: FIRE-MODEL: Advancing Wildland Fire Modeling by Capturing Unresolved Canopy Dynamics",
+  "award_amount": 606882,
+  "subject": "fire-atmosphere coupling models that don't just sit on github",
+  "body": "Hi Neda,\n\nI saw your FIRE-MODEL project on canopy biomechanics and fire behavior—multi-physics modeling with flexible vegetation is genuinely hard to make reproducible, let alone reusable by other groups.\n\nI've been working on something called Ouro that came out of my own frustration with this. Ouro helps turn computational workflows, datasets, and notebooks into reusable building blocks that others in your field can actually plug into their work. Not just \"here's my code,\" but actually structured so someone else can adapt it without reverse-engineering your naming conventions for three days.\n\nFigured it might be relevant given the multi-fidelity approach you're taking.\n\nI can set up access for your lab if you want to take a glance.\n\nHope you get some actual downtime over winter break—happy holidays.\n\nCheers,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 2,
+    "template_name": "peer",
+    "ouro_description_id": 5,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-26T16:04:03.301Z",
+  "sent_at": "2025-12-26T16:19:55.944Z",
+  "resend_id": "dc5eb83b-3d72-4c4d-9332-5a6321edca42"
+}

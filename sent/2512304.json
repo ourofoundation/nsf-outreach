@@ -1,0 +1,19 @@
+{
+  "award_id": "2512304",
+  "pi_name": "Allison L Harris",
+  "pi_email": "alharri@ilstu.edu",
+  "institution": "Board of Trustees of Illinois State University",
+  "award_title": "RUI: Harnessing Machine Learning Techniques for Atomic and Molecular Collisions",
+  "award_amount": 234795,
+  "subject": "Building tools your trainees will be proud of",
+  "body": "Hi Allison,\n\nYour lab's work on collision physics with ML sounds like it's producing some really useful computational models. Here's the thing—when that code and those neural networks live in a paper's appendix, your students' contributions kind of disappear with it.\n\nOuro helps you publish working tools so they actually get used elsewhere. When someone applies your models to a new problem, your trainees get credit and visibility for the real impact they built.\n\nWorth a quick conversation?\n\nBest,\nMatt\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 2,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-28T00:33:32.301Z",
+  "sent_at": "2025-12-28T01:00:22.672Z",
+  "resend_id": "6c3b4db8-c9a0-47ef-b780-94e78159dea0"
+}

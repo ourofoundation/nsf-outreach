@@ -1,0 +1,19 @@
+{
+  "award_id": "2520677",
+  "pi_name": "Freddy X Bunbury",
+  "pi_email": "fbunbury@uchicago.edu",
+  "institution": "University of Chicago",
+  "award_title": "Evolution and Mechanisms of Thermotolerance in Cyanobacteria",
+  "award_amount": 358830,
+  "subject": "One link instead of 10 troubleshooting emails",
+  "body": "Multi-omics pipelines have a short shelf life. Dependencies break, students can't reproduce the environment, collaborators want to apply your model but get stuck on setup.\n\nBuilt Ouro so methods become reusable infrastructure—one durable link instead of scattered scripts and support emails.\n\nQuick call after the holidays?\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 4,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-28T01:57:21.177Z",
+  "sent_at": "2025-12-28T02:11:11.110Z",
+  "resend_id": "56b354ee-6db0-49c9-a660-d8208bb136c7"
+}

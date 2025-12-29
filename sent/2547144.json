@@ -1,0 +1,19 @@
+{
+  "award_id": "2547144",
+  "pi_name": "Zachary T Emberts",
+  "pi_email": "emberts@okstate.edu",
+  "institution": "The University of Central Florida Board of Trustees",
+  "award_title": "The evolution of defensive shields used in male-male combat",
+  "award_amount": 682585,
+  "subject": "Sharing phylogenetic analysis pipelines?",
+  "body": "Hey Zachary,\n\nI keep thinking about how hard it is to share phylogenetic comparative methods—the exact R packages, preprocessing scripts, and analysis workflows rarely make it into supplements in a way others can actually run.\n\nI'm building Ouro to turn published computational methods into callable infrastructure. Instead of reimplementing from papers, researchers could just build on the actual pipeline you used.\n\nWould love to hear if this resonates with how you share your comparative methods work. No rush with the holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 3,
+    "template_name": "curious",
+    "ouro_description_id": 1,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-28T15:11:51.331Z",
+  "sent_at": "2025-12-28T15:20:45.994Z",
+  "resend_id": "e91e73be-be05-459c-88d5-dc69198214f2"
+}

@@ -1,0 +1,19 @@
+{
+  "award_id": "2443423",
+  "pi_name": "Xiaoyu Tang",
+  "pi_email": "x.tang@northeastern.edu",
+  "institution": "Northeastern University",
+  "award_title": "CAREER: Unraveling flow-fluid coupling during impact of complex fluid droplets",
+  "award_amount": 584946,
+  "subject": "Making methods reusable (not just documented)",
+  "body": "Hi Xiaoyu,\n\nYou're working on droplet impact with suspensions—lots of imaging and flow analysis, I'd guess.\n\nThe problem we keep hearing: computational methods get written up in papers, but they don't really live on as tools others can actually use or build from.\n\nOuro helps researchers make their code and workflows discoverable and citable, so the accessibility and reuse that NSF cares about becomes something you can actually point to.\n\nWould you be open to a quick call in January?\n\nHope you get some rest over the holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 4,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-28T01:04:20.290Z",
+  "sent_at": "2025-12-28T01:12:56.944Z",
+  "resend_id": "8bd4997b-1ae7-4801-9862-a9588fb5d7bd"
+}

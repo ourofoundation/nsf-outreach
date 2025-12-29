@@ -1,0 +1,19 @@
+{
+  "award_id": "2511059",
+  "pi_name": "Gail H Schaefer",
+  "pi_email": "gschaefer@gsu.edu",
+  "institution": "Georgia State University Research Foundation, Inc.",
+  "award_title": "MRI: Track 1 Development of Multi-Spectral Band Advances for the CHARA Array",
+  "award_amount": 1385600,
+  "subject": "CHARA's methods deserve more than a PDF",
+  "body": "Dr. Schaefer,\n\nYour work on multi-spectral interferometry at the CHARA Array—particularly the adaptive optics upgrades for simultaneous visible and infrared observations—represents serious methodological progress. But I'd guess most of those techniques live in papers that others would need to reimplement from scratch to actually use.\n\nI'm working on Ouro, a place where published computational methods become callable, reusable infrastructure—so others can build on your work without reimplementing it from scratch.\n\nGiven CHARA's open access program already serves the US astronomy community, making your methods directly usable could extend that impact significantly.\n\nIf you're curious, I can show you how it works.\n\nEnjoy the winter break, and happy holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 1,
+    "call_to_action_id": 2
+  },
+  "generated_at": "2025-12-26T14:43:17.298Z",
+  "sent_at": "2025-12-26T15:17:11.263Z",
+  "resend_id": "0d4ae733-ca71-4a22-8dec-fd993053b8c0"
+}

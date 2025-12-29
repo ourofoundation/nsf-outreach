@@ -1,0 +1,19 @@
+{
+  "award_id": "2504578",
+  "pi_name": "Leonidas Lampropoulos",
+  "pi_email": "leonidas@umd.edu",
+  "institution": "University of Maryland, College Park",
+  "award_title": "Collaborative Research: SHF: Medium: Foundations of Zero Knowledge Computation",
+  "award_amount": 592500,
+  "subject": "Making verification toolchains actually reusable",
+  "body": "Getting your verification tools and proof systems to run on someone else's machine is... optimistic. Too many dependencies, version issues, setup steps that never get fully documented.\n\nBuilt Ouro as a thin API layer over computational workflows - researchers reuse methods directly instead of recreating from papers. Makes accessibility and real-world reuse easier to demonstrate.\n\nHappy to show you if interested. (No rush - holidays aren't for thinking about reproducibility.)\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 3,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-29T00:03:36.065Z",
+  "sent_at": "2025-12-29T15:23:41.247Z",
+  "resend_id": "ba6e934e-10be-46ad-9f79-57c927647c3e"
+}

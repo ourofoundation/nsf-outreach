@@ -1,0 +1,19 @@
+{
+  "award_id": "2451634",
+  "pi_name": "Kalina Hristova",
+  "pi_email": "hristova@jhu.edu",
+  "institution": "Johns Hopkins University",
+  "award_title": "ASSEMBLY-FUNCTION RELATIONS IN SIGNAL TRANSDUCTION ACROSS THE PLASMA MEMBRANE",
+  "award_amount": 987578,
+  "subject": "How do you share the computational side of your RTK work?",
+  "body": "Hi Kalina,\n\nI've noticed that a lot of the computational insights from cell signaling research never quite make it beyond the paper itself. Your group's work on how proteins actually organize and function across membranes seems like the kind of thing that'd be gold for others building on it—but the workflows and analysis tools rarely travel.\n\nWe're building Ouro to change that: turning computational notebooks and datasets into modular pieces other researchers can actually grab and build with. Saw patterns like this across papers and thought we'd try to fix it.\n\nWould love to chat sometime about how your team handles this. No pressure—just curious about your take.\n\nHappy holidays,\nMatt\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 3,
+    "template_name": "curious",
+    "ouro_description_id": 5,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-28T00:24:53.083Z",
+  "sent_at": "2025-12-28T00:33:52.994Z",
+  "resend_id": "ac1110a1-65fe-4fc9-b41b-5fc4496c833c"
+}

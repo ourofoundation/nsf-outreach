@@ -1,0 +1,19 @@
+{
+  "award_id": "2520354",
+  "pi_name": "Joerg Bewersdorf",
+  "pi_email": "joerg.bewersdorf@yale.edu",
+  "institution": "Yale University",
+  "award_title": "NSF/Bio-DFG: Supramolecular organization of the antigen processing machinery in the ER membrane",
+  "award_amount": 754903,
+  "subject": "Making super-resolution methods actually reusable",
+  "body": "Hi Dr. Bewersdorf,\n\nI came across your NSF project on ER nanomorphology and the peptide loading complex—interesting work bridging advanced imaging (DNA-PAINT, 4Pi-SMS) with structural biology.\n\nNSF increasingly expects computational methods to be accessible and reusable, but demonstrating that in practice is harder than checking a box on a data management plan. That's what we're working on with Ouro—a way to make computational work discoverable, reusable, and citable—so methods live on as infrastructure, not just text in a methods section.\n\nGiven the imaging and analysis pipelines involved in your work, this might be relevant.\n\nHappy to give you a quick peek if it's useful. And with winter break approaching, hope you have a restful holiday.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 4,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-27T15:10:29.464Z",
+  "sent_at": "2025-12-27T15:43:35.650Z",
+  "resend_id": "837708f8-0796-48d6-b54f-cab89bf9659d"
+}

@@ -1,0 +1,19 @@
+{
+  "award_id": "2437151",
+  "pi_name": "Michael D Graham",
+  "pi_email": "mdgraham@wisc.edu",
+  "institution": "University of Wisconsin-Madison",
+  "award_title": "Structure and mechanism of elastoinertial turbulence in polymer and surfactant solutions",
+  "award_amount": 349513,
+  "subject": "Making CFD simulations actually reusable",
+  "body": "Hi Michael,\n\nSimulation outputs too big for supplements, code that only runs on your cluster—NSF wants computational work reproducible, but most folks can't actually run a CFD parameter sweep even if they have the paper.\n\nBuilt Ouro to fix this: turns simulations and workflows into building blocks others can plug into their work without recreating your entire environment.\n\nHappy to show you. (No rush if you're heads-down before the holidays.)\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 5,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-28T16:11:08.375Z",
+  "sent_at": "2025-12-28T16:28:13.554Z",
+  "resend_id": "d705ca08-5347-4cba-83b1-17f4e5b0dbdb"
+}

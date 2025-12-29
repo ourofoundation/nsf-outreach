@@ -1,0 +1,19 @@
+{
+  "award_id": "2440026",
+  "pi_name": "Gabe Nagy",
+  "pi_email": "gabe.nagy@utah.edu",
+  "institution": "University of Utah",
+  "award_title": "CAREER: Transforming Ion Mobility Spectrometry-Mass Spectrometry-Based Isotopic Shifts Across Molecular Classes for Isomer Identification",
+  "award_amount": 600000,
+  "subject": "Reducing friction around shared workflows",
+  "body": "Hi Professor Nagy,\n\nI know ion mobility spectrometry-mass spectrometry work involves a lot of moving parts—scripts for analyzing isotopic shifts, derivatization protocols, data from interlaboratory validations. That often means fielding emails asking \"where's that notebook?\" or digging up old code for collaborators.\n\nOuro helps turn computational workflows, datasets, and notebooks into reusable building blocks that others in your field can actually plug into their work. It's a way to consolidate what you're already doing into something more durable and accessible.\n\nWith winter break coming up, wanted to reach out before things get hectic. Happy to get your group a look if it's helpful.\n\nHappy holidays,\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 5,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-26T14:52:27.361Z",
+  "sent_at": "2025-12-26T15:12:09.892Z",
+  "resend_id": "388d99c3-fa87-4afc-b83a-6c244a814953"
+}

@@ -1,0 +1,19 @@
+{
+  "award_id": "2516627",
+  "pi_name": "Anya L Brown",
+  "pi_email": "anybrown@ucdavis.edu",
+  "institution": "University of California-Davis",
+  "award_title": "Does previous disease exposure influence the temperature-dependent disease response of a marine foundation species, Zostera marina?",
+  "award_amount": 1153700,
+  "subject": "Tools your trainees build living on",
+  "body": "Hi Dr. Brown,\n\nI work on Ouro—a way to make computational work discoverable, reusable, and citable—so methods live on as infrastructure, not just text in a methods section.\n\nYour work on eelgrass disease dynamics and thermal adaptation involves the kind of methodological complexity that often gets buried in supplementary files. When your grad students and postdocs develop analysis pipelines for those reciprocal transplants or thermal performance assays, publishing them as reusable tools means their names travel with the work when others build on it.\n\nIt's a small thing, but for early-career researchers, visible contributions matter.\n\nHappy to get your group a look if it's helpful. Hope winter break offers some rest—happy holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 4,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-26T14:52:16.384Z",
+  "sent_at": "2025-12-26T15:19:12.922Z",
+  "resend_id": "8f17db59-cb4b-4f4b-b958-313e2800412b"
+}

@@ -10,6 +10,7 @@
   "scripts": {
     "start": "node src/index.js",
     "scan": "node src/index.js scan",
+    "explore": "node src/index.js explore",
     "generate": "node src/index.js generate",
     "review": "node src/index.js review",
     "preview": "node src/index.js preview",

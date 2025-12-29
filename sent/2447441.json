@@ -1,0 +1,19 @@
+{
+  "award_id": "2447441",
+  "pi_name": "Anirban Mandal",
+  "pi_email": "anirban@renci.org",
+  "institution": "University of North Carolina at Chapel Hill",
+  "award_title": "REU Site: Exploring the FABRIC Research Instrument to Catalyze Multi-disciplinary Research in Networks, Distributed Systems, and Emerging CyberInfrastructure (CI) Applications",
+  "award_amount": 369421,
+  "subject": "Reference credit vs. actual reuse",
+  "body": "Hi Anirban,\n\nYou're training students to build networked systems and tools on FABRIC—real computational work that should outlive the paper.\n\nProblem is, even when code gets cited, it's usually not actually reused. It ends up as a zip file somewhere, not something other researchers can build on.\n\nOuro helps researchers package and share computational tools so they're genuinely usable long-term, not just referenced. Makes the work both citable and measurably used.\n\nWorth a quick chat? Happy to keep it short.\n\nHope your holidays are going well.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 2,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-28T00:54:34.129Z",
+  "sent_at": "2025-12-28T01:00:18.035Z",
+  "resend_id": "ab0d24dd-1cf7-4ebe-bd36-f24db6578026"
+}

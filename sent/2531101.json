@@ -1,0 +1,19 @@
+{
+  "award_id": "2531101",
+  "pi_name": "Farnoush Banaei-Kashani",
+  "pi_email": "farnoush.banaei-kashani@ucdenver.edu",
+  "institution": "University of Colorado at Denver",
+  "award_title": "Collaborative Research: CAIG: Weakly Supervised Learning to Address Label-Data Irregularities in Sea-Ice Classification",
+  "award_amount": 805132,
+  "subject": "Making sea ice models easier to actually use",
+  "body": "Hi Farnoush,\n\nYou're building AI tools for sea ice classification—work that matters for climate monitoring and navigation. But there's a gap between developing those models and having other researchers actually use them.\n\nWe built Ouro to help computational researchers share their tools and data in ways that are genuinely usable, not just a zip file in supplementary materials. It makes real-world reuse easier to demonstrate when NSF asks about broader impacts.\n\nWould you be open to a quick conversation in January?\n\nHappy holidays.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 2,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-28T01:14:04.323Z",
+  "sent_at": "2025-12-28T02:11:16.918Z",
+  "resend_id": "09226802-1544-40a7-b07b-4c9565eb2176"
+}

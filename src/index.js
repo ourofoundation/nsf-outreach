@@ -11,10 +11,12 @@ import {
   getUnprocessedAwards,
   getScanStats,
   hasValidContact,
+  loadStagingAwards,
 } from "./awards.js";
 import { generateEmails } from "./generate.js";
 import { sendApprovedEmails, getApprovedEmails } from "./send.js";
 import { startReview } from "./review.js";
+import { startExplore } from "./explore.js";
 
 // Load environment variables
 config();
@@ -101,6 +103,7 @@ program
   .option("-l, --limit <number>", "Maximum emails to generate", "10")
   .option("-k, --keywords <keywords>", "Filter by keywords (comma-separated)")
   .option("--from-name <name>", "Sender name for signature")
+  .option("--from-staging", "Use awards from staging folder instead of year")
   .action(async (options) => {
     ensureDirs();
 
@@ -109,32 +112,48 @@ program
       return;
     }
 
-    const year = options.year;
     const limit = parseInt(options.limit, 10);
-    const keywords = options.keywords
-      ? options.keywords.split(",").map((k) => k.trim())
-      : [];
+    const senderName = options.fromName || process.env.FROM_NAME;
 
-    console.log(chalk.bold(`\n✉️  Generating emails for ${year}\n`));
+    let awards = [];
 
-    const awards = getUnprocessedAwards(year, keywords).filter(hasValidContact);
+    if (options.fromStaging) {
+      // Load from staging folder
+      console.log(chalk.bold(`\n✉️  Generating emails from staging\n`));
+      awards = loadStagingAwards().filter(hasValidContact);
 
-    if (awards.length === 0) {
-      console.log(
-        chalk.yellow("No unprocessed awards with valid email found.")
-      );
-      console.log(
-        chalk.dim("Run `nsf-outreach scan` to see available awards.\n")
-      );
-      return;
+      if (awards.length === 0) {
+        console.log(
+          chalk.yellow("No awards with valid email found in staging folder.")
+        );
+        console.log(
+          chalk.dim("Use `nsf-outreach explore` to add awards to staging.\n")
+        );
+        return;
+      }
+    } else {
+      // Load from year folder (default behavior)
+      const year = options.year;
+      const keywords = options.keywords
+        ? options.keywords.split(",").map((k) => k.trim())
+        : [];
+
+      console.log(chalk.bold(`\n✉️  Generating emails for ${year}\n`));
+      awards = getUnprocessedAwards(year, keywords).filter(hasValidContact);
+
+      if (awards.length === 0) {
+        console.log(
+          chalk.yellow("No unprocessed awards with valid email found.")
+        );
+        console.log(
+          chalk.dim("Run `nsf-outreach scan` to see available awards.\n")
+        );
+        return;
+      }
     }
 
-    console.log(
-      `Found ${chalk.cyan(awards.length)} unprocessed awards with email`
-    );
+    console.log(`Found ${chalk.cyan(awards.length)} awards with email`);
     console.log(`Generating up to ${chalk.cyan(limit)} drafts...\n`);
-
-    const senderName = options.fromName || process.env.FROM_NAME;
 
     const results = await generateEmails(awards, {
       limit,
@@ -182,6 +201,7 @@ program
     const approved = listIds("approved").length;
     const sent = listIds("sent").length;
     const skipped = listIds("skipped").length;
+    const staging = listIds("staging").length;
 
     console.log(chalk.bold("\n📬 Pipeline Status\n"));
 
@@ -193,6 +213,13 @@ program
     );
     console.log(`   ${chalk.green("Sent:")}      ${sent} emails delivered`);
     console.log(`   ${chalk.dim("Skipped:")}   ${skipped} emails skipped`);
+    if (staging > 0) {
+      console.log(
+        `   ${chalk.magenta(
+          "Staging:"
+        )}   ${staging} awards ready for generation`
+      );
+    }
     console.log();
 
     const total = drafts + approved + sent + skipped;
@@ -205,7 +232,13 @@ program
       );
     }
 
-    if (drafts > 0) {
+    if (staging > 0) {
+      console.log(
+        chalk.dim(
+          `Use 'nsf-outreach generate --from-staging' to generate emails from staging\n`
+        )
+      );
+    } else if (drafts > 0) {
       console.log(
         chalk.dim(
           `Next: Review emails in ${DIRS.drafts}/ and move to ${DIRS.approved}/\n`
@@ -364,6 +397,20 @@ program
   .option("-f, --folder <folder>", "Folder to review", "drafts")
   .action(async (options) => {
     await startReview(options.folder);
+  });
+
+// ============ EXPLORE COMMAND ============
+program
+  .command("explore")
+  .description("Interactively explore raw awards and save to staging")
+  .option("-y, --year <year>", "Year to explore", "2025")
+  .option("-k, --keywords <keywords>", "Filter by keywords (comma-separated)")
+  .action(async (options) => {
+    const year = options.year || "2025";
+    const keywords = options.keywords
+      ? options.keywords.split(",").map((k) => k.trim())
+      : [];
+    await startExplore(year, keywords);
   });
 
 program.parse();

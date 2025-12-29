@@ -1,0 +1,19 @@
+{
+  "award_id": "2453364",
+  "pi_name": "Robert G Fraser",
+  "pi_email": "robert.fraser@wichita.edu",
+  "institution": "Wichita State University",
+  "award_title": "Algebraic Number Fields in Fourier Analysis and Fractal Geometry",
+  "award_amount": 210000,
+  "subject": "Tools that outlive their papers",
+  "body": "Hi Robert,\n\nYour work on how functions decompose at different scales sounds like it generates some real computational power—the kind of thing students build and then it lives in a drawer.\n\nThat's what we're trying to fix with Ouro. It turns your lab's code, data pipelines, and analysis into shareable blocks other researchers can actually use. When someone pulls your students' tools into their own work, your lab's lineage travels with them.\n\nWould be curious what you think. No pressure at all.\n\nHope you're having a good holiday.\n\nBest,\nMatt\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 6,
+    "template_name": "students",
+    "ouro_description_id": 5,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-28T00:24:55.420Z",
+  "sent_at": "2025-12-28T00:33:54.133Z",
+  "resend_id": "57913fce-1093-42a0-bf60-2fbec08a6e8f"
+}

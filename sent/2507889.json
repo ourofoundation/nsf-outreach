@@ -1,0 +1,19 @@
+{
+  "award_id": "2507889",
+  "pi_name": "Jennifer L van Saders",
+  "pi_email": "jlvs@hawaii.edu",
+  "institution": "University of Hawaii",
+  "award_title": "Collaborative Research: Rotational Evolution and Angular Momentum Transport in Deeply Convective Dwarfs",
+  "award_amount": 524548,
+  "subject": "For when someone asks for your modified YREC setup",
+  "body": "Hi Jennifer,\n\nGuessing you've fielded requests to share your angular momentum transport models—then spent hours helping someone get dependencies sorted or parameter files working on their cluster.\n\nI'm building Ouro so published simulation code becomes callable infrastructure. Others use your methods without you recreating environments or digging up old scripts.\n\nIf you've got 15 min in the new year to chat about what makes sharing this stuff painful, I'd love to hear it.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 8,
+    "template_name": "offload",
+    "ouro_description_id": 1,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-28T15:12:09.742Z",
+  "sent_at": "2025-12-28T15:20:38.744Z",
+  "resend_id": "c10351b6-1969-4b91-976f-30a036cafd2b"
+}

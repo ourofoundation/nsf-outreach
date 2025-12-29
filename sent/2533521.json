@@ -1,0 +1,19 @@
+{
+  "award_id": "2533521",
+  "pi_name": "Yuichiro Takeshita",
+  "pi_email": "yui@mbari.org",
+  "institution": "Monterey Bay Aquarium Research Institute",
+  "award_title": "NSFGEO-NERC: Seawater pH: Bridging the Gap Between Free and Total pH Scales From Estuaries to the Deep Ocean, and Application to Current Sensors",
+  "award_amount": 249221,
+  "subject": "Making ocean chemistry methods actually reusable",
+  "body": "Yuichiro,\n\nI know your pH measurement work involves a ton of computational effort. Here's what I've noticed: that code and those methods usually stay locked in the paper.\n\nOuro lets you package up your workflows and datasets as reusable blocks that other oceanographers can actually drop into their own projects. No rebuilding from scratch every time.\n\nWorth a quick conversation? Happy to chat through what this'd look like for your work.\n\nHope you're having a good holiday break.\n\nBest\nMatt\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 4,
+    "template_name": "impact",
+    "ouro_description_id": 5,
+    "call_to_action_id": 3
+  },
+  "generated_at": "2025-12-28T00:25:00.073Z",
+  "sent_at": "2025-12-28T00:33:58.778Z",
+  "resend_id": "a231722e-3078-4536-974a-080f1ff10774"
+}

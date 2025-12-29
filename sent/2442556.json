@@ -1,0 +1,19 @@
+{
+  "award_id": "2442556",
+  "pi_name": "Lauren Blum",
+  "pi_email": "lauren.blum@lasp.colorado.edu",
+  "institution": "University of Colorado at Boulder",
+  "award_title": "CAREER: The Evolution of Magnetospheric Plasma Waves in Response to Solar Driving",
+  "award_amount": 521853,
+  "subject": "Multi-mission data pipelines",
+  "body": "Wrangling data from different spacecraft missions—each with its own format—seems like a nightmare to share. Your preprocessing pipelines probably work great on your machine, but getting students or collaborators set up is another story.\n\nI built Ouro to make computational tools actually runnable by others. Think executable environments, not supplementary zip files that bit-rot.\n\nQuick chat in the new year?\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 3,
+    "template_name": "curious",
+    "ouro_description_id": 2,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-28T01:55:53.909Z",
+  "sent_at": "2025-12-28T02:10:57.044Z",
+  "resend_id": "eca68da2-64e8-49f3-bd36-5231cdfedb81"
+}

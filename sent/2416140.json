@@ -1,0 +1,19 @@
+{
+  "award_id": "2416140",
+  "pi_name": "Robert P Guralnick",
+  "pi_email": "robgur@gmail.com",
+  "institution": "University of Florida",
+  "award_title": "Collaborative Research: Research Infrastructure: Di-ODE: Digital Integration of Odonates",
+  "award_amount": 279684,
+  "subject": "Making computational work actually visible",
+  "body": "Hi Robert,\n\nBuilding platforms that integrate massive specimen collections is computational work that deserves to live beyond a methods section.\n\nRight now, the analysis code and pipelines you develop get cited once, then disappear. Ouro makes that computational work discoverable and reusable—so other researchers can actually build on what you've created, and you can see where your methods end up.\n\nWorth a quick conversation? Happy to walk you through it.\n\nHope you're having a good holiday.\n\nBest,\nMatt\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 7,
+    "template_name": "citations",
+    "ouro_description_id": 4,
+    "call_to_action_id": 1
+  },
+  "generated_at": "2025-12-28T00:24:57.678Z",
+  "sent_at": "2025-12-28T00:33:51.843Z",
+  "resend_id": "6ae7437e-c7e2-4324-8890-bac588ceee81"
+}

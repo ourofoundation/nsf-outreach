@@ -1,0 +1,19 @@
+{
+  "award_id": "2537597",
+  "pi_name": "Oren Rom",
+  "pi_email": "oren.rom@lsuhs.edu",
+  "institution": "LSU Health Sciences Center -Shreveport",
+  "award_title": "EPSCoR CREST Phase I: Center for Post-Transcriptional Regulation",
+  "award_amount": 7499968,
+  "subject": "multiomic pipelines that only run in your exact environment",
+  "body": "Integrating RNA-seq, metabolomics, and ML into one pipeline is brutal—different tools, dependencies, data formats. Everything breaks when someone tries to reproduce it.\n\nI'm building Ouro to turn published methods into callable infrastructure, so others can use your approach without rebuilding from scratch.\n\nOpen to chatting in the new year?\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 3,
+    "template_name": "curious",
+    "ouro_description_id": 1,
+    "call_to_action_id": 5
+  },
+  "generated_at": "2025-12-28T02:07:01.210Z",
+  "sent_at": "2025-12-28T02:11:19.253Z",
+  "resend_id": "99cb06b6-adb2-4020-bc2c-92cd6f352eb5"
+}

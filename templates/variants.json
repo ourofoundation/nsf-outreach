@@ -8,17 +8,18 @@
       "subject_line_style": "Lead with thanks tied to a specific aspect of their work, not generic praise.",
       "sign_off_style": "Thanks",
       "pi_motivation": "legacy, visibility",
-      "notes": "Gratitude must reference something concrete in their paper or project to signal real respect."
+      "notes": "Gratitude must reference something concrete in their paper or project to signal real respect.",
+      "enabled": false
     },
     {
       "id": 2,
       "name": "peer",
-      "angle": "Write as a fellow computational researcher who has felt the gap between publishing a method and seeing it actually reused. You're not pitching—you're sharing something you built because you ran into the same pain.",
+      "angle": "You're a computational materials scientist who built Ouro because you hit the same wall they probably have: your code and workflows don't outlive the paper. Don't pretend to follow their specific field—just connect on the shared experience of doing computational research.",
       "tone": "casual, dry, insider",
-      "subject_line_style": "Informal, colleague-to-colleague. Can reference shared tools, methods, or common computational frustrations.",
+      "subject_line_style": "Informal, colleague-to-colleague. Reference shared frustrations, not their specific work.",
       "sign_off_style": "Best / Cheers",
       "pi_motivation": "collaboration, time-saving",
-      "notes": "Lean into shared pain points; mild cynicism is okay and often builds trust."
+      "notes": "Never claim to follow their work. Connect through the universal experience of computational research, not their domain."
     },
     {
       "id": 3,
@@ -33,12 +34,12 @@
     {
       "id": 4,
       "name": "impact",
-      "angle": "Frame around underutilized potential. Their work already matters; the problem is that it's harder to use than it should be. Ouro helps close that gap so the work lives beyond the paper.",
-      "tone": "direct, respectful, slightly urgent",
-      "subject_line_style": "Focus on reach, longevity, or work being used in practice. Slightly provocative is okay.",
+      "angle": "Computational work often dies in the paper. You're not telling them their work is underutilized—you're noting a shared frustration that good methods don't get reused.",
+      "tone": "matter-of-fact, dry, no flattery",
+      "subject_line_style": "Short and specific. Reference reuse, not impact or potential.",
       "sign_off_style": "Best",
       "pi_motivation": "legacy, citations, visibility",
-      "notes": "Emphasize wasted potential, not ambition or growth."
+      "notes": "State the problem plainly. No urgency or preaching."
     },
     {
       "id": 5,

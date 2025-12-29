@@ -1,0 +1,19 @@
+{
+  "award_id": "2532484",
+  "pi_name": "Mahdi Hesari",
+  "pi_email": "mahdi.hesari@oswego.edu",
+  "institution": "Research Foundation of the State University of New York",
+  "award_title": "LEAPS-MPS: Covalent Hybridization of Atomically Precise Metal Nanoclusters",
+  "award_amount": 249971,
+  "subject": "Making computational methods reusable (and provable)",
+  "body": "Hi Dr. Hesari,\n\nI know DFT work is part of your nanocluster research, and NSF increasingly expects computational methods to be accessible and reusable—but that's hard to demonstrate in practice.\n\nI'm working on Ouro, a place where published computational methods become callable, reusable infrastructure—so others can build on your work without reimplementing it from scratch.\n\nIt's meant to make the reuse and public benefit aspects easier to evidence, not just claim.\n\nHappy to get your group a look if it's helpful. Hope you have a great holiday break.\n\nBest,\n\nMatt Moderwell\nhttps://ouro.foundation",
+  "variants": {
+    "template_id": 5,
+    "template_name": "broader-impacts",
+    "ouro_description_id": 1,
+    "call_to_action_id": 4
+  },
+  "generated_at": "2025-12-26T14:39:17.248Z",
+  "sent_at": "2025-12-26T16:18:44.954Z",
+  "resend_id": "99807703-b18a-49b5-a9be-a543b725a482"
+}
